@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recetario BRIXTON</title>
+  <link rel="stylesheet" type="text/css" href="../public/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="centered-wrapper">
+      <div class="large-rectangle"></div>
+    </div>
+    <div class="barra-superior">
+      <img src="../public/static/nombre.png" alt="Imagen del trago" class="logo">
+    </div>
+    <div class="input-wrapper">
+      <form>
+        <input type="text" class="input-consulta" placeholder="Ingrese el trago a consultar">
+        <button type="button" class="enter-button" onclick="handleSubmit()"></button>
+      </form>
+    </div>        
+    <div class="small-rectangle">
+      <p>Consultar un trago te dará el detalle de los ingredientes y sus cantidades y presentará una foto ilustrativa de cómo debe ser el resultado final.</p>
+    </div>        
+  </div>
+
+  <script>
+    function handleSubmit() {
+      const inputElement = document.querySelector('.input-consulta');
+      const inputValor = inputElement.value.trim();
+
+      if (inputValor === '') {
+        return;
+      }
+      console.log('Query:', inputValor);
+      window.location.href = `/search/${encodeURIComponent(inputValor)}`;
+    }
+  </script>
+</body>
+</html>
+
