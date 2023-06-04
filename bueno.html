@@ -39,13 +39,11 @@
 
   function searchRecipe(query) {
     const trago = titleCase(query);
-    console.log(trago)
     let receta = '';
 
     fetch('./recetas.json')
       .then(response => response.json())
       .then(data => {
-        console.log('Recetario cargado:', data);
         const recipes = data.tragos;
 
         for (let i = 0; i < recipes.length; i++) {
@@ -57,27 +55,24 @@
         }
 
         if (receta) {
-          const image_path = `/static/images/${query.toLowerCase().replace(" ", "")}.png`;
+          const image_path = `./images/${query.toLowerCase().replace(" ", "")}.png`;
           document.getElementById('query-output').textContent = trago;
           document.getElementById('results-output').innerHTML = receta;
           document.getElementById('drink-image').src = image_path;
         } else {
-          console.log('Receta no encontrada:', query);
           // Redirigir a la página de error y pasar el query como parámetro
-          //window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+          window.location.href = `error.html?query=${encodeURIComponent(query)}`;
         }
       })
       .catch(error => {
-        console.error('Error al cargar el recetario:', error);
         // Redirigir a la página de error y pasar el query como parámetro
-        //window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+        window.location.href = `error.html?query=${encodeURIComponent(query)}`;
       });
   }
 
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('query');
   if (query) {
-    console.log('Query:', query);
     searchRecipe(query);
   }
 </script>
