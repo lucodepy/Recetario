@@ -39,6 +39,7 @@
 
   function searchRecipe(query) {
     const trago = titleCase(query);
+    console.log(trago)
     let receta = '';
 
     fetch('./recetas.json')
