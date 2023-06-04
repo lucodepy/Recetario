@@ -1,0 +1,1224 @@
+{
+    "tragos": [
+        {
+            "nombre": "Fernet",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Fernet Branca": "60 ml"
+                },
+                {
+                    "Coca-Cola": "250 ml"
+                },
+                {
+                    "Garnish": "Agitador 3D"
+                }
+            ]
+        },
+        {
+            "nombre": "Campari",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Campari": "60 ml"
+                },
+                {
+                    "Jugo de naranja exprimido": "250 ml"
+                },
+                {
+                    "Garnish": "Agitador 3D"
+                }
+            ]
+        },
+        {
+            "nombre": "Cuba Libre",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Ron": "60 ml"
+                },
+                {
+                    "Coca-Cola": "250 ml"
+                },
+                {
+                    "Garnish": "Agitador 3D"
+                }
+            ]
+        },
+        {
+            "nombre": "Vermu Bianco",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Carpano Bianco": "90 ml"
+                },
+                {
+                    "Soda": "90 ml"
+                },
+                {
+                    "Garnish": "1 slice de limon (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Vermu Rosso",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Carpano Rosso": "90 ml"
+                },
+                {
+                    "Soda": "90 ml"
+                },
+                {
+                    "Garnish": "1 slice de limon (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Vermu Ferroviario",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Fernet Branca": "15 ml"
+                },
+                {
+                    "Vermu Rosso": "75 ml"
+                },
+                {
+                    "Soda": "90 ml"
+                },
+                {
+                    "Garnish": "1 slice de limon (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Vermu De La Casa",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Carpano Bianco": "45 ml"
+                },
+                {
+                    "Pineral": "45 ml"
+                },
+                {
+                    "Paso de los Toros": "90 ml"
+                },
+                {
+                    "Garnish": "2 cubitos de queso con pimienta y un cherry con tomillo en pick de bamboo"
+                }
+            ]
+        },
+        {
+            "nombre": "Bloody Mary",
+            "ingredientes": [
+                {
+                    "Hielo": "500 gr"
+                },
+                {
+                    "Sal de apio": "2 gr"
+                },
+                {
+                    "Vodka Sernova": "60 ml"
+                },
+                {
+                    "Jugo de tomate": "120 ml"
+                },
+                {
+                    "Bitter angostura": "1 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Garnish": "1 ramita de apio (20gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Dry Martini",
+            "ingredientes": [
+                {
+                    "Hielo": "300 gr"
+                },
+                {
+                    "Martini Extra Dry": "10 ml"
+                },
+                {
+                    "Gin Brighton": "90 ml"
+                },
+                {
+                    "Garnish": "Aceituna verde en pick de bamboo"
+                }
+            ]
+        },
+        {
+            "nombre": "Tanqueray Negroni",
+            "ingredientes": [
+                {
+                    "Hielo": "500 gr"
+                },
+                {
+                    "Gin Tanqueray": "75 ml"
+                },
+                {
+                    "Carpano Rosso": "25 ml"
+                },
+                {
+                    "Campari": "30 ml"
+                },
+                {
+                    "Garnish": "1 naranja deshidratada y 1 piel de naranja"
+                }
+            ]
+        },
+        {
+            "nombre": "Old Fashioned Smoked",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Jim Bean": "90 ml"
+                },
+                {
+                    "Soda": "15 ml"
+                },
+                {
+                    "Bitter Angostura": "5 ml"
+                },
+                {
+                    "Azucar": "2 cucharadas"
+                },
+                {
+                    "Garnish": "1 cereza en pick de bamboo"
+                }
+            ]
+        },
+        {
+            "nombre": "Manhattan",
+            "ingredientes": [
+                {
+                    "Carpano Rosso": "15 ml"
+                },
+                {
+                    "Jim Bean": "90 ml"
+                },
+                {
+                    "Bitter Angostura": "5 ml"
+                },
+                {
+                    "Garnish": "1 cereza en pick de bamboo"
+                }
+            ]
+        },
+        {
+            "nombre": "Cosmopolitan",
+            "ingredientes": [
+                {
+                    "Hielo": "300 gr"
+                },
+                {
+                    "Vodka Sernova": "60 ml"
+                },
+                {
+                    "Triple Sec": "15 ml"
+                },
+                {
+                    "Licor Golden ace Parfait amour": "15 ml"
+                },
+                {
+                    "Jugo de media lima": "15 ml"
+                },
+                {
+                    "Jugo de arandanos": "30 ml"
+                },
+                {
+                    "Garnish": "Frutos rojos en pick de bamboo (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Caipirinha",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "12 gr"
+                },
+                {
+                    "Cachaza": "75 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Caipiroska",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "12 gr"
+                },
+                {
+                    "Vodka neutro": "75 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Caipirissima",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "10 gr"
+                },
+                {
+                    "Naranja": "5 gr"
+                },
+                {
+                    "Ron": "50 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Caipi Fruta",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "10 gr"
+                },
+                {
+                    "Naranja": "5 gr"
+                },
+                {
+                    "Frutilla": "30 ml"
+                },
+                {
+                    "Vodka Sernova": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Caipi Maracuya",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "10 gr"
+                },
+                {
+                    "Maracuya": "30 ml"
+                },
+                {
+                    "Vodka Sernova": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "London Beach Caipi",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Lima": "10 gr"
+                },
+                {
+                    "Frutos rojos": "10 gr"
+                },
+                {
+                    "Vodka Sernova": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Cassis": "15 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Mojito Cubano",
+            "ingredientes": [
+                {
+                    "Hielo": "300 gr"
+                },
+                {
+                    "Lima": "5 gr"
+                },
+                {
+                    "Menta": "10 gr"
+                },
+                {
+                    "Ron": "75 ml"
+                },
+                {
+                    "Tonica": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Bitter Angostura": "1 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                },
+                {
+                    "Garnish": "Menta (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Mojito Frutal",
+            "ingredientes": [
+                {
+                    "Hielo": "300 gr"
+                },
+                {
+                    "Lima": "5 gr"
+                },
+                {
+                    "Menta": "10 gr"
+                },
+                {
+                    "Ron": "75 ml"
+                },
+                {
+                    "Tonica": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Bitter Angostura": "1 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                },
+                {
+                    "Fruta": "Cassis 15 ml (fr) | Maracuya 30 ml | Naranja 5 gr"
+                },
+                {
+                    "Garnish": "Menta (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Mojito Hawaiano",
+            "ingredientes": [
+                {
+                    "Hielo": "300 gr"
+                },
+                {
+                    "Lima": "5 gr"
+                },
+                {
+                    "Menta": "10 gr"
+                },
+                {
+                    "Ron": "45 ml"
+                },
+                {
+                    "Malibu": "30 ml"
+                },
+                {
+                    "Paso De los Toros": "60 ml"
+                },
+                {
+                    "Garnish": "Menta (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Aperol Spritz",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Aperol": "60 ml"
+                },
+                {
+                    "Espumante Callia": "150 ml"
+                },
+                {
+                    "Tonica": "30 ml"
+                },
+                {
+                    "Garnish": "1 slice de naranja (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Negroni Sbagliatto",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Campari": "45 ml"
+                },
+                {
+                    "Carpano Rosso": "45 ml"
+                },
+                {
+                    "Espumante Callia": "120 ml"
+                },
+                {
+                    "Garnish": "1 slice de naranja (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Mimosa",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Espumante Callia": "120 ml"
+                },
+                {
+                    "Jugo de naranja exprimido": "60 ml"
+                },
+                {
+                    "Garnish": "1 slice de naranja (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Kir Royale",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Cassis": "60 ml"
+                },
+                {
+                    "Espumante Callia": "150 ml"
+                },
+                {
+                    "Garnish": "Frutos rojos (5gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Champagne Julep",
+            "ingredientes": [
+                {
+                    "Hielo": "200 gr"
+                },
+                {
+                    "Bitter Angostura": "5 ml"
+                },
+                {
+                    "Menta": "5 gr"
+                },
+                {
+                    "Azucar": "1 terron"
+                },
+                {
+                    "Espumante Callia": "200 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Zombie",
+            "ingredientes": [
+                {
+                    "Ron blanco": "45 ml"
+                },
+                {
+                    "Ron especial": "45 ml"
+                },
+                {
+                    "Bitter Angostura": "1 ml"
+                },
+                {
+                    "Syrup de Jengibre": "15 ml"
+                },
+                {
+                    "Falernum": "15 ml"
+                },
+                {
+                    "Jugo de media lima": "15 ml"
+                },
+                {
+                    "Pulpa anana": "60 ml"
+                },
+                {
+                    "Granadina": "5 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Monkey Island",
+            "ingredientes": [
+                {
+                    "Ron dorado": "15 ml"
+                },
+                {
+                    "Smirnoff manzana": "60 ml"
+                },
+                {
+                    "Jalea de pera": "1 cucharada"
+                },
+                {
+                    "Amargo obrero": "25 ml"
+                },
+                {
+                    "Syrup de manzana": "15 ml"
+                },
+                {
+                    "Ahumado": "Romero y manzana (2gr)"
+                },
+                {
+                    "Garnish": "1 slice manzana (5gr), piel de lima y banderita"
+                }
+            ]
+        },
+        {
+            "nombre": "Pocion Tiki 27",
+            "ingredientes": [
+                {
+                    "Ron dorado": "45 ml"
+                },
+                {
+                    "Cynar": "30 ml"
+                },
+                {
+                    "Bitter tiki": "1,5 ml"
+                },
+                {
+                    "Syrup #27": "30 ml"
+                },
+                {
+                    "Jugo de limon": "30 ml"
+                },
+                {
+                    "Granadina": "10 ml"
+                },
+                {
+                    "Garnish": "Romero (2gr), 1 banana dish, canela en polvo (2gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Passion Nai",
+            "ingredientes": [
+                {
+                    "Smirnoff sandia": "45 ml"
+                },
+                {
+                    "Apricot Brandy": "30 ml"
+                },
+                {
+                    "Maracuya": "30 ml"
+                },
+                {
+                    "Jugo de limon": "10 ml"
+                },
+                {
+                    "Falernum": "30 ml"
+                },
+                {
+                    "Sandia": "40 gr"
+                }
+            ]
+        },
+        {
+            "nombre": "Pascualito",
+            "ingredientes": [
+                {
+                    "Pisco Mistral": "90 ml"
+                },
+                {
+                    "Pineral": "30 ml"
+                },
+                {
+                    "Disaronno Amaretto": "15 ml"
+                },
+                {
+                    "Bitter tiki": "4 golpes"
+                },
+                {
+                    "Jugo de limon": "30 ml"
+                },
+                {
+                    "Jugo de naranja": "90 ml"
+                },
+                {
+                    "Jalea calabaza": "2 gr"
+                },
+                {
+                    "Syrup vainilla": "15 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Copa Baileys",
+            "ingredientes": [
+                {
+                    "Baileys": "45 ml"
+                },
+                {
+                    "Licor de chocolate": "30 ml"
+                },
+                {
+                    "Ballentines's": "15 gr"
+                },
+                {
+                    "Helado de crema americana": "2 bochas"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Copa Oreo",
+            "ingredientes": [
+                {
+                    "Baileys": "60 ml"
+                },
+                {
+                    "Cognac": "15 ml"
+                },
+                {
+                    "Helado de crema americana": "2 bochas"
+                },
+                {
+                    "Oreo": "3 unidades"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                }
+            ]
+        },
+        {
+            "nombre": "Daiquiri Frozen",
+            "ingredientes": [
+                {
+                    "Ron 3 a\u00c3\u00b1os": "60 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Azucar": "2 cucharadas"
+                },
+                {
+                    "Fruta": "60 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Ritzy Gallito",
+            "ingredientes": [
+                {
+                    "Ron 3 a\u00c3\u00b1os": "45 ml"
+                },
+                {
+                    "Ron especial": "45 ml"
+                },
+                {
+                    "Jugo de pomelo": "30 ml"
+                },
+                {
+                    "Jalea de frambuesa": "1 ml"
+                },
+                {
+                    "Pulpa de anana": "60 ml"
+                },
+                {
+                    "Garnish": "piel de pomelo y cereza en pick de bamboo"
+                }
+            ]
+        },
+        {
+            "nombre": "Maracucoco",
+            "ingredientes": [
+                {
+                    "Ron 3 a\u00c3\u00b1os": "45 ml"
+                },
+                {
+                    "Malibu": "45 ml"
+                },
+                {
+                    "Bitter de coco": "3 golpes"
+                },
+                {
+                    "Falernum": "15 ml"
+                },
+                {
+                    "Maracuya": "60 ml"
+                },
+                {
+                    "Amaretto Bols": "15 ml"
+                },
+                {
+                    "Jugo de naranja": "30 ml"
+                },
+                {
+                    "Garnish": "piel de pomelo, penca de anana y petalos de rosa (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Ziggy Demon",
+            "ingredientes": [
+                {
+                    "Bitter Coffe": "3 golpes"
+                },
+                {
+                    "Disaronno Amaretto": "15 ml"
+                },
+                {
+                    "Gin Brighton": "60 ml"
+                },
+                {
+                    "Jugo de limon": "13 ml"
+                },
+                {
+                    "Apricot Brandy": "13 ml"
+                },
+                {
+                    "Syrup de cedron y mandarina": "30 ml"
+                },
+                {
+                    "Garnish": "labiado de pimenton (2gr) y 2 granos de cafe"
+                }
+            ]
+        },
+        {
+            "nombre": "New Paradise",
+            "ingredientes": [
+                {
+                    "Vodka": "60 ml"
+                },
+                {
+                    "Carpano Bianco": "30 ml"
+                },
+                {
+                    "Kiwi": "35 gr"
+                },
+                {
+                    "Frutilla": "30 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Bitter New Orlands": "3 golpes"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                },
+                {
+                    "Syrup Simple": "15 ml"
+                },
+                {
+                    "Pepino": "1 slice"
+                },
+                {
+                    "Garnish": "piel de limon y 1 flor comesible"
+                }
+            ]
+        },
+        {
+            "nombre": "Long Island Ice Tea",
+            "ingredientes": [
+                {
+                    "Vodka": "22,5 ml"
+                },
+                {
+                    "Gin": "22,5 ml"
+                },
+                {
+                    "Ron": "22,5 ml"
+                },
+                {
+                    "Tequila": "22,5 ml"
+                },
+                {
+                    "Triple sec": "22,5 ml"
+                },
+                {
+                    "Syrup Simple": "30 ml"
+                },
+                {
+                    "Jugo de limon": "22,5 gr"
+                },
+                {
+                    "Menta": "15 gr"
+                },
+                {
+                    "Garnish": "piel de limon y 1 penacho de menta"
+                }
+            ]
+        },
+        {
+            "nombre": "Cynar Julep",
+            "ingredientes": [
+                {
+                    "Cynar": "75 ml"
+                },
+                {
+                    "Pomelo": "90 ml"
+                },
+                {
+                    "Azucar mascabo": "2 cucharadas"
+                },
+                {
+                    "Menta": "20 gr"
+                }
+            ]
+        },
+        {
+            "nombre": "Amy Jaggerhouse",
+            "ingredientes": [
+                {
+                    "Jagger": "60 ml"
+                },
+                {
+                    "Menta": "20 ml"
+                },
+                {
+                    "Jugo de pomelo": "100 ml"
+                },
+                {
+                    "Azucar negra": "2 cucharadas"
+                }
+            ]
+        },
+        {
+            "nombre": "Bikini Bottom",
+            "ingredientes": [
+                {
+                    "Gin": "75 ml"
+                },
+                {
+                    "Apricot Brandy": "22,5 ml"
+                },
+                {
+                    "Syrup Blue": "30 ml"
+                },
+                {
+                    "Pulpa de anana": "60 ml"
+                },
+                {
+                    "Jugo de limon": "22,5 gr"
+                },
+                {
+                    "Menta": "20 gr"
+                },
+                {
+                    "Gomitas": "2 unidades"
+                },
+                {
+                    "Anis estrellado": "1 unidad"
+                }
+            ]
+        },
+        {
+            "nombre": "Floral Plum",
+            "ingredientes": [
+                {
+                    "Cassis Bols": "15 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Gin Brighton": "60 ml"
+                },
+                {
+                    "Pulpa de ciruela": "50 ml"
+                },
+                {
+                    "Bitter Floral": "5 golpes"
+                },
+                {
+                    "Garnish": "Penacho de menta y flor comestible"
+                }
+            ]
+        },
+        {
+            "nombre": "Mate Mundial",
+            "ingredientes": [
+                {
+                    "Whisky Jameson": "60 ml"
+                },
+                {
+                    "Infusion de yerba mate": "50 ml"
+                },
+                {
+                    "Maracuya": "30 ml"
+                },
+                {
+                    "Menta": "5 gr"
+                },
+                {
+                    "Syrup de cedron y mandarina": "30 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Garnish": "Piel de limon y menta"
+                }
+            ]
+        },
+        {
+            "nombre": "Margarita",
+            "ingredientes": [
+                {
+                    "Tequila Jose Cuervo Silver": "20 ml"
+                },
+                {
+                    "Triple Sec": "45 ml"
+                },
+                {
+                    "Azucar": "2 cucharadas"
+                },
+                {
+                    "Jugo de limon": "25 ml"
+                },
+                {
+                    "Garnish": "Labiado de sal (4gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Bramble",
+            "ingredientes": [
+                {
+                    "Gin": "60 ml"
+                },
+                {
+                    "Jugo de limon": "15 ml"
+                },
+                {
+                    "Syrup Simple": "15 ml"
+                },
+                {
+                    "Licor de petalos de rosa Golden Age": "15 ml"
+                },
+                {
+                    "Cassis": "15 ml"
+                }
+            ]
+        },
+        {
+            "nombre": "Clarito",
+            "ingredientes": [
+                {
+                    "Gin Brighton": "90 ml"
+                },
+                {
+                    "Vermout Dry": "10 ml"
+                },
+                {
+                    "Garnish": "Piel de limon"
+                }
+            ]
+        },
+        {
+            "nombre": "Pisco Sour",
+            "ingredientes": [
+                {
+                    "Pisco Mistral": "90 ml"
+                },
+                {
+                    "Syrup Simple": "30 ml"
+                },
+                {
+                    "Jugo de limon": "20 ml"
+                },
+                {
+                    "Albumina": "4 gr"
+                },
+                {
+                    "Garnish": "Bitter Angostura (2ml)"
+                }
+            ]
+        },
+        {
+            "nombre": "Moscow Mule",
+            "ingredientes": [
+                {
+                    "Vodka": "90 ml"
+                },
+                {
+                    "Syrup de jengibre": "30 ml"
+                },
+                {
+                    "Jugo de limon": "20 ml"
+                },
+                {
+                    "Ginger Ale": "100 ml"
+                },
+                {
+                    "Garnish": "Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Linchburg Lemonade",
+            "ingredientes": [
+                {
+                    "Jack Daniels": "60 ml"
+                },
+                {
+                    "Limon": "100 gr"
+                },
+                {
+                    "Azucar": "2 cucharadas"
+                },
+                {
+                    "Sprite": "60 ml"
+                },
+                {
+                    "Garnish": "1 piel de limon y 1 limon deshidratado"
+                }
+            ]
+        },
+        {
+            "nombre": "Mint Julep",
+            "ingredientes": [
+                {
+                    "Jugo de limon": "5 ml"
+                },
+                {
+                    "Jim Bean": "60 ml"
+                },
+                {
+                    "Syrup neutro": "15 ml"
+                },
+                {
+                    "Azucar": "1 cucharada"
+                },
+                {
+                    "Menta": "6 gr"
+                },
+                {
+                    "Garnish": "Azucar impalpable (3gr), piel de limon y un penacho de menta (2gr)"
+                }
+            ]
+        },
+        {
+            "nombre": "Black Widow",
+            "ingredientes": [
+                {
+                    "Jagger": "15 ml"
+                },
+                {
+                    "Cognac": "60 ml"
+                },
+                {
+                    "Smirnoff manzana": "120 ml"
+                },
+                {
+                    "Reduccion de virgen negra": "45 ml"
+                },
+                {
+                    "Garnish": "manzana en cuadrado caramelizado"
+                }
+            ]
+        },
+        {
+            "nombre": "New Casttle",
+            "ingredientes": [
+                {
+                    "Amarula": "45 ml"
+                },
+                {
+                    "Crema": "30 ml"
+                },
+                {
+                    "Syrup neutro": "30 ml"
+                },
+                {
+                    "Ron de canela": "30 ml"
+                },
+                {
+                    "Garnish": "Crema chantilly y dos ramitas de canela"
+                }
+            ]
+        },
+        {
+            "nombre": "Marroc Mist",
+            "ingredientes": [
+                {
+                    "Licor de chocolate": "30 ml"
+                },
+                {
+                    "Licor de chocolate blanco": "30 ml"
+                },
+                {
+                    "Frangelico": "30 ml"
+                },
+                {
+                    "Crema": "90 ml"
+                },
+                {
+                    "Garnish": "medio marroc rayado"
+                }
+            ]
+        }
+    ]
+}
