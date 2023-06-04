@@ -30,56 +30,56 @@
   </div>
 
   <script>
-    function titleCase(string) {
-      return string
-        .toLowerCase()
-        .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
-    }
+  function titleCase(string) {
+    return string
+      .toLowerCase()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
 
-    function searchRecipe(query) {
-      const trago = titleCase(query);
-      let receta = '';
+  function searchRecipe(query) {
+    const trago = query;
+    let receta = '';
 
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          console.log('Recetario cargado:', data);
-          const recipes = data.recipes;
+    fetch('./recetas.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log('Recetario cargado:', data);
+        const recipes = data.tragos;
 
-          for (let i = 0; i < recipes.length; i++) {
-            const recipe = recipes[i];
-            if (recipe.name === trago) {
-              receta = recipe.ingredients.join('<br>');
-              break;
-            }
+        for (let i = 0; i < recipes.length; i++) {
+          const recipe = recipes[i];
+          if (recipe.nombre === trago) {
+            receta = recipe.ingredientes.join('<br>');
+            break;
           }
+        }
 
-          if (receta) {
-            const image_path = `/static/images/${query.toLowerCase().replace(" ", "")}.png`;
-            document.getElementById('query-output').textContent = trago;
-            document.getElementById('results-output').innerHTML = receta;
-            document.getElementById('drink-image').src = image_path;
-          } else {
-            console.log('Receta no encontrada:', query);
-            // Redirigir a la página de error y pasar el query como parámetro
-            //window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-          }
-        })
-        .catch(error => {
-          console.error('Error al cargar el recetario:', error);
+        if (receta) {
+          const image_path = `/static/images/${query.toLowerCase().replace(" ", "")}.png`;
+          document.getElementById('query-output').textContent = trago;
+          document.getElementById('results-output').innerHTML = receta;
+          document.getElementById('drink-image').src = image_path;
+        } else {
+          console.log('Receta no encontrada:', query);
           // Redirigir a la página de error y pasar el query como parámetro
           //window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-        });
-    }
+        }
+      })
+      .catch(error => {
+        console.error('Error al cargar el recetario:', error);
+        // Redirigir a la página de error y pasar el query como parámetro
+        //window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+      });
+  }
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const query = urlParams.get('query');
-    if (query) {
-      console.log('Query:', query);
-      searchRecipe(query);
-    }
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get('query');
+  if (query) {
+    console.log('Query:', query);
+    searchRecipe(query);
+  }
 </script>
 </body>
 </html>
