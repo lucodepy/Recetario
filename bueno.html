@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
   <title>Recetario BRIXTON</title>
   <link rel="stylesheet" type="text/css" href="./static/styles2.css">
@@ -39,7 +38,7 @@
   }
 
   function searchRecipe(query) {
-    const trago = query;
+    const trago = titleCase(query);
     let receta = '';
 
     fetch('./recetas.json')
