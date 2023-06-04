@@ -42,7 +42,7 @@
       const trago = titleCase(query);
       let receta = '';
 
-      fetch('/recetas.json')
+      fetch('./recetas.json')
         .then(response => response.json())
         .then(data => {
           console.log('Recetario cargado:', data);
