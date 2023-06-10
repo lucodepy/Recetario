@@ -590,6 +590,19 @@
               "Crema: 90 ml",
               "Garnish: medio marroc rayado"
             ]
+          },
+          {
+            "nombre": "Bermellon",
+            "ingredientes": [
+              "Malamado Malbec: 10 ml",
+              "Sernova: 60 ml",
+              "Syrup neutro: 15 ml",
+              "Parfait Amour: 30 ml",
+              "Jugo de limon: 30 ml",
+                "Bitter Prohibition: 2 ml",
+                "Albumina: 1 cucharada",
+                "Jalea de Frambuesa: 45 ml"
+            ]
           }
           ]
         }          
