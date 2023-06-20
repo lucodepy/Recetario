@@ -634,6 +634,15 @@
                 "Licor de Cafe: 30 ml",
                 "Crema: 30 ml"
             ]
+          },
+        {
+            "nombre": "Al Capone",
+            "ingredientes": [
+              "Ron Dorado: 45 ml",
+              "Vechio Amaro: 30 ml",
+              "Licor Endelflower: 22 ml",
+              "Bitter Old Baried: 4 golpes"
+            ]
           }
         
           ]         
