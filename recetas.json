@@ -584,10 +584,9 @@
           {
             "nombre": "Marroc Mist",
             "ingredientes": [
-              "Licor de chocolate: 30 ml",
-              "Licor de chocolate blanco: 30 ml",
+              "Licor de Marroc: 60 ml",
               "Frangelico: 30 ml",
-              "Crema: 90 ml",
+              "Crema: 60 ml",
               "Garnish: medio marroc rayado"
             ]
           },
@@ -603,6 +602,112 @@
                 "Albumina: 1 cucharada",
                 "Jalea de Frambuesa: 45 ml"
             ]
-          }
+          },
+        {
+            "nombre": "Breakfast Martini",
+            "ingredientes": [
+              "Gin: 60 ml",
+              "Jalea de Naranja: 2 cucharadas",
+              "Triple Sec: 30 ml",
+              "Garnish: Ralladura de naranja",
+            ]
+          },
+         {
+            "nombre": "Espresso Martini",
+            "ingredientes": [
+              "Vodka: 60 ml",
+              "Licor de Cafe Espresso: 15 ml",
+              "Cafe Espresso: 30 ml",
+              "Syrup Neutro: 15 ml",
+            ]
+          },
+         {
+            "nombre": "Naranjo En Flor",
+            "ingredientes": [
+              "Cognac: 60 ml",
+              "Hesoeredina: 15 ml",
+              "Licor de Cassis: 10 ml",
+              "Licor de Durazno: 10 ml",
+              "Limon: 15 ml",
+              "Azucar: 2 cucharadas",
+              "Durazno: 1 unidad",
+            ]
+          },
+         {
+            "nombre": "Golden Cadillac",
+            "ingredientes": [
+              "Cognac: 30 ml",
+              "Licor de Chocolate Blanco: 30 ml",
+              "Cordial de Vainilla: 45 ml",
+              "Crema Vegetal: 30 ml",
+              "Garnish: Nuez Moscada y Cacao"
+            ]
+          },
+        {
+            "nombre": "Al Capone",
+            "ingredientes": [
+              "Ron Dorado: 45 ml",
+              "Vechio Amaro: 30 ml",
+              "Licor Endelflower: 22 ml",
+              "Bitter Old Baried: 4 golpes"
+            ]
+          },
+        {
+            "nombre": "Bikini Bottom",
+            "ingredientes": [
+                "Rama de Menta",
+                "Syrup Blue: 30 ml",
+                "Apricot Brandy: 15 ml",
+                "Gin: 50 ml",
+                "Pulpa de Anana: 60 ml",
+                "Garnish: 2 yummy pez, penacho de menta, piel de limon y 1 anis estrellado"
+            ]
+          },
+        {
+            "nombre": "White Russian",
+            "ingredientes": [
+                "Vodka: 60 ml",
+                "Licor de Cafe: 30 ml",
+                "Crema: 30 ml"
+            ]
+          },
+        {
+            "nombre": "Bosque De Miel",
+            "ingredientes": [
+                "Reduccion de Honey: 60 ml",
+                "Limon: 30 ml",
+                "Syrup Neutro: 15 ml",
+                "Pulpa de Anana: 60 ml",
+                "Fernet: 60 ml",
+                "Bitter Tiki: 4 Golpes",
+                "4 hojas de Menta",
+                "Garnish: Anana Deshidratada, Penacho de Menta y Piel de Limon"
+            ]
+          },
+        {
+            "nombre": "Oasis",
+            "ingredientes": [
+                "Limon: 15 ml",
+                "Falernum: 30 ml",
+                "Maracuya: 30 ml",
+                "Jugo de Naranja: 10 ml"
+                "Smirnoff de Sandia: 50 ml",
+                "Malibu: 30 ml",
+                "Garnish: Cereza con Piel de Limon e Infusionador con Hielo Seco"
+            ]
+          },
+        {
+            "nombre": "Pecado",
+            "ingredientes": [
+                "Albumina: 1 cucharada barfum",
+                "Limon: 30 ml",
+                "Syrup Neutro: 30 ml",
+                "Oleo de Pomelo: 60 ml",
+                "Vodka: 60 ml",
+                "Aperol: 30 ml",
+                "Dissarono Amareto: 10 ml",
+                "Garnish: 8 gotas de Bitter Prohibition"
+            ]
+        }
           ]         
         }
