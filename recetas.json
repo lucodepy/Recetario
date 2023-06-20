@@ -613,7 +613,20 @@
                 "Pulpa de Anana: 60 ml",
                 "Garnish: 2 yummy pez, penacho de menta, piel de limon y 1 anis estrellado"
             ]
-          }
+          },
+        {
+            "nombre": "Pecado",
+            "ingredientes": [
+                "Albumina: 1 cucharada barfum",
+                "Limon: 30 ml",
+                "Syrup Neutro: 30 ml",
+                "Oleo de Pomelo: 60 ml",
+                "Vodka: 60 ml",
+                "Aperol: 30 ml",
+                "Dissarono Amareto: 10 ml",
+                "Garnish: 8 gotas de Bitter Prohibition"
+            ]
+        }
         
           ]         
         }
