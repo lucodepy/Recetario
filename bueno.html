@@ -55,7 +55,7 @@
         }
 
         if (receta) {
-          const image_path = `./images/${query.toLowerCase().replace(" ", "").replace("%20", "")}.png`;
+          const image_path = `./images/${encodeURIComponent(query.toLowerCase().replace(/\s/g, ""))}.png`;
           console.log(image_path)
           document.getElementById('query-output').textContent = trago;
           document.getElementById('results-output').innerHTML = receta;
@@ -79,3 +79,6 @@
 </script>
 </body>
 </html>
+
+
+GET https://lucodepy.github.io/Recetario/images/bosquede%20miel.png 404
