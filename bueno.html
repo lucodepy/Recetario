@@ -55,7 +55,7 @@
         }
 
         if (receta) {
-          const image_path = `./images/${query.toLowerCase().replace(" ", "")}.png`;
+          const image_path = `./images/${query.toLowerCase().replace(" ", "").replace("%20", "")}.png`;
           console.log(image_path)
           document.getElementById('query-output').textContent = trago;
           document.getElementById('results-output').innerHTML = receta;
