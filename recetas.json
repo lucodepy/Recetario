@@ -658,6 +658,47 @@
               "Malibu: 30 ml",
               "Garnish: Cereza con Piel de Limon e Infusionador con Hielo Seco"
             ]
+          },
+        {
+            "nombre": "Bosque De Miel",
+            "ingredientes": [
+                "Reduccion de Honey: 60 ml",
+                "Limon: 30 ml",
+                "Syrup Neutro: 15 ml",
+                "Pulpa de Anana: 60 ml",
+                "Fernet: 60 ml",
+                "Bitter Tiki: 4 Golpes",
+                "4 hojas de Menta",
+                "Garnish: Anana Deshidratada, Penacho de Menta y Piel de Limon"
+            ]
+          },
+        {
+            "nombre": "Al Capone",
+            "ingredientes": [
+              "Ron Dorado: 45 ml",
+              "Vechio Amaro: 30 ml",
+              "Licor Endelflower: 22 ml",
+              "Bitter Old Baried: 4 golpes"
+            ]
+          },
+         {
+            "nombre": "Golden Cadillac",
+            "ingredientes": [
+              "Cognac: 30 ml",
+              "Licor de Chocolate Blanco: 30 ml",
+              "Cordial de Vainilla: 45 ml",
+              "Crema Vegetal: 30 ml",
+              "Garnish: Nuez Moscada y Cacao"
+            ]
+          },
+         {
+            "nombre": "Espresso Martini",
+            "ingredientes": [
+              "Vodka: 60 ml",
+              "Licor de Cafe Espresso: 15 ml",
+              "Cafe Espresso: 30 ml",
+              "Syrup Neutro: 15 ml"
+            ]
           }
         
           ]         
