@@ -698,6 +698,26 @@
               "Cafe Espresso: 30 ml",
               "Syrup Neutro: 15 ml"
             ]
+          },
+        {
+            "nombre": "White Russian",
+            "ingredientes": [
+                "Vodka: 60 ml",
+                "Licor de Cafe: 30 ml",
+                "Crema: 30 ml",
+                "Banana Pisada"
+            ]
+          },
+        {
+            "nombre": "Aurora Boreal",
+            "ingredientes": [
+                "Ron Blanco: 50 ml",
+                "Apricot Brandy: 22 ml",
+                "Malibu: 30 ml",
+                "Syrup: 15 ml",
+                "Anana: 30 ml",
+                "Jugo de Limon: 30 ml"
+            ]
           }
         
           ]         
