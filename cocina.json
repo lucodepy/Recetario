@@ -1,5 +1,5 @@
 {
-    "platos": [
+    "tragos": [
         {
             "nombre": "Barcelona Style",
             "ingredientes": [
@@ -213,7 +213,7 @@
                 "21 Gr Muzzalmendra",
                 "26 Gr Cebolla Caramelizada",
                 "60 Gr Tomate",
-                "1 Pz  Hamburguesa De Quinoa",
+                "1 Pz Hamburguesa De Quinoa",
                 "30 Gr Yogurt Natural",
                 "50 Gr Garbanzos"
             ]
@@ -367,7 +367,7 @@
                 "25 Gr Tomate Confitado",
                 "25 Gr Guacamole",
                 "20 Gr Cebolla Morada",
-                "1  Aro De Cebolla",
+                "1 Aro De Cebolla",
                 "10 Gr De Chips De Batata"
             ]
         },
@@ -578,9 +578,9 @@
                 "20 Gr Sal Fina",
                 "2 Paq Espinaca",
                 "8 Und Huevo",
-                "300  Gr Semolin",
+                "300 Gr Semolin",
                 "4Paq Espinaca",
-                "760  Gr Puerros",
+                "760 Gr Puerros",
                 "150 Manteca",
                 "1 Pz Caldos",
                 "600 Gr Ricota",
@@ -724,7 +724,7 @@
                 "20 Gr Pepino",
                 "0,3 Cilantro",
                 "10 Gr Cebolla Morada",
-                "30  Gr Limon",
+                "30 Gr Limon",
                 "30 Gr Yogurth Natural",
                 "50 Gr Hummus Clasico",
                 "150 Gr Falafel",
