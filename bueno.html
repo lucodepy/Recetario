@@ -44,7 +44,7 @@
     fetch('./cocina.json')
       .then(response => response.json())
       .then(data => {
-        const recipes = data.tragos;
+        const recipes = data.platos;
 
         for (let i = 0; i < recipes.length; i++) {
           const recipe = recipes[i];
