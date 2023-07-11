@@ -1,0 +1,903 @@
+{
+    "platos": [
+        {
+            "nombre": "Barcelona Style",
+            "ingredientes": [
+                "50 Gr Tomate",
+                "30 Ml Aceite De Oliva",
+                "0,5 Gr Rucula",
+                "60 Gr Jamon Crudo",
+                "60 Gr Queso Reggianito",
+                "200 Gr Papa",
+                "200 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Bastoncitos De Muzarella",
+            "ingredientes": [
+                "240 Gr Muzzarella",
+                "100 Gr Harina",
+                "4 Und Huevo",
+                "240 Gr Panco"
+            ]
+        },
+        {
+            "nombre": "Chicken Brixton",
+            "ingredientes": [
+                "100 Gr Pan De Campo",
+                "0,5 Paq. De Rucula",
+                "150 Gr Suprema",
+                "0,5 Cilantro",
+                "30 Gr Salsa De Soja",
+                "50 Gr Tomate",
+                "100 Gr Queso Brie"
+            ]
+        },
+        {
+            "nombre": "Empanada Criolla",
+            "ingredientes": [
+                "700 Gr Matambre",
+                "1500 Gr Cebolla",
+                "400 Gr Morron Verde",
+                "272 Gr Verdeo",
+                "6 Gr Oregano",
+                "4 Gr Aji Molido",
+                "17 Gr Comino",
+                "340 Gr Manteca",
+                "2 Pz Caldo",
+                "30 Gr Pimenton",
+                "125 Gr Aceitunas Verdes",
+                "5 Und Huevo",
+                "Fajitas",
+                "250 Ml Aceite De Girasol",
+                "20 Gr Semillas De Chia",
+                "20 Gr Semillas De Sesamo",
+                "20 Gr Semillas De Girasol",
+                "1 Paq De Espinaca",
+                "1000 Gr Harina"
+            ]
+        },
+        {
+            "nombre": "Falafel",
+            "ingredientes": [
+                "250 Ml Aceite De Girasol",
+                "20 Gr Semillas De Chia",
+                "20 Gr Semillas De Sesamo",
+                "20 Gr Semillas De Girasol",
+                "1 Paq De Espinaca",
+                "1000 Gr Harina"
+            ]
+        },
+        {
+            "nombre": "Huracan Jery",
+            "ingredientes": [
+                "100 Gr Pan De Campo",
+                "50 Gr Tomate",
+                "30 Ml Aceite De Oliva",
+                "0,5 Paq. Rucula",
+                "100 Muzzalmendra",
+                "30 Gr Girgolas",
+                "0,5 Cibullete"
+            ]
+        },
+        {
+            "nombre": "Kale Style",
+            "ingredientes": [
+                "\u2022100 Gr Kale",
+                "50 Gr Hummus Clasico",
+                "30 Gr Zuchini",
+                "30 Gr Semillas De Girasol",
+                "50 Gr Cebolla Morada",
+                "100 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Paella Black",
+            "ingredientes": [
+                "100 Gr Arroz Carnaroli",
+                "60 Gr Cebolla",
+                "60 Gr Morron Rojo",
+                "60 Gr Morron Verde",
+                "50 Gr Verdeo",
+                "60 Gr Cebolla Morada",
+                "50 Ml Vino Blanco",
+                "4 Pz Tinta De Calamar",
+                "100 Gr Langostinos",
+                "100 Gr Tentaculos",
+                "60 Gr Vieyras",
+                "100 Mejillones",
+                "60 Gr Mejillones Media Alva",
+                "80 Gr Limon",
+                "2 Gr Limon",
+                "2 Un. Ajos Picados"
+            ]
+        },
+        {
+            "nombre": "Pan De Papa Vegano",
+            "ingredientes": [
+                "300 Harina",
+                "25 Levadura",
+                "10 Azucar",
+                "5 Sal",
+                "50 Aceite",
+                "100 Papa",
+                "100 Leche",
+                "50 Espinaca",
+                "119 Remolacha",
+                "100 Calabaza"
+            ]
+        },
+        {
+            "nombre": "Pinchos De Pollo",
+            "ingredientes": [
+                "425 Gr Suprema De Pollo",
+                "130 Gr Cereales",
+                "255 Gr Panco",
+                "2 Gr Pimenton",
+                "25 Gr Salsa De Soja",
+                "50 Gr Mostaza",
+                "0,1 Pz Ajo",
+                "17 Gr Maizena"
+            ]
+        },
+        {
+            "nombre": "Tabla De Campo",
+            "ingredientes": [
+                "65 Gr Trufas De Queso",
+                "50 Gr Longaniza",
+                "50 Gr Lomito",
+                "40 Gr Batata Crocante",
+                "5 Gr Lechuga",
+                "210 Gr Pan De Campo",
+                "50 Gr Queso Brie",
+                "145 Gr Sushi De Campo",
+                "30 Gr Jamon Natural",
+                "26 Gr Jamon Crudo",
+                "27 Gr Salame Fuet",
+                "40 Gr Aceitunas Rellenas",
+                "85 Gr Matambre",
+                "3 Pz Empanadas Criollas",
+                "40 Gr Queso Gruyere"
+            ]
+        },
+        {
+            "nombre": "Tabla Liverpool",
+            "ingredientes": [
+                "1 Roll De Ternera",
+                "1 Roll De Falafel",
+                "6 Und Pincho De Pollo",
+                "3 Pz Empanada De Calamar",
+                "100 Gr Batatas Crocantes",
+                "100 Gr Falafel",
+                "6 Und Bastoncitos De Muzzarella",
+                "150 Gr De Bue\u00f1uelos De Espinaca",
+                "3 Pz Knishes De Roquefort",
+                "3 Pz Pollito Gordon Blue",
+                "4 Pz Croqueta De Arroz",
+                "50 Gr Hummus Clasico",
+                "50 Gr Hummus Remolacha",
+                "50 Gr Hummus De Garbanzos"
+            ]
+        },
+        {
+            "nombre": "Tabla Poseidon",
+            "ingredientes": [
+                "150 Gr Rabas",
+                "75 Gr Hummus Clasico",
+                "60 Gr Vieyras",
+                "2 Pz Croquetas De Calamar",
+                "2 Pz Coulibiac De Salmon",
+                "130 Gr De Berenjenas",
+                "60 Gr Morron Amarillo",
+                "60 Gr Morron Rojo",
+                "40 Gr Verdeo",
+                "100 Gr Tentaculos",
+                "50 Gr Langostinos",
+                "50 Gr Salmon",
+                "50 Gr Ricota",
+                "Salmon",
+                "60 Gr Trucha"
+            ]
+        },
+        {
+            "nombre": "Trilogia Vegana",
+            "ingredientes": [
+                "3 Pz Panes Veganos",
+                "0,3 Paq Rucula",
+                "12 Gr Lechuga",
+                "30 Gr Cebolla Morada",
+                "15 Gr Hummus Clasico",
+                "20 Gr Cebolla Crocante",
+                "46 Gr De Pepino",
+                "30 Gr Falafel",
+                "21 Gr Muzzalmendra",
+                "26 Gr Cebolla Caramelizada",
+                "60 Gr Tomate",
+                "1 Pz  Hamburguesa De Quinoa",
+                "30 Gr Yogurt Natural",
+                "50 Gr Garbanzos"
+            ]
+        },
+        {
+            "nombre": "Veggie Toledo",
+            "ingredientes": [
+                "50 Gr Papa",
+                "30 Ml Aceite De Oliva",
+                "50 Gr Queso Crema",
+                "50 Gr Queso Roquefort",
+                "0,5 Rucula",
+                "40 Gr Champi\u00f1ones",
+                "150 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Calabaza",
+            "ingredientes": [
+                "30 Gr Lechuga",
+                "42 Gr Queso Parmesano",
+                "10 Gr Semilla De Zapallo",
+                "\u00bd Paq Rucula",
+                "130 Gr Tomate Disecado",
+                "150 Gr Calabaza"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Cous Cous",
+            "ingredientes": [
+                "70 Gr Trigo Burgol",
+                "100 Gr Tomate Disecado",
+                "106 Gr Cebolla Caramelizada",
+                "\u00bd Paq Rucula",
+                "116 Gr Zanahorias Azadas",
+                "11 Gr Ciruela",
+                "150 Gr Berenjenas Salteadas",
+                "1 Und Huevo",
+                "5 Gr Mostaza",
+                "10 Gr Miel"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Gambas",
+            "ingredientes": [
+                "132 Gr Gambas",
+                "40 Gr Rabanito",
+                "20 Gr Lechuga",
+                "40 Gr Cebolla Morada",
+                "5 Gr Cilantro",
+                "50 Gr Palta",
+                "35 Gr Escarola",
+                "\u00bd Paq Rucula",
+                "57 Gr Tomate Cherrys Amarillos"
+            ]
+        },
+        {
+            "nombre": "Ensalada Mediterranea",
+            "ingredientes": [
+                "140 Gr Berenjenas",
+                "150 Gr Zuchini",
+                "106 Gr Tomate Disecado",
+                "125 Gr Muzza De Bufala",
+                "15 Gr Acuituna Negra",
+                "20 Gr Albahaca",
+                "\u00bd Paq. Rucula"
+            ]
+        },
+        {
+            "nombre": "Ensalada Primavera",
+            "ingredientes": [
+                "140 Gr Berenjenas",
+                "150 Gr Zuchini",
+                "106 Gr Tomate Disecado",
+                "125 Gr Muzza De Bufala",
+                "15 Gr Acuituna Negra",
+                "20 Gr Albahaca",
+                "\u00bd Paq. Rucula"
+            ]
+        },
+        {
+            "nombre": "Ensalada The Clash",
+            "ingredientes": [
+                "2 Paq. De Rucula",
+                "40 Gr Queso Parmesano",
+                "130 Gr Pollo",
+                "65 Gr Crutones",
+                "50 Gr Salsa Cesar"
+            ]
+        },
+        {
+            "nombre": "Rochester",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr De Carne",
+                "80 Gr Cebolla Crispy",
+                "1 Huevo",
+                "50 Gr Panceta",
+                "30 Queso Chedar",
+                "42 Gr Cebolla Caramelizada",
+                "15 Gr Salsa Alioli",
+                "250 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Raclette",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Carne",
+                "60 Gr Cebolla Crocante",
+                "15 Gr Alioli",
+                "80 Gr Tomate Confitado",
+                "150 Gr Raclette",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Not Brixton",
+            "ingredientes": [
+                "1 Und Not Burger",
+                "40 Gr Girgolas",
+                "30 Gr Cebolla Morada",
+                "50 Gr Muzzalmendra",
+                "200 Gr Papa Fritas",
+                "1 Pz Pan Vegano"
+            ]
+        },
+        {
+            "nombre": "Mick Crispy",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "150 Muzzarella",
+                "150 Gr Medallon De Pollo",
+                "15 Gr Alioli",
+                "60 Gr Cebolla Crocante",
+                "80 Cebolla Morada",
+                "30 Gr Lechuga",
+                "15 Gr Barbacoa",
+                "30 Gr Batata Crocante",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Kenton",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "240 Carne",
+                "20 Gr Queso Parmesano",
+                "15 Gr Salsa Alioli",
+                "20 Gr Lechuga",
+                "25 Gr Tomate Confitado",
+                "25 Gr Guacamole",
+                "20 Gr Cebolla Morada",
+                "1  Aro De Cebolla",
+                "10 Gr De Chips De Batata"
+            ]
+        },
+        {
+            "nombre": "Hamburguesa De Quinoa",
+            "ingredientes": [
+                "260 Gr Semillas De Quinoa",
+                "150 Gr Verdeo",
+                "900 Gr Harina De Garbanzos",
+                "50Gr Perejil",
+                "200 Gr Morron Rojo",
+                "215 Gr Cebolla",
+                "1 Pz Ajo",
+                "15Gr Zanahoria",
+                "10Gr Rucula",
+                "25Gr Tomate Redondo",
+                "Cilantro"
+            ]
+        },
+        {
+            "nombre": "Hamburguesa De Falafel",
+            "ingredientes": [
+                "266 Gr Garbanzos",
+                "400 Gr Cebolla",
+                "Perejil",
+                "Ajo",
+                "300Gr Harina",
+                "5Gr Polvo De Hornear",
+                "4Gr Comino",
+                "Cilantro"
+            ]
+        },
+        {
+            "nombre": "Gastoni",
+            "ingredientes": [
+                "1 Pz Platano",
+                "200 Gr Carne Tiernizada",
+                "50 Gr Queso Parmesano",
+                "30 Gr Cebolla Morada",
+                "30 Gr Guacamole",
+                "30 Gr Salsa Alioli",
+                "150 Gr Batata Crocante"
+            ]
+        },
+        {
+            "nombre": "Daniels",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "35 Gr De Muzzarella",
+                "15 Gr Salsa Alioli",
+                "30 Gr Pepinillo Agridulces",
+                "30 Gr Cebolla Crocante"
+            ]
+        },
+        {
+            "nombre": "Clasica",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "80 Gr Muzzarela",
+                "15 Gr Salsa Alioli",
+                "300 Gr Papa Frita"
+            ]
+        },
+        {
+            "nombre": "Cheese",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "100 Gr Queso Chedar",
+                "15 Gr Alioli",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Brixton",
+            "ingredientes": [
+                "11 Gr Lechuga",
+                "30 Gr De Tomate Confitado",
+                "1 Pan De Papa",
+                "50 Gr Panceta",
+                "30 Gr Queso Chedar",
+                "120 Gr Carne",
+                "42 Gr Cebolla Caramelizada",
+                "15 Gr Alioli",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Bridge",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr De Carne",
+                "15 Gr Salsa Alioli",
+                "40 Gr Pepinillos Agridulces",
+                "60 Gr Cebolla Caramelizada",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Bbq Queen",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "15 Gr Salsa Alioli",
+                "120 Gr Carne Tiernizada",
+                "15 Gr Barbacoa",
+                "30 Gr Tomate Confitado",
+                "30 Gr Lechuga",
+                "30 Gr Panceta",
+                "50 Gr Queso Chedar",
+                "250 Gr Papa Frita"
+            ]
+        },
+        {
+            "nombre": "Agnolotis De Berenjena",
+            "ingredientes": [
+                "Berenjenas",
+                "Papa",
+                "Harina",
+                "Huevo",
+                "Queso Sardo",
+                "Aceite De Oliva",
+                "Puerro",
+                "Manteca"
+            ]
+        },
+        {
+            "nombre": "Agnolotis De Langostinos",
+            "ingredientes": [
+                "1100 Gr Langostinos",
+                "180 Gr Ciruela",
+                "900 Gr Queso Crema",
+                "50 Gr Perejil",
+                "120 Gr Crema De Leche",
+                "3 Un. Huevos",
+                "0,5 Caldo",
+                "100 Ml Vino Blanco",
+                "120 Ml Martini Extra Dry",
+                "750 Gr Harina",
+                "20 Gr Sal"
+            ]
+        },
+        {
+            "nombre": "Lasagna",
+            "ingredientes": [
+                "1000 Gr Ricota",
+                "28Un. Huevo",
+                "1000 Gr Salsa Blanca",
+                "300 Gr Jamon Cocido",
+                "2500 Gr Cebolla",
+                "700 Gr Morron Rojo",
+                "120 Gr Verdeo",
+                "2 Pz. Caldo",
+                "1200Gr Carne Tiernizada",
+                "50 Gr Queso Regianito",
+                "1160 Gr Muzarella",
+                "14 Pz Masa De Lasagna"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis De Batata",
+            "ingredientes": [
+                "2K De Batata",
+                "800 Harina",
+                "130 Queso",
+                "15 Sal",
+                "1 Pzc Nuez Moscada",
+                "200 Roquefort",
+                "600 Muzzarella",
+                "2 Huevos",
+                "1 Yema"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis De Espinaca",
+            "ingredientes": [
+                "2000 Gr Espinaca",
+                "900 Harina",
+                "1 Gr Nuez Moscada",
+                "2 Unid. Huevo",
+                "50 Gr Queso Sardo",
+                "2 Paq. Espinaca",
+                "10 Gr Sal Fina",
+                "700 Gr Muzzarella",
+                "200 Gr Jamon Cocido",
+                "1600 Ml Salsa Fileto"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis Veganos",
+            "ingredientes": [
+                "2000 Gr Papa",
+                "80 Gr Albahaca",
+                "400 Gr Harina De Garbanzos",
+                "200 Gr Harina",
+                "30 Gr Sal Fina",
+                "550 Gr Muzzalmendras",
+                "100 Almendras",
+                "200 Gra Semolin",
+                "1 Pz Salsa Vegana"
+            ]
+        },
+        {
+            "nombre": "Ravioles De Verdura",
+            "ingredientes": [
+                "800 Gr Harina",
+                "20 Gr Sal Fina",
+                "2 Paq Espinaca",
+                "8 Und Huevo",
+                "300  Gr Semolin",
+                "4Paq Espinaca",
+                "760  Gr Puerros",
+                "150 Manteca",
+                "1 Pz Caldos",
+                "600 Gr Ricota",
+                "60 Queso Reggianito",
+                "12 Porc. Salsa Gruyere"
+            ]
+        },
+        {
+            "nombre": "Sorrentinos De Calabaza",
+            "ingredientes": [
+                "4000 Gr Calabaza",
+                "600 Gr Muzzarela",
+                "2 Paq Espinaca",
+                "400 Gr Harina",
+                "4 Und Huevo",
+                "200 Gr Queso Sardo",
+                "1600 Gr Salsa Blanca",
+                "1600 Gr Salsa Fileto"
+            ]
+        },
+        {
+            "nombre": "Sorrentinos De Salmon",
+            "ingredientes": [
+                "1000Gr De Salmon",
+                "330 Gr Puerro",
+                "100 Gr Crema De Leche",
+                "55 Gr Manteca",
+                "55 Ml Vino Blanco",
+                "15 Gr Echalote",
+                "10 Gr Kale",
+                "290 Gr Kanicama",
+                "14 Ml Crema De Puerro"
+            ]
+        },
+        {
+            "nombre": "Pizza Americana",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceitunas Negras",
+                "300 Gr Queso Chedar",
+                "150 Gr Panceta",
+                "180 Gr Verdeo",
+                "10Gr Perejil"
+            ]
+        },
+        {
+            "nombre": "Bendita Pizza",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "250 Gr De Muzzalmendra",
+                "150Gr Tomate Confitado",
+                "\u00bc Paq Albahaca",
+                "50Gr Aceitunas Negras"
+            ]
+        },
+        {
+            "nombre": "Pizza Especial",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "5 Gr Oregano",
+                "50 Gr Aceitunas Negras",
+                "160 Gr Morron Rojo",
+                "150 Gr Jamon Cocido",
+                "3 Und Huevo",
+                "5Gr Oregano",
+                "10Gr Perejil"
+            ]
+        },
+        {
+            "nombre": "Pizza Fior Di Latte",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceituna Negra",
+                "100 Gr Jamon Crudo",
+                "2 Paq Rucula",
+                "80 Gr Queso Parmesano",
+                "300 Gr Tomate Confitado"
+            ]
+        },
+        {
+            "nombre": "Pizza Fugaza Rellena",
+            "ingredientes": [
+                "2 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceitunas Negras",
+                "426 Gr De Cebolla",
+                "15 Gr Oliva",
+                "5Gr Oregano",
+                "10 Gr Perejil",
+                "50 Gr Queso Parmesano"
+            ]
+        },
+        {
+            "nombre": "Pizza Napolitana",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400Gr Muzzarella",
+                "470 Tomate",
+                "20Gr Perejil",
+                "10Gr Ajo",
+                "50Gr Aceitunas Verdes",
+                "15Gr Oliva"
+            ]
+        },
+        {
+            "nombre": "Pizza Tradicional",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr De Muzzarella",
+                "5 Gr Oregano",
+                "50 Gr Aceituna Verde"
+            ]
+        },
+        {
+            "nombre": "Roll Cesar",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "100 Gr Pollo",
+                "60 Gr Croutons",
+                "90 Gr Kale",
+                "50 Gr Queso Reggianito"
+            ]
+        },
+        {
+            "nombre": "Salsa Cesar",
+            "ingredientes": [
+                "50 Gr Crema De Leche",
+                "1 Anchoa",
+                "2 Ajos",
+                "50 Gr Mayonesa"
+            ]
+        },
+        {
+            "nombre": "Kebab De Falafel",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "75 Gr De Repollo Blanco",
+                "20 Gr Pepino",
+                "0,3 Cilantro",
+                "10 Gr Cebolla Morada",
+                "30  Gr Limon",
+                "30 Gr Yogurth Natural",
+                "50 Gr Hummus Clasico",
+                "150 Gr Falafel",
+                "15 Gr Lechuga",
+                "40 Gr Kale"
+            ]
+        },
+        {
+            "nombre": "Roll Vegano",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "50Gr Kale",
+                "70 Gr Tomate",
+                "50 Gr Muzzalmendras",
+                "50 Gr Garbanzos",
+                "2 Pz Hamburguesa De Quinoa",
+                "15 Gr Semillas De Girasol"
+            ]
+        },
+        {
+            "nombre": "Wrap De Ternera",
+            "ingredientes": [
+                "500Gr Carne",
+                "195 Morron Rojo",
+                "550 Cebolla Morada",
+                "120 Cebolla Comun",
+                "200 Cebolla De Verdeo",
+                "50 Gr Chedar",
+                "900 Tomate",
+                "Rucula",
+                "200 Gr Tomate Disecado",
+                "150 Barbacoa",
+                "11Gr Sal Gruesa",
+                "1 \u00bd Cilantro"
+            ]
+        },
+        {
+            "nombre": "Bocha De Helado",
+            "ingredientes": [
+                "100 Gr Helado De Americana",
+                "15 Ml Salsa De Chocolate",
+                "15 Gr Frutilla",
+                "20 Gr Chocolinas",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Brownie Con Helado",
+            "ingredientes": [
+                "1 Und Brownie",
+                "140 Gr Helado De Americana",
+                "20 Gr Chocolinas",
+                "30 Gr Frutilla",
+                "36 Ml Salsa De Chocolate",
+                "Menta",
+                "Flores Comestibles"
+            ]
+        },
+        {
+            "nombre": "Brownie Vegano",
+            "ingredientes": [
+                "1 Und Brownie",
+                "50 Lm Crema Vegetal",
+                "Menta",
+                "30 Gr Frutilla",
+                "Flores Comestibles",
+                "50 Gr Frutos Rojos"
+            ]
+        },
+        {
+            "nombre": "Chocotorta",
+            "ingredientes": [
+                "500 Gr Chocolinas",
+                "1000 Gr Queso Crema",
+                "1000 Gr Dulce De Leche",
+                "300 Gr Crema De Leche",
+                "30 Gr Frutilla",
+                "500 Ml Leche"
+            ]
+        },
+        {
+            "nombre": "Creme Brule",
+            "ingredientes": [
+                "1000 Ml Leche",
+                "1000 Ml Crema De Leche",
+                "28 Und Huevo",
+                "300 Gr Azucar",
+                "15 Gr Escencia De Vainilla",
+                "15 Gr Frutilla",
+                "10 Gr Dulce De Leche"
+            ]
+        },
+        {
+            "nombre": "Cremoso De Chocolate Blanco",
+            "ingredientes": [
+                "200 Gr Chocolate Blanco",
+                "26 Und Huevo",
+                "1800 Gr Crema De Leche",
+                "1000 Gr Leche",
+                "30 Gr Maracuya",
+                "500 Gr Azucar",
+                "30 Gr Frutilla"
+            ]
+        },
+        {
+            "nombre": "Flan",
+            "ingredientes": [
+                "8 Und Huevo",
+                "500 Gr Azucar",
+                "1000 Gr Leche",
+                "1 Gr Esencia De Vainilla",
+                "200 Gr Crema De Leche",
+                "200 Gr Dulce De Leche",
+                "150 Gr Frutilla"
+            ]
+        },
+        {
+            "nombre": "Frutillas Con Crema",
+            "ingredientes": [
+                "150 Gr Frutilla",
+                "150 G Crema De Leche",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Panqueques",
+            "ingredientes": [
+                "100 Ml Leche",
+                "5 Und Huevo",
+                "200 Gr Harina",
+                "50 Gr Manteca",
+                "40 Ml Salsa De Chocolate",
+                "25 Gr Azucar",
+                "30 Gr Frutilla",
+                "900 Gr Dulce De Leche"
+            ]
+        },
+        {
+            "nombre": "Puddin De Chia",
+            "ingredientes": [
+                "110 Gr De Semillas De Chia",
+                "1000 Ml Leche De Almendras",
+                "250 Gr Frutos Rojos",
+                "180 Gr Granola",
+                "350 Gr Crema Vegetal",
+                "30 Gr Frutilla",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Trifle De Baileys",
+            "ingredientes": [
+                "15 Und Brownies",
+                "50 Ml Salsa De Chocolate",
+                "100 Gr Frutilla",
+                "Menta",
+                "300 Ml Bailyes",
+                "150 Gr Azucar",
+                "1500 Gr Crema De Leche",
+                "230 Gr Dulce De Leche",
+                "100 Gr Cacao En Polvo"
+            ]
+        },
+        {
+            "nombre": "Volcan De Chocolate",
+            "ingredientes": [
+                "1 Pz Volcan De Chocolate",
+                "140 Gr Helado De Americana",
+                "2 Gr Azucar Impalpable",
+                "15 Ml Salsa De Chocolate",
+                "10 Gr Frutilla",
+                "Flores Comestibles"
+            ]
+        }
+    ]
+}
