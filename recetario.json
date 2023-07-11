@@ -1,0 +1,1623 @@
+{
+    "recetas": [
+      {
+        "nombre": "Fernet",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Fernet Branca: 60 ml",
+          "Coca-Cola: 250 ml",
+          "Garnish: Agitador 3D"
+        ]
+      },
+      {
+        "nombre": "Campari",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Campari: 60 ml",
+          "Jugo de naranja exprimido: 250 ml",
+          "Garnish: Agitador 3D"
+        ]
+      },
+      {
+        "nombre": "Cuba Libre",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Ron: 60 ml",
+          "Coca-Cola: 250 ml",
+          "Garnish: Agitador 3D"
+        ]
+      },
+      {
+        "nombre": "Vermu Bianco",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Carpano Bianco: 90 ml",
+          "Soda: 90 ml",
+          "Garnish: 1 slice de limon (3gr)"
+        ]
+      },
+      {
+        "nombre": "Vermu Rosso",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Carpano Rosso: 90 ml",
+          "Soda: 90 ml",
+          "Garnish: 1 slice de limon (3gr)"
+        ]
+      },
+      {
+        "nombre": "Vermu Ferroviario",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Fernet Branca: 15 ml",
+          "Vermu Rosso: 75 ml",
+          "Soda: 90 ml",
+          "Garnish: 1 slice de limon (3gr)"
+        ]
+      },
+      {
+        "nombre": "Vermu De La Casa",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Carpano Bianco: 45 ml",
+          "Pineral: 45 ml",
+          "Paso de los Toros: 90 ml",
+          "Garnish: 2 cubitos de queso con pimienta y un cherry con tomillo en pick de bamboo"
+        ]
+      },
+      {
+        "nombre": "Bloody Mary",
+        "ingredientes": [
+          "Hielo: 500 gr",
+          "Sal de apio: 2 gr",
+          "Vodka Sernova: 60 ml",
+          "Jugo de tomate: 120 ml",
+          "Bitter angostura: 1 ml",
+          "Jugo de limon: 15 ml",
+          "Garnish: 1 ramita de apio (20gr)"
+        ]
+      },
+      {
+        "nombre": "Dry Martini",
+        "ingredientes": [
+          "Hielo: 300 gr",
+          "Martini Extra Dry: 10 ml",
+          "Gin Brighton: 90 ml",
+          "Garnish: Aceituna verde en pick de bamboo"
+        ]
+      },
+    {
+        "nombre": "Tanqueray Negroni",
+        "ingredientes": [
+        "Hielo: 500 gr",
+        "Gin Tanqueray: 75 ml",
+        "Carpano Rosso: 25 ml",
+        "Campari: 30 ml",
+        "Garnish: 1 naranja deshidratada y 1 piel de naranja"
+        ]
+    },
+    {
+        "nombre": "Old Fashioned Smoked",
+        "ingredientes": [
+        "Hielo: 200 gr",
+        "Jim Bean: 90 ml",
+        "Soda: 15 ml",
+        "Bitter Angostura: 5 ml",
+        "Azucar: 2 cucharadas",
+        "Garnish: 1 cereza en pick de bamboo"
+        ]
+    },
+    {
+        "nombre": "Manhattan",
+        "ingredientes": [
+        "Carpano Rosso: 15 ml",
+        "Jim Bean: 90 ml",
+        "Bitter Angostura: 5 ml",
+        "Garnish: 1 cereza en pick de bamboo"
+        ]
+    },
+    {
+        "nombre": "Cosmopolitan",
+        "ingredientes": [
+        "Hielo: 300 gr",
+        "Vodka Sernova: 60 ml",
+        "Triple Sec: 15 ml",
+        "Licor Golden ace Parfait amour: 15 ml",
+        "Jugo de media lima: 15 ml",
+        "Jugo de arandanos: 30 ml",
+        "Garnish: Frutos rojos en pick de bamboo (3gr)"
+        ]
+    },
+    {
+        "nombre": "Caipirinha",
+        "ingredientes": [
+        "Hielo: 200 gr",
+        "Lima: 12 gr",
+        "Cachaza: 75 ml",
+        "Syrup neutro: 15 ml",
+        "Azucar: 1 cucharada"
+        ]
+    },
+    {
+        "nombre": "Caipiroska",
+        "ingredientes": [
+        "Hielo: 200 gr",
+        "Lima: 12 gr",
+        "Vodka neutro: 75 ml",
+        "Syrup neutro: 15 ml",
+        "Azucar: 1 cucharada"
+        ]
+    },
+    {
+        "nombre": "Caipirissima",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Lima: 10 gr",
+          "Naranja: 5 gr",
+          "Ron: 50 ml",
+          "Syrup neutro: 15 ml",
+          "Azucar: 1 cucharada"
+        ]
+      },
+      {
+        "nombre": "Caipi Fruta",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Lima: 10 gr",
+          "Naranja: 5 gr",
+          "Frutilla: 30 ml",
+          "Vodka Sernova: 60 ml",
+          "Syrup neutro: 15 ml",
+          "Azucar: 1 cucharada"
+        ]
+      },
+      {
+        "nombre": "Caipi Maracuya",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Lima: 10 gr",
+          "Maracuya: 30 ml",
+          "Vodka Sernova: 60 ml",
+          "Syrup neutro: 15 ml",
+          "Azucar: 1 cucharada"
+        ]
+      },
+      {
+        "nombre": "London Beach Caipi",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Lima: 10 gr",
+          "Frutos rojos: 10 gr",
+          "Vodka Sernova: 60 ml",
+          "Syrup neutro: 15 ml",
+          "Cassis: 15 ml"
+        ]
+      },
+      {
+        "nombre": "Mojito Cubano",
+        "ingredientes": [
+          "Hielo: 300 gr",
+          "Lima: 5 gr",
+          "Menta: 10 gr",
+          "Ron: 75 ml",
+          "Tonica: 60 ml",
+          "Syrup neutro: 15 ml",
+          "Bitter Angostura: 1 ml",
+          "Azucar: 1 cucharada",
+          "Garnish: Menta (3gr)"
+        ]
+      },
+      {
+        "nombre": "Mojito Frutal",
+        "ingredientes": [
+          "Hielo: 300 gr",
+          "Lima: 5 gr",
+          "Menta: 10 gr",
+          "Ron: 75 ml",
+          "Tonica: 60 ml",
+          "Syrup neutro: 15 ml",
+          "Bitter Angostura: 1 ml",
+          "Azucar: 1 cucharada",
+          "Fruta: Cassis 15 ml (fr) | Maracuya 30 ml | Naranja 5 gr",
+          "Garnish: Menta (3gr)"
+        ]
+      },
+      {
+        "nombre": "Mojito Hawaiano",
+        "ingredientes": [
+          "Hielo: 300 gr",
+          "Lima: 5 gr",
+          "Menta: 10 gr",
+          "Ron: 45 ml",
+          "Malibu: 30 ml",
+          "Paso De los Toros: 60 ml",
+          "Garnish: Menta (3gr)"
+        ]
+      },
+      {
+        "nombre": "Aperol Spritz",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Aperol: 60 ml",
+          "Espumante Callia: 150 ml",
+          "Tonica: 30 ml",
+          "Garnish: 1 slice de naranja (3gr)"
+        ]
+      },
+      {
+        "nombre": "Negroni Sbagliatto",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Campari: 45 ml",
+          "Carpano Rosso: 45 ml",
+          "Espumante Callia: 120 ml",
+          "Garnish: 1 slice de naranja (3gr)"
+        ]
+      },
+      {
+        "nombre": "Mimosa",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Espumante Callia: 120 ml",
+          "Jugo de naranja exprimido: 60 ml",
+          "Garnish: 1 slice de naranja (3gr)"
+        ]
+      },
+      {
+        "nombre": "Kir Royale",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Cassis: 60 ml",
+          "Espumante Callia: 150 ml",
+          "Garnish: Frutos rojos (5gr)"
+        ]
+      },
+      {
+        "nombre": "Champagne Julep",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Bitter Angostura: 5 ml",
+          "Menta: 5 gr",
+          "Azucar: 1 terron",
+          "Espumante Callia: 200 ml"
+        ]
+      },
+      {
+        "nombre": "Zombie",
+        "ingredientes": [
+          "Ron blanco: 45 ml",
+          "Ron especial: 45 ml",
+          "Bitter Angostura: 1 ml",
+          "Syrup de Jengibre: 15 ml",
+          "Falernum: 15 ml",
+          "Jugo de media lima: 15 ml",
+          "Pulpa anana: 60 ml",
+          "Granadina: 5 ml"
+        ]
+      },
+      {
+        "nombre": "Monkey Island",
+        "ingredientes": [
+          "Ron dorado: 15 ml",
+          "Smirnoff manzana: 60 ml",
+          "Jalea de pera: 1 cucharada",
+          "Amargo obrero: 25 ml",
+          "Syrup de manzana: 15 ml",
+          "Ahumado: Romero y manzana (2gr)",
+          "Garnish: 1 slice manzana (5gr), piel de lima y banderita"
+        ]
+      },
+      {
+        "nombre": "Pocion Tiki 27",
+        "ingredientes": [
+          "Ron dorado: 45 ml",
+          "Cynar: 30 ml",
+          "Bitter tiki: 1,5 ml",
+          "Syrup #27: 30 ml",
+          "Jugo de limon: 30 ml",
+          "Granadina: 10 ml",
+          "Garnish: Romero (2gr), 1 banana dish, canela en polvo (2gr)"
+        ]
+      },
+      {
+        "nombre": "Passion Nai",
+        "ingredientes": [
+          "Smirnoff sandia: 45 ml",
+          "Apricot Brandy: 30 ml",
+          "Maracuya: 30 ml",
+          "Jugo de limon: 10 ml",
+          "Falernum: 30 ml",
+          "Sandia: 40 gr"
+        ]
+      },
+      {
+        "nombre": "Pascualito",
+        "ingredientes": [
+          "Pisco Mistral: 90 ml",
+          "Pineral: 30 ml",
+          "Disaronno Amaretto: 15 ml",
+          "Bitter tiki: 4 golpes",
+          "Jugo de limon: 30 ml",
+          "Jugo de naranja: 90 ml",
+          "Jalea calabaza: 2 gr",
+          "Syrup vainilla: 15 ml"
+        ]
+      },
+        {
+          "nombre": "Copa Baileys",
+          "ingredientes": [
+            "Baileys: 45 ml",
+            "Licor de chocolate: 30 ml",
+            "Ballentines's: 15 gr",
+            "Helado de crema americana: 2 bochas",
+            "Azucar: 1 cucharada"
+          ]
+        },
+        {
+          "nombre": "Copa Oreo",
+          "ingredientes": [
+            "Baileys: 60 ml",
+            "Cognac: 15 ml",
+            "Helado de crema americana: 2 bochas",
+            "Oreo: 3 unidades",
+            "Azucar: 1 cucharada"
+          ]
+        },
+        {
+          "nombre": "Daiquiri Frozen",
+          "ingredientes": [
+            "Ron 3 años: 60 ml",
+            "Jugo de limon: 15 ml",
+            "Azucar: 2 cucharadas",
+            "Fruta: 60 ml"
+          ]
+        },
+        {
+          "nombre": "Ritzy Gallito",
+          "ingredientes": [
+            "Ron 3 años: 45 ml",
+            "Ron especial: 45 ml",
+            "Jugo de pomelo: 30 ml",
+            "Jalea de frambuesa: 1 ml",
+            "Pulpa de anana: 60 ml",
+            "Garnish: piel de pomelo y cereza en pick de bamboo"
+          ]
+        },
+        {
+          "nombre": "Maracucoco",
+          "ingredientes": [
+            "Ron 3 años: 45 ml",
+            "Malibu: 45 ml",
+            "Bitter de coco: 3 golpes",
+            "Falernum: 15 ml",
+            "Maracuya: 60 ml",
+            "Amaretto Bols: 15 ml",
+            "Jugo de naranja: 30 ml",
+            "Garnish: piel de pomelo, penca de anana y petalos de rosa (3gr)"
+          ]
+        },
+        {
+          "nombre": "Ziggy Demon",
+          "ingredientes": [
+            "Bitter Coffe: 3 golpes",
+            "Disaronno Amaretto: 15 ml",
+            "Gin Brighton: 60 ml",
+            "Jugo de limon: 13 ml",
+            "Apricot Brandy: 13 ml",
+            "Syrup de cedron y mandarina: 30 ml",
+            "Garnish: labiado de pimenton (2gr) y 2 granos de cafe"
+          ]
+        },
+        {
+          "nombre": "New Paradise",
+          "ingredientes": [
+            "Vodka: 60 ml",
+            "Carpano Bianco: 30 ml",
+            "Kiwi: 35 gr",
+            "Frutilla: 30 ml",
+            "Jugo de limon: 15 ml",
+            "Bitter New Orlands: 3 golpes",
+            "Azucar: 1 cucharada",
+            "Syrup Simple: 15 ml",
+            "Pepino: 1 slice",
+            "Garnish: piel de limon y 1 flor comesible"
+          ]
+        },
+      
+        {
+            "nombre": "Long Island Ice Tea",
+            "ingredientes": [
+              "Vodka: 22,5 ml",
+              "Gin: 22,5 ml",
+              "Ron: 22,5 ml",
+              "Tequila: 22,5 ml",
+              "Triple sec: 22,5 ml",
+              "Syrup Simple: 30 ml",
+              "Jugo de limon: 22,5 gr",
+              "Menta: 15 gr",
+              "Garnish: piel de limon y 1 penacho de menta"
+            ]
+          },
+          {
+            "nombre": "Cynar Julep",
+            "ingredientes": [
+              "Cynar: 75 ml",
+              "Pomelo: 90 ml",
+              "Azucar mascabo: 2 cucharadas",
+              "Menta: 20 gr"
+            ]
+          },
+          {
+            "nombre": "Amy Jaggerhouse",
+            "ingredientes": [
+              "Jagger: 60 ml",
+              "Menta: 20 ml",
+              "Jugo de pomelo: 100 ml",
+              "Azucar negra: 2 cucharadas"
+            ]
+          },
+          {
+            "nombre": "Bikini Bottom",
+            "ingredientes": [
+              "Gin: 75 ml",
+              "Apricot Brandy: 22,5 ml",
+              "Syrup Blue: 30 ml",
+              "Pulpa de anana: 60 ml",
+              "Jugo de limon: 22,5 gr",
+              "Menta: 20 gr",
+              "Gomitas: 2 unidades",
+              "Anis estrellado: 1 unidad"
+            ]
+          },
+          {
+            "nombre": "Floral Plum",
+            "ingredientes": [
+              "Cassis Bols: 15 ml",
+              "Jugo de limon: 15 ml",
+              "Gin Brighton: 60 ml",
+              "Pulpa de ciruela: 50 ml",
+              "Bitter Floral: 5 golpes",
+              "Garnish: Penacho de menta y flor comestible"
+            ]
+          },
+          {
+            "nombre": "Mate Mundial",
+            "ingredientes": [
+              "Whisky Jameson: 60 ml",
+              "Infusion de yerba mate: 50 ml",
+              "Maracuya: 30 ml",
+              "Menta: 5 gr",
+              "Syrup de cedron y mandarina: 30 ml",
+              "Jugo de limon: 15 ml",
+              "Garnish: Piel de limon y menta"
+            ]
+          },
+          {
+            "nombre": "Margarita",
+            "ingredientes": [
+              "Tequila Jose Cuervo Silver: 20 ml",
+              "Triple Sec: 45 ml",
+              "Azucar: 2 cucharadas",
+              "Jugo de limon: 25 ml",
+              "Garnish: Labiado de sal (4gr)"
+            ]
+          },
+          {
+            "nombre": "Bramble",
+            "ingredientes": [
+              "Gin: 60 ml",
+              "Jugo de limon: 15 ml",
+              "Syrup Simple: 15 ml",
+              "Licor de petalos de rosa Golden Age: 15 ml",
+              "Cassis: 15 ml"
+            ]
+          },
+          {
+            "nombre": "Clarito",
+            "ingredientes": [
+              "Gin Brighton: 90 ml",
+              "Vermout Dry: 10 ml",
+              "Garnish: Piel de limon"
+            ]
+          },
+          {
+            "nombre": "Pisco Sour",
+            "ingredientes": [
+              "Pisco Mistral: 90 ml",
+              "Syrup Simple: 30 ml",
+              "Jugo de limon: 20 ml",
+              "Albumina: 4 gr",
+              "Garnish: Bitter Angostura (2ml)"
+            ]
+          },          
+          {
+            "nombre": "Moscow Mule",
+            "ingredientes": [
+              "Vodka: 90 ml",
+              "Syrup de jengibre: 30 ml",
+              "Jugo de limon: 20 ml",
+              "Ginger Ale: 100 ml",
+              "Garnish: Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
+            ]
+          },
+          {
+            "nombre": "Linchburg Lemonade",
+            "ingredientes": [
+              "Jack Daniels: 60 ml",
+              "Limon: 100 gr",
+              "Azucar: 2 cucharadas",
+              "Sprite: 60 ml",
+              "Garnish: 1 piel de limon y 1 limon deshidratado"
+            ]
+          },
+          {
+            "nombre": "Mint Julep",
+            "ingredientes": [
+              "Jugo de limon: 5 ml",
+              "Jim Bean: 60 ml",
+              "Syrup neutro: 15 ml",
+              "Azucar: 1 cucharada",
+              "Menta: 6 gr",
+              "Garnish: Azucar impalpable (3gr), piel de limon y un penacho de menta (2gr)"
+            ]
+          },
+          {
+            "nombre": "Black Widow",
+            "ingredientes": [
+              "Jagger: 15 ml",
+              "Cognac: 60 ml",
+              "Smirnoff manzana: 120 ml",
+              "Reduccion de virgen negra: 45 ml",
+              "Garnish: manzana en cuadrado caramelizado"
+            ]
+          },
+          {
+            "nombre": "New Casttle",
+            "ingredientes": [
+              "Amarula: 45 ml",
+              "Crema: 30 ml",
+              "Syrup neutro: 30 ml",
+              "Ron de canela: 30 ml",
+              "Garnish: Crema chantilly y dos ramitas de canela"
+            ]
+          },
+          {
+            "nombre": "Marroc Mist",
+            "ingredientes": [
+              "Licor de Marroc: 60 ml",
+       	      "Frangelico: 30 ml",
+              "Crema: 60 ml",
+              "Garnish: medio marroc rayado"
+            ]
+          },
+          {
+            "nombre": "Bermellon",
+            "ingredientes": [
+              "Malamado Malbec: 10 ml",
+              "Sernova: 60 ml",
+              "Syrup neutro: 15 ml",
+              "Parfait Amour: 30 ml",
+              "Jugo de limon: 30 ml",
+              "Bitter Prohibition: 2 ml",
+              "Albumina: 1 cucharada",
+              "Jalea de Frambuesa: 45 ml"
+            ]
+          },
+        {
+            "nombre": "Bikini Bottom",
+            "ingredientes": [
+                "Rama de Menta",
+                "Syrup Blue: 30 ml",
+                "Apricot Brandy: 15 ml",
+                "Gin: 50 ml",
+                "Pulpa de Anana: 60 ml",
+                "Garnish: 2 yummy pez, penacho de menta, piel de limon y 1 anis estrellado"
+            ]
+          },
+        {
+            "nombre": "Pecado",
+            "ingredientes": [
+                "Albumina: 1 cucharada barfum",
+                "Limon: 30 ml",
+                "Syrup Neutro: 30 ml",
+                "Oleo de Pomelo: 60 ml",
+                "Vodka: 60 ml",
+                "Aperol: 30 ml",
+                "Dissarono Amareto: 10 ml",
+                "Garnish: 8 gotas de Bitter Prohibition"
+            ]
+        },
+        {
+            "nombre": "White Russian",
+            "ingredientes": [
+                "Vodka: 60 ml",
+                "Licor de Cafe: 30 ml",
+                "Crema: 30 ml"
+            ]
+          },
+         {
+            "nombre": "Naranjo En Flor",
+            "ingredientes": [
+              "Cognac: 45 ml",
+              "Hesperedina: 15 ml",
+              "Licor de Cassis: 10 ml",
+              "Apricot Brandy: 15 ml",
+              "Pulpa de Durazno: 30 ml",
+              "Garnish: Piel de 1 naranja en forma de flor y copa labiada con azucar macerada en naranja" 
+            ]
+          },
+         {
+            "nombre": "Oasis",
+            "ingredientes": [
+              "Limon: 15 ml",
+              "Falernum: 30 ml",
+              "Maracuya: 30 ml",
+              "Jugo de Naranja: 10 ml",
+              "Smirnoff de Sandia: 50 ml",
+              "Malibu: 30 ml",
+              "Garnish: Cereza con Piel de Limon e Infusionador con Hielo Seco"
+            ]
+          },
+        {
+            "nombre": "Bosque De Miel",
+            "ingredientes": [
+                "Reduccion de Honey: 60 ml",
+                "Limon: 30 ml",
+                "Syrup Neutro: 15 ml",
+                "Pulpa de Anana: 60 ml",
+                "Fernet: 60 ml",
+                "Bitter Tiki: 4 Golpes",
+                "4 hojas de Menta",
+                "Garnish: Anana Deshidratada, Penacho de Menta y Piel de Limon"
+            ]
+          },
+        {
+            "nombre": "Al Capone",
+            "ingredientes": [
+              "Ron Dorado: 45 ml",
+              "Vechio Amaro: 30 ml",
+              "Licor Endelflower: 22 ml",
+              "Bitter Old Baried: 4 golpes"
+            ]
+          },
+         {
+            "nombre": "Golden Cadillac",
+            "ingredientes": [
+              "Cognac: 30 ml",
+              "Licor de Chocolate Blanco: 30 ml",
+              "Cordial de Vainilla: 45 ml",
+              "Crema Vegetal: 30 ml",
+              "Garnish: Nuez Moscada y Cacao"
+            ]
+          },
+         {
+            "nombre": "Espresso Martini",
+            "ingredientes": [
+              "Vodka: 60 ml",
+              "Licor de Cafe Espresso: 15 ml",
+              "Cafe Espresso: 30 ml",
+              "Syrup Neutro: 15 ml"
+            ]
+          },
+        {
+            "nombre": "Banana Ice",
+            "ingredientes": [
+                "Vodka: 60 ml",
+                "Licor de Cafe: 30 ml",
+                "Crema: 30 ml",
+                "Banana Pisada"
+            ]
+          },
+        {
+            "nombre": "Aurora Boreal",
+            "ingredientes": [
+                "Ron Blanco: 50 ml",
+                "Apricot Brandy: 22 ml",
+                "Malibu: 30 ml",
+                "Syrup: 15 ml",
+                "Anana: 30 ml",
+                "Jugo de Limon: 30 ml"
+            ]
+          },
+        {
+            "nombre": "Barcelona Style",
+            "ingredientes": [
+                "50 Gr Tomate",
+                "30 Ml Aceite De Oliva",
+                "0,5 Gr Rucula",
+                "60 Gr Jamon Crudo",
+                "60 Gr Queso Reggianito",
+                "200 Gr Papa",
+                "200 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Bastoncitos De Muzarella",
+            "ingredientes": [
+                "240 Gr Muzzarella",
+                "100 Gr Harina",
+                "4 Und Huevo",
+                "240 Gr Panco"
+            ]
+        },
+        {
+            "nombre": "Chicken Brixton",
+            "ingredientes": [
+                "100 Gr Pan De Campo",
+                "0,5 Paq. De Rucula",
+                "150 Gr Suprema",
+                "0,5 Cilantro",
+                "30 Gr Salsa De Soja",
+                "50 Gr Tomate",
+                "100 Gr Queso Brie"
+            ]
+        },
+        {
+            "nombre": "Empanada Criolla",
+            "ingredientes": [
+                "700 Gr Matambre",
+                "1500 Gr Cebolla",
+                "400 Gr Morron Verde",
+                "272 Gr Verdeo",
+                "6 Gr Oregano",
+                "4 Gr Aji Molido",
+                "17 Gr Comino",
+                "340 Gr Manteca",
+                "2 Pz Caldo",
+                "30 Gr Pimenton",
+                "125 Gr Aceitunas Verdes",
+                "5 Und Huevo",
+                "Fajitas",
+                "250 Ml Aceite De Girasol",
+                "20 Gr Semillas De Chia",
+                "20 Gr Semillas De Sesamo",
+                "20 Gr Semillas De Girasol",
+                "1 Paq De Espinaca",
+                "1000 Gr Harina"
+            ]
+        },
+        {
+            "nombre": "Falafel",
+            "ingredientes": [
+                "250 Ml Aceite De Girasol",
+                "20 Gr Semillas De Chia",
+                "20 Gr Semillas De Sesamo",
+                "20 Gr Semillas De Girasol",
+                "1 Paq De Espinaca",
+                "1000 Gr Harina"
+            ]
+        },
+        {
+            "nombre": "Huracan Jery",
+            "ingredientes": [
+                "100 Gr Pan De Campo",
+                "50 Gr Tomate",
+                "30 Ml Aceite De Oliva",
+                "0,5 Paq. Rucula",
+                "100 Muzzalmendra",
+                "30 Gr Girgolas",
+                "0,5 Cibullete"
+            ]
+        },
+        {
+            "nombre": "Kale Style",
+            "ingredientes": [
+                "\u2022100 Gr Kale",
+                "50 Gr Hummus Clasico",
+                "30 Gr Zuchini",
+                "30 Gr Semillas De Girasol",
+                "50 Gr Cebolla Morada",
+                "100 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Paella Black",
+            "ingredientes": [
+                "100 Gr Arroz Carnaroli",
+                "60 Gr Cebolla",
+                "60 Gr Morron Rojo",
+                "60 Gr Morron Verde",
+                "50 Gr Verdeo",
+                "60 Gr Cebolla Morada",
+                "50 Ml Vino Blanco",
+                "4 Pz Tinta De Calamar",
+                "100 Gr Langostinos",
+                "100 Gr Tentaculos",
+                "60 Gr Vieyras",
+                "100 Mejillones",
+                "60 Gr Mejillones Media Alva",
+                "80 Gr Limon",
+                "2 Gr Limon",
+                "2 Un. Ajos Picados"
+            ]
+        },
+        {
+            "nombre": "Pan De Papa Vegano",
+            "ingredientes": [
+                "300 Harina",
+                "25 Levadura",
+                "10 Azucar",
+                "5 Sal",
+                "50 Aceite",
+                "100 Papa",
+                "100 Leche",
+                "50 Espinaca",
+                "119 Remolacha",
+                "100 Calabaza"
+            ]
+        },
+        {
+            "nombre": "Pinchos De Pollo",
+            "ingredientes": [
+                "425 Gr Suprema De Pollo",
+                "130 Gr Cereales",
+                "255 Gr Panco",
+                "2 Gr Pimenton",
+                "25 Gr Salsa De Soja",
+                "50 Gr Mostaza",
+                "0,1 Pz Ajo",
+                "17 Gr Maizena"
+            ]
+        },
+        {
+            "nombre": "Tabla De Campo",
+            "ingredientes": [
+                "65 Gr Trufas De Queso",
+                "50 Gr Longaniza",
+                "50 Gr Lomito",
+                "40 Gr Batata Crocante",
+                "5 Gr Lechuga",
+                "210 Gr Pan De Campo",
+                "50 Gr Queso Brie",
+                "145 Gr Sushi De Campo",
+                "30 Gr Jamon Natural",
+                "26 Gr Jamon Crudo",
+                "27 Gr Salame Fuet",
+                "40 Gr Aceitunas Rellenas",
+                "85 Gr Matambre",
+                "3 Pz Empanadas Criollas",
+                "40 Gr Queso Gruyere"
+            ]
+        },
+        {
+            "nombre": "Tabla Liverpool",
+            "ingredientes": [
+                "1 Roll De Ternera",
+                "1 Roll De Falafel",
+                "6 Und Pincho De Pollo",
+                "3 Pz Empanada De Calamar",
+                "100 Gr Batatas Crocantes",
+                "100 Gr Falafel",
+                "6 Und Bastoncitos De Muzzarella",
+                "150 Gr De Bue\u00f1uelos De Espinaca",
+                "3 Pz Knishes De Roquefort",
+                "3 Pz Pollito Gordon Blue",
+                "4 Pz Croqueta De Arroz",
+                "50 Gr Hummus Clasico",
+                "50 Gr Hummus Remolacha",
+                "50 Gr Hummus De Garbanzos"
+            ]
+        },
+        {
+            "nombre": "Tabla Poseidon",
+            "ingredientes": [
+                "150 Gr Rabas",
+                "75 Gr Hummus Clasico",
+                "60 Gr Vieyras",
+                "2 Pz Croquetas De Calamar",
+                "2 Pz Coulibiac De Salmon",
+                "130 Gr De Berenjenas",
+                "60 Gr Morron Amarillo",
+                "60 Gr Morron Rojo",
+                "40 Gr Verdeo",
+                "100 Gr Tentaculos",
+                "50 Gr Langostinos",
+                "50 Gr Salmon",
+                "50 Gr Ricota",
+                "Salmon",
+                "60 Gr Trucha"
+            ]
+        },
+        {
+            "nombre": "Trilogia Vegana",
+            "ingredientes": [
+                "3 Pz Panes Veganos",
+                "0,3 Paq Rucula",
+                "12 Gr Lechuga",
+                "30 Gr Cebolla Morada",
+                "15 Gr Hummus Clasico",
+                "20 Gr Cebolla Crocante",
+                "46 Gr De Pepino",
+                "30 Gr Falafel",
+                "21 Gr Muzzalmendra",
+                "26 Gr Cebolla Caramelizada",
+                "60 Gr Tomate",
+                "1 Pz Hamburguesa De Quinoa",
+                "30 Gr Yogurt Natural",
+                "50 Gr Garbanzos"
+            ]
+        },
+        {
+            "nombre": "Veggie Toledo",
+            "ingredientes": [
+                "50 Gr Papa",
+                "30 Ml Aceite De Oliva",
+                "50 Gr Queso Crema",
+                "50 Gr Queso Roquefort",
+                "0,5 Rucula",
+                "40 Gr Champi\u00f1ones",
+                "150 Gr Pan De Campo"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Calabaza",
+            "ingredientes": [
+                "30 Gr Lechuga",
+                "42 Gr Queso Parmesano",
+                "10 Gr Semilla De Zapallo",
+                "\u00bd Paq Rucula",
+                "130 Gr Tomate Disecado",
+                "150 Gr Calabaza"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Cous Cous",
+            "ingredientes": [
+                "70 Gr Trigo Burgol",
+                "100 Gr Tomate Disecado",
+                "106 Gr Cebolla Caramelizada",
+                "\u00bd Paq Rucula",
+                "116 Gr Zanahorias Azadas",
+                "11 Gr Ciruela",
+                "150 Gr Berenjenas Salteadas",
+                "1 Und Huevo",
+                "5 Gr Mostaza",
+                "10 Gr Miel"
+            ]
+        },
+        {
+            "nombre": "Ensalada De Gambas",
+            "ingredientes": [
+                "132 Gr Gambas",
+                "40 Gr Rabanito",
+                "20 Gr Lechuga",
+                "40 Gr Cebolla Morada",
+                "5 Gr Cilantro",
+                "50 Gr Palta",
+                "35 Gr Escarola",
+                "\u00bd Paq Rucula",
+                "57 Gr Tomate Cherrys Amarillos"
+            ]
+        },
+        {
+            "nombre": "Ensalada Mediterranea",
+            "ingredientes": [
+                "140 Gr Berenjenas",
+                "150 Gr Zuchini",
+                "106 Gr Tomate Disecado",
+                "125 Gr Muzza De Bufala",
+                "15 Gr Acuituna Negra",
+                "20 Gr Albahaca",
+                "\u00bd Paq. Rucula"
+            ]
+        },
+        {
+            "nombre": "Ensalada Primavera",
+            "ingredientes": [
+                "140 Gr Berenjenas",
+                "150 Gr Zuchini",
+                "106 Gr Tomate Disecado",
+                "125 Gr Muzza De Bufala",
+                "15 Gr Acuituna Negra",
+                "20 Gr Albahaca",
+                "\u00bd Paq. Rucula"
+            ]
+        },
+        {
+            "nombre": "Ensalada The Clash",
+            "ingredientes": [
+                "2 Paq. De Rucula",
+                "40 Gr Queso Parmesano",
+                "130 Gr Pollo",
+                "65 Gr Crutones",
+                "50 Gr Salsa Cesar"
+            ]
+        },
+        {
+            "nombre": "Rochester",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr De Carne",
+                "80 Gr Cebolla Crispy",
+                "1 Huevo",
+                "50 Gr Panceta",
+                "30 Queso Chedar",
+                "42 Gr Cebolla Caramelizada",
+                "15 Gr Salsa Alioli",
+                "250 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Raclette",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Carne",
+                "60 Gr Cebolla Crocante",
+                "15 Gr Alioli",
+                "80 Gr Tomate Confitado",
+                "150 Gr Raclette",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Not Brixton",
+            "ingredientes": [
+                "1 Und Not Burger",
+                "40 Gr Girgolas",
+                "30 Gr Cebolla Morada",
+                "50 Gr Muzzalmendra",
+                "200 Gr Papa Fritas",
+                "1 Pz Pan Vegano"
+            ]
+        },
+        {
+            "nombre": "Mick Crispy",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "150 Muzzarella",
+                "150 Gr Medallon De Pollo",
+                "15 Gr Alioli",
+                "60 Gr Cebolla Crocante",
+                "80 Cebolla Morada",
+                "30 Gr Lechuga",
+                "15 Gr Barbacoa",
+                "30 Gr Batata Crocante",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Kenton",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "240 Carne",
+                "20 Gr Queso Parmesano",
+                "15 Gr Salsa Alioli",
+                "20 Gr Lechuga",
+                "25 Gr Tomate Confitado",
+                "25 Gr Guacamole",
+                "20 Gr Cebolla Morada",
+                "1 Aro De Cebolla",
+                "10 Gr De Chips De Batata"
+            ]
+        },
+        {
+            "nombre": "Hamburguesa De Quinoa",
+            "ingredientes": [
+                "260 Gr Semillas De Quinoa",
+                "150 Gr Verdeo",
+                "900 Gr Harina De Garbanzos",
+                "50Gr Perejil",
+                "200 Gr Morron Rojo",
+                "215 Gr Cebolla",
+                "1 Pz Ajo",
+                "15Gr Zanahoria",
+                "10Gr Rucula",
+                "25Gr Tomate Redondo",
+                "Cilantro"
+            ]
+        },
+        {
+            "nombre": "Hamburguesa De Falafel",
+            "ingredientes": [
+                "266 Gr Garbanzos",
+                "400 Gr Cebolla",
+                "Perejil",
+                "Ajo",
+                "300Gr Harina",
+                "5Gr Polvo De Hornear",
+                "4Gr Comino",
+                "Cilantro"
+            ]
+        },
+        {
+            "nombre": "Gastoni",
+            "ingredientes": [
+                "1 Pz Platano",
+                "200 Gr Carne Tiernizada",
+                "50 Gr Queso Parmesano",
+                "30 Gr Cebolla Morada",
+                "30 Gr Guacamole",
+                "30 Gr Salsa Alioli",
+                "150 Gr Batata Crocante"
+            ]
+        },
+        {
+            "nombre": "Daniels",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "35 Gr De Muzzarella",
+                "15 Gr Salsa Alioli",
+                "30 Gr Pepinillo Agridulces",
+                "30 Gr Cebolla Crocante"
+            ]
+        },
+        {
+            "nombre": "Clasica",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "80 Gr Muzzarela",
+                "15 Gr Salsa Alioli",
+                "300 Gr Papa Frita"
+            ]
+        },
+        {
+            "nombre": "Cheese",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr Carne",
+                "100 Gr Queso Chedar",
+                "15 Gr Alioli",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Brixton",
+            "ingredientes": [
+                "11 Gr Lechuga",
+                "30 Gr De Tomate Confitado",
+                "1 Pan De Papa",
+                "50 Gr Panceta",
+                "30 Gr Queso Chedar",
+                "120 Gr Carne",
+                "42 Gr Cebolla Caramelizada",
+                "15 Gr Alioli",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Bridge",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "120 Gr De Carne",
+                "15 Gr Salsa Alioli",
+                "40 Gr Pepinillos Agridulces",
+                "60 Gr Cebolla Caramelizada",
+                "300 Gr Papas Fritas"
+            ]
+        },
+        {
+            "nombre": "Bbq Queen",
+            "ingredientes": [
+                "1 Pan De Papa",
+                "15 Gr Salsa Alioli",
+                "120 Gr Carne Tiernizada",
+                "15 Gr Barbacoa",
+                "30 Gr Tomate Confitado",
+                "30 Gr Lechuga",
+                "30 Gr Panceta",
+                "50 Gr Queso Chedar",
+                "250 Gr Papa Frita"
+            ]
+        },
+        {
+            "nombre": "Agnolotis De Berenjena",
+            "ingredientes": [
+                "Berenjenas",
+                "Papa",
+                "Harina",
+                "Huevo",
+                "Queso Sardo",
+                "Aceite De Oliva",
+                "Puerro",
+                "Manteca"
+            ]
+        },
+        {
+            "nombre": "Agnolotis De Langostinos",
+            "ingredientes": [
+                "1100 Gr Langostinos",
+                "180 Gr Ciruela",
+                "900 Gr Queso Crema",
+                "50 Gr Perejil",
+                "120 Gr Crema De Leche",
+                "3 Un. Huevos",
+                "0,5 Caldo",
+                "100 Ml Vino Blanco",
+                "120 Ml Martini Extra Dry",
+                "750 Gr Harina",
+                "20 Gr Sal"
+            ]
+        },
+        {
+            "nombre": "Lasagna",
+            "ingredientes": [
+                "1000 Gr Ricota",
+                "28Un. Huevo",
+                "1000 Gr Salsa Blanca",
+                "300 Gr Jamon Cocido",
+                "2500 Gr Cebolla",
+                "700 Gr Morron Rojo",
+                "120 Gr Verdeo",
+                "2 Pz. Caldo",
+                "1200Gr Carne Tiernizada",
+                "50 Gr Queso Regianito",
+                "1160 Gr Muzarella",
+                "14 Pz Masa De Lasagna"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis De Batata",
+            "ingredientes": [
+                "2K De Batata",
+                "800 Harina",
+                "130 Queso",
+                "15 Sal",
+                "1 Pzc Nuez Moscada",
+                "200 Roquefort",
+                "600 Muzzarella",
+                "2 Huevos",
+                "1 Yema"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis De Espinaca",
+            "ingredientes": [
+                "2000 Gr Espinaca",
+                "900 Harina",
+                "1 Gr Nuez Moscada",
+                "2 Unid. Huevo",
+                "50 Gr Queso Sardo",
+                "2 Paq. Espinaca",
+                "10 Gr Sal Fina",
+                "700 Gr Muzzarella",
+                "200 Gr Jamon Cocido",
+                "1600 Ml Salsa Fileto"
+            ]
+        },
+        {
+            "nombre": "\u00d1oquis Veganos",
+            "ingredientes": [
+                "2000 Gr Papa",
+                "80 Gr Albahaca",
+                "400 Gr Harina De Garbanzos",
+                "200 Gr Harina",
+                "30 Gr Sal Fina",
+                "550 Gr Muzzalmendras",
+                "100 Almendras",
+                "200 Gra Semolin",
+                "1 Pz Salsa Vegana"
+            ]
+        },
+        {
+            "nombre": "Ravioles De Verdura",
+            "ingredientes": [
+                "800 Gr Harina",
+                "20 Gr Sal Fina",
+                "2 Paq Espinaca",
+                "8 Und Huevo",
+                "300 Gr Semolin",
+                "4Paq Espinaca",
+                "760 Gr Puerros",
+                "150 Manteca",
+                "1 Pz Caldos",
+                "600 Gr Ricota",
+                "60 Queso Reggianito",
+                "12 Porc. Salsa Gruyere"
+            ]
+        },
+        {
+            "nombre": "Sorrentinos De Calabaza",
+            "ingredientes": [
+                "4000 Gr Calabaza",
+                "600 Gr Muzzarela",
+                "2 Paq Espinaca",
+                "400 Gr Harina",
+                "4 Und Huevo",
+                "200 Gr Queso Sardo",
+                "1600 Gr Salsa Blanca",
+                "1600 Gr Salsa Fileto"
+            ]
+        },
+        {
+            "nombre": "Sorrentinos De Salmon",
+            "ingredientes": [
+                "1000Gr De Salmon",
+                "330 Gr Puerro",
+                "100 Gr Crema De Leche",
+                "55 Gr Manteca",
+                "55 Ml Vino Blanco",
+                "15 Gr Echalote",
+                "10 Gr Kale",
+                "290 Gr Kanicama",
+                "14 Ml Crema De Puerro"
+            ]
+        },
+        {
+            "nombre": "Pizza Americana",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceitunas Negras",
+                "300 Gr Queso Chedar",
+                "150 Gr Panceta",
+                "180 Gr Verdeo",
+                "10Gr Perejil"
+            ]
+        },
+        {
+            "nombre": "Bendita Pizza",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "250 Gr De Muzzalmendra",
+                "150Gr Tomate Confitado",
+                "\u00bc Paq Albahaca",
+                "50Gr Aceitunas Negras"
+            ]
+        },
+        {
+            "nombre": "Pizza Especial",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "5 Gr Oregano",
+                "50 Gr Aceitunas Negras",
+                "160 Gr Morron Rojo",
+                "150 Gr Jamon Cocido",
+                "3 Und Huevo",
+                "5Gr Oregano",
+                "10Gr Perejil"
+            ]
+        },
+        {
+            "nombre": "Pizza Fior Di Latte",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceituna Negra",
+                "100 Gr Jamon Crudo",
+                "2 Paq Rucula",
+                "80 Gr Queso Parmesano",
+                "300 Gr Tomate Confitado"
+            ]
+        },
+        {
+            "nombre": "Pizza Fugaza Rellena",
+            "ingredientes": [
+                "2 Pz Bollo De Pizza",
+                "400 Gr Muzzarella",
+                "50 Gr Aceitunas Negras",
+                "426 Gr De Cebolla",
+                "15 Gr Oliva",
+                "5Gr Oregano",
+                "10 Gr Perejil",
+                "50 Gr Queso Parmesano"
+            ]
+        },
+        {
+            "nombre": "Pizza Napolitana",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400Gr Muzzarella",
+                "470 Tomate",
+                "20Gr Perejil",
+                "10Gr Ajo",
+                "50Gr Aceitunas Verdes",
+                "15Gr Oliva"
+            ]
+        },
+        {
+            "nombre": "Pizza Tradicional",
+            "ingredientes": [
+                "1 Pz Bollo De Pizza",
+                "400 Gr De Muzzarella",
+                "5 Gr Oregano",
+                "50 Gr Aceituna Verde"
+            ]
+        },
+        {
+            "nombre": "Roll Cesar",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "100 Gr Pollo",
+                "60 Gr Croutons",
+                "90 Gr Kale",
+                "50 Gr Queso Reggianito"
+            ]
+        },
+        {
+            "nombre": "Salsa Cesar",
+            "ingredientes": [
+                "50 Gr Crema De Leche",
+                "1 Anchoa",
+                "2 Ajos",
+                "50 Gr Mayonesa"
+            ]
+        },
+        {
+            "nombre": "Kebab De Falafel",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "75 Gr De Repollo Blanco",
+                "20 Gr Pepino",
+                "0,3 Cilantro",
+                "10 Gr Cebolla Morada",
+                "30 Gr Limon",
+                "30 Gr Yogurth Natural",
+                "50 Gr Hummus Clasico",
+                "150 Gr Falafel",
+                "15 Gr Lechuga",
+                "40 Gr Kale"
+            ]
+        },
+        {
+            "nombre": "Roll Vegano",
+            "ingredientes": [
+                "2 Un. Fajitas",
+                "50Gr Kale",
+                "70 Gr Tomate",
+                "50 Gr Muzzalmendras",
+                "50 Gr Garbanzos",
+                "2 Pz Hamburguesa De Quinoa",
+                "15 Gr Semillas De Girasol"
+            ]
+        },
+        {
+            "nombre": "Wrap De Ternera",
+            "ingredientes": [
+                "500Gr Carne",
+                "195 Morron Rojo",
+                "550 Cebolla Morada",
+                "120 Cebolla Comun",
+                "200 Cebolla De Verdeo",
+                "50 Gr Chedar",
+                "900 Tomate",
+                "Rucula",
+                "200 Gr Tomate Disecado",
+                "150 Barbacoa",
+                "11Gr Sal Gruesa",
+                "1 \u00bd Cilantro"
+            ]
+        },
+        {
+            "nombre": "Bocha De Helado",
+            "ingredientes": [
+                "100 Gr Helado De Americana",
+                "15 Ml Salsa De Chocolate",
+                "15 Gr Frutilla",
+                "20 Gr Chocolinas",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Brownie Con Helado",
+            "ingredientes": [
+                "1 Und Brownie",
+                "140 Gr Helado De Americana",
+                "20 Gr Chocolinas",
+                "30 Gr Frutilla",
+                "36 Ml Salsa De Chocolate",
+                "Menta",
+                "Flores Comestibles"
+            ]
+        },
+        {
+            "nombre": "Brownie Vegano",
+            "ingredientes": [
+                "1 Und Brownie",
+                "50 Lm Crema Vegetal",
+                "Menta",
+                "30 Gr Frutilla",
+                "Flores Comestibles",
+                "50 Gr Frutos Rojos"
+            ]
+        },
+        {
+            "nombre": "Chocotorta",
+            "ingredientes": [
+                "500 Gr Chocolinas",
+                "1000 Gr Queso Crema",
+                "1000 Gr Dulce De Leche",
+                "300 Gr Crema De Leche",
+                "30 Gr Frutilla",
+                "500 Ml Leche"
+            ]
+        },
+        {
+            "nombre": "Creme Brule",
+            "ingredientes": [
+                "1000 Ml Leche",
+                "1000 Ml Crema De Leche",
+                "28 Und Huevo",
+                "300 Gr Azucar",
+                "15 Gr Escencia De Vainilla",
+                "15 Gr Frutilla",
+                "10 Gr Dulce De Leche"
+            ]
+        },
+        {
+            "nombre": "Cremoso De Chocolate Blanco",
+            "ingredientes": [
+                "200 Gr Chocolate Blanco",
+                "26 Und Huevo",
+                "1800 Gr Crema De Leche",
+                "1000 Gr Leche",
+                "30 Gr Maracuya",
+                "500 Gr Azucar",
+                "30 Gr Frutilla"
+            ]
+        },
+        {
+            "nombre": "Flan",
+            "ingredientes": [
+                "8 Und Huevo",
+                "500 Gr Azucar",
+                "1000 Gr Leche",
+                "1 Gr Esencia De Vainilla",
+                "200 Gr Crema De Leche",
+                "200 Gr Dulce De Leche",
+                "150 Gr Frutilla"
+            ]
+        },
+        {
+            "nombre": "Frutillas Con Crema",
+            "ingredientes": [
+                "150 Gr Frutilla",
+                "150 G Crema De Leche",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Panqueques",
+            "ingredientes": [
+                "100 Ml Leche",
+                "5 Und Huevo",
+                "200 Gr Harina",
+                "50 Gr Manteca",
+                "40 Ml Salsa De Chocolate",
+                "25 Gr Azucar",
+                "30 Gr Frutilla",
+                "900 Gr Dulce De Leche"
+            ]
+        },
+        {
+            "nombre": "Puddin De Chia",
+            "ingredientes": [
+                "110 Gr De Semillas De Chia",
+                "1000 Ml Leche De Almendras",
+                "250 Gr Frutos Rojos",
+                "180 Gr Granola",
+                "350 Gr Crema Vegetal",
+                "30 Gr Frutilla",
+                "Menta"
+            ]
+        },
+        {
+            "nombre": "Trifle De Baileys",
+            "ingredientes": [
+                "15 Und Brownies",
+                "50 Ml Salsa De Chocolate",
+                "100 Gr Frutilla",
+                "Menta",
+                "300 Ml Bailyes",
+                "150 Gr Azucar",
+                "1500 Gr Crema De Leche",
+                "230 Gr Dulce De Leche",
+                "100 Gr Cacao En Polvo"
+            ]
+        },
+        {
+            "nombre": "Volcan De Chocolate",
+            "ingredientes": [
+                "1 Pz Volcan De Chocolate",
+                "140 Gr Helado De Americana",
+                "2 Gr Azucar Impalpable",
+                "15 Ml Salsa De Chocolate",
+                "10 Gr Frutilla",
+                "Flores Comestibles"
+            ]
+        }
+        
+          ]         
+        }
