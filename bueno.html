@@ -41,7 +41,7 @@
     const trago = titleCase(query);
     let receta = '';
 
-    fetch('./recetas.json')
+    fetch('./cocina.json')
       .then(response => response.json())
       .then(data => {
         const recipes = data.tragos;
