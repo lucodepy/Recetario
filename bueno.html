@@ -41,10 +41,10 @@
     const trago = titleCase(query);
     let receta = '';
 
-    fetch('./cocina.json')
+    fetch('./recetario.json')
       .then(response => response.json())
       .then(data => {
-        const recipes = data.platos;
+        const recipes = data.recetas;
 
         for (let i = 0; i < recipes.length; i++) {
           const recipe = recipes[i];
