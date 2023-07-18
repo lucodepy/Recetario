@@ -5,23 +5,39 @@
   <link rel="stylesheet" type="text/css" href="./static/styles.css">
 </head>
 <body>
+  <div class="barra-superior"></div>
   <div class="container">
-    <div class="centered-wrapper">
-      <div class="large-rectangle"></div>
-    </div>
-    <div class="barra-superior">
-      <img src="./static/nombre.png" alt="Imagen del trago" class="logo">
-    </div>
-    <div class="input-wrapper">
-      <form onsubmit="handleSubmit(event)">
-        <input type="text" id="input-query" class="input-consulta" placeholder="Ingrese el trago a consultar">
-        <button type="submit" class="enter-button"></button>
-      </form>
-    </div>        
-    <div class="small-rectangle">
-      <p>Consultar un trago te dará el detalle de los ingredientes y sus cantidades y presentará una foto ilustrativa de cómo debe ser el resultado final.</p>
-    </div>        
+
+  <div class="button-wrapper">
+    <button class="button">
+      <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
+    </button>
+    <button class="button">
+      <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
+    </button>
   </div>
+  <div class="input-wrapper">
+    <form onsubmit="handleSubmit(event)">
+      <div class="input-container">
+        <input type="text" id="input-query" class="input-consulta" placeholder="Ingrese el trago a consultar" autocomplete="off">
+        <button type="submit" class="enter-button"></button>
+      </div>
+    </form>
+  </div>
+  <div class="linea"></div>
+  <div class="input-container">
+    <input type="text" class="input-half" placeholder="Filtra por ingrediente" autocomplete="off">
+    <button class="input-half-button"></button>
+    <select class="select-custom">
+      <option value="" disabled selected>Filtra por metodo</option>
+      <option value="Directo">Directo</option>
+      <option value="Frozen">Frozen</option>
+      <option value="Tiki">Tiki</option>
+    </select>
+  </div>
+</div>
+      
+      
 
   <script>
     function handleSubmit(event) {
