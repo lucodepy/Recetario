@@ -190,22 +190,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 2vw; /* Reducción del padding en dispositivos móviles */
+  }
 
-/* Estilos para pantallas pequeñas (dispositivos móviles) */
-@media (max-width: 480px) {
-  .input-half {
-    order: 1; /* Cambia el orden de los elementos */
-    margin-top: 1rem; /* Ajusta el margen superior */
+  .input-half-button {
+    left: 50%; /* Centrar el botón en dispositivos móviles */
+    transform: translateX(-50%);
   }
-  
-  .select-custom {
-    order: 2; /* Cambia el orden de los elementos */
+
+  .button {
+    font-size: 3vw; /* Aumentar el tamaño de fuente en dispositivos móviles */
   }
-  
-  .input-consulta,
-  .input-half {
-    font-size: 2vw; /* Ajusta el tamaño de fuente */
-  }
-  
-  /* Otros estilos específicos para pantallas pequeñas */
 }
