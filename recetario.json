@@ -719,6 +719,43 @@
                 "Jugo de Limon: 30 ml"
             ]
           },
+ {
+            "nombre": "Caisara",
+            "ingredientes": [
+                "Anana: 90 ml",
+                "Cachaça: 60 ml",
+                "Frangelico: 30 ml",
+                "Lima: 30 ml",
+                "Bitter Angostura: 5 ml",
+                "Syrup Neutro: 30 ml",
+                "Garnish: Menta y piel de Lima"
+            ]
+          },
+ {
+            "nombre": "Pomelada de Frambuesa",
+            "ingredientes": [
+                "Jugo de Frambuesa: 90 ml",
+                "Jugo de Pomelo: 60 ml",
+                "Infusion de Hibisco: 60 ml",
+                "Jugo de Limon: 5 ml",
+                "Very Berries: 15 ml",
+                "Syrup Neutro: 15 ml",
+                "Agua: 90 ml"
+            ]
+          },
+ {
+            "nombre": "All Blue",
+            "ingredientes": [
+                "Bianco 22 ml",
+                "Bitter Oak: 4 golpes",
+                "Vodka: 60 ml",
+                "Anana: 60 ml",
+                "Jugo de Limon: 22 ml",
+                "Syrup Blue: 30 ml",
+                "Lima: 1 Trocito",
+                "Garnish: Medio Labiado de Sal del Himalaya y Piel de Limon"
+            ]
+          },
         {
             "nombre": "Barcelona Style",
             "ingredientes": [
