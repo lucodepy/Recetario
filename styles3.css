@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #edeff2;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 100vw;
+    min-height: 200px;
+    margin: 0 auto;
+  }
+  
+  .barra-superior {
+    width: 100vw;
+    height: 18vh;
+    background-color: #5D3F44;
+    background-image: url('./nombre.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 50vh;
+  }
+  
+  .logo {
+    width: 359px;
+    height: 111px;
+  }
+  
+  .input-wrapper {
+    width: 100%; /* Aprovecha el ancho total */
+    position: absolute;
+    bottom: 8vh; /* Coloca en la parte inferior con margen */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-consulta {
+    width: 50vw; /* Reduzco el ancho para dejar espacio al botón */
+    height: 6vh;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 0px 2px 0px rgba(0, 4, 0, 0.5);
+    font-size: 2vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: #B13157;
+    border: none;
+    border-radius: 1.5vw;
+    border: 2px solid #B13157;
+    outline: none;
+  }
+
+.input-consulta::placeholder {
+    color: #B13157;
+    font-size: 2vw;
+  }
+  
+  .input-consulta::selection {
+    background-color: #B13157;
+    color: #121212;
+  }
+
+  .enter-button {
+    position: absolute;
+    top: 50%;
+    right: 26vw;
+    transform: translateY(-50%);
+    width: 3vw;
+    height: 70%;
+    background-color: transparent;
+    background-image: url('./glass (3).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .no-trago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    z-index: 3;
+    
+  }
+  
+  .no-trago img {
+    width: 70vh;
+  }
+  
+  .no-trago p {
+    margin-top: 5vh;
+    font-size: 2vw;
+    color: #DBAFB8;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+  }
+  
