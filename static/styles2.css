@@ -83,10 +83,11 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #e19ca9 #853449;
   position: absolute;
-  padding: 0 1vw; /* Espacio interno */
+  padding: 1vw; /* Espacio interno */
   box-sizing: border-box; /* Contabilizar el espacio del borde en el tamaño */
   font-size: 1.5vw;
   text-align: left;
+  color: #DBAFB8;
   scrollbar-width: thin;
   scrollbar-color: #DBAFB8 #121212; /* Color de la barra y del fondo */
 }
@@ -136,6 +137,7 @@ body {
 
 .foto {
   position: relative;
+  top: 20px;
 }
 
 .button {
