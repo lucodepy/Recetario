@@ -1,0 +1,170 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #edeff2;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.centered-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra-superior {
+  width: 100vw;
+  height: 18vh;
+  background-color: rgba(69, 47, 51, 0.9); /* Fondo transparente */
+  background-image: url('./nombre.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 50vh;
+}
+
+
+.rectangle-name {
+  position: absolute;
+  width: 342px;
+  height: 50px;
+  background-color: transparent; /* Fondo transparente */
+  border: 2px solid #B13157; /* Borde de color */
+  border-radius: 1.5vw; /* Borde redondeado */
+  background-image: url(./glass\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  background-size: 35px auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: -230px;
+  margin-left: 350px;
+  z-index: 4;
+  padding: 0 1vw; /* Espacio interno */
+  box-sizing: border-box; /* Contabilizar el espacio del borde en el tamaño */
+  font-size: 1.5vw;
+  text-align: left;
+  color: #B13157;
+  outline: none;
+}
+
+.rectangle {
+  width: 342px;
+  height: 350px;
+  background-color: transparent; /* Fondo transparente */
+  border: 2px solid #DBAFB8; /* Borde de color */
+  border-radius: 1.5vw; /* Borde redondeado */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 180px;
+  margin-left: -350px;
+  z-index: 3;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #e19ca9 #853449;
+  position: absolute;
+  padding: 1 1vw; /* Espacio interno */
+  box-sizing: border-box; /* Contabilizar el espacio del borde en el tamaño */
+  font-size: 1.5vw;
+  text-align: left;
+  color: #DBAFB8;
+  scrollbar-width: thin;
+  scrollbar-color: #DBAFB8 #121212; /* Color de la barra y del fondo */
+}
+
+.rectangle::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+.rectangle::-webkit-scrollbar-track {
+  background-color: #121212; /* Color del fondo de la barra de desplazamiento */
+}
+
+.rectangle::-webkit-scrollbar-thumb {
+  background-color: #DBAFB8; /* Color de la barra de desplazamiento */
+}
+
+.rectangle-img {
+  width: 342px;
+  height: 342px;
+  background-color: transparent; /* Fondo transparente */
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  margin-left: 350px;
+  z-index: 3;
+  position: absolute;
+  border-radius: 1.5vw; /* Borde redondeado */
+  border: 2px solid #e19ca9; /* Borde de color */
+  background-image: url(./camera.png);
+  background-repeat: no-repeat;
+  background-size: 40px; /* Ajusta el tamaño de la imagen */
+  background-position: calc(100% - 15px) calc(0% + 10px);
+}
+
+.text-output {
+  color: #edeff2;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+.foto {
+  position: relative;
+  top: 20px;
+}
+
+.button {
+  width: 60px; /* Cambia el ancho según sea necesario */
+  height: 40px; /* Cambia la altura según sea necesario */
+  background-color: transparent;
+  border: 2px solid #5D3F44;
+  border-radius: 5px; /* Bordes redondeados */
+  color: #5D3F44;
+  font-size: 16px; /* Tamaño de fuente */
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./flechanew (1).png');
+  background-repeat: no-repeat;
+  background-size: 65%; /* Tamaño de la imagen de fondo */
+  background-position: center ;
+  transform: translateX(-480%) translateY(-260%);
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 2vw;
+  }
+}
