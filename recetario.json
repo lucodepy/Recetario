@@ -850,6 +850,66 @@
 
 
           {
+            "nombre": "Milkshake Oreo",
+            "ingredientes": [
+              "Hielo: 250 gr",
+              "Azucar: 2 cucharadas",
+              "Oreo: 2 unidades",
+              "Helado de crema americana: 1 bocha",
+              "Leche: 120 ml",
+              "Garnish: 1 oreo"
+            ]
+          },
+          {
+            "nombre": "Milkshake Brixton",
+            "ingredientes": [
+              "Hielo: 250 gr",
+              "Azucar: 2 cucharadas",
+              "Frutos Rojos: 2 cucharadas",
+              "Helado de crema americana: 1 bocha",
+              "Leche: 120 ml",
+              "Garnish: 1 bocha de helado, penacho de Menta y Frutos rojos"
+            ]
+          },
+          {
+            "nombre": "Amarillo",
+            "ingredientes": [
+              "Hielo: 250 gr",
+              "Azucar: 2 cucharadas",
+              "Curcuma: 1 cucharada",
+              "Banana: media unidad",
+              "Maracuya: 90 ml",
+              "Jugo de naranja exprimido: 100 ml",
+              "Garnish: penacho de Menta y piel de naranja"
+            ]
+          },
+          {
+            "nombre": "Verde",
+            "ingredientes": [
+              "Hielo: 250 gr",
+              "Azucar: 2 cucharadas",
+              "Curcuma: 1 cucharada",
+              "Manzana Verde: media unidad",
+              "Apio: 1 Rama",
+              "Menta: 1 Rama",
+              "Jugo de naranja exprimido: 90 ml",
+              "Garnish: penacho de Menta y manzana verde cortada"
+            ]
+          },
+          {
+            "nombre": "Licuado Al Agua",
+            "ingredientes": [
+              "Hielo: 250 gr",
+              "Azucar: 2 cucharadas",
+              "Limon: 15 ml",
+              "Fruta: 60 ml",
+              "Agua: 100 ml",
+              "Garnish: Piel de citricos y romero"
+            ]
+          },
+
+          
+          {
             "nombre": "Full To Matcha",
             "ingredientes": [
                 "Hielo: 200 gr",
