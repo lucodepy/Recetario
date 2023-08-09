@@ -75,6 +75,9 @@
           "Garnish: 1 slice de naranja (3gr)"
         ]
       },
+
+
+
       {
         "nombre": "Bloody Mary",
         "ingredientes": [
@@ -231,6 +234,9 @@
     "Vodka: 60 ml"
   ]
 },
+
+
+
     {
         "nombre": "Caipirinha",
         "ingredientes": [
@@ -308,6 +314,9 @@
           "Jager: 60 ml"
         ]
       },
+
+
+
       {
         "nombre": "Mojito Cubano",
         "ingredientes": [
@@ -349,6 +358,9 @@
           "Garnish: Menta"
         ]
       },
+
+
+
       {
         "nombre": "Mimosa",
         "ingredientes": [
@@ -387,6 +399,9 @@
           "Garnish: 1 slice de naranja (3gr)"
         ]
       },
+
+
+
       {
         "nombre": "Copa Baileys",
         "ingredientes": [
@@ -419,6 +434,9 @@
           "Ron 3 años: 60 ml"
         ]
       },
+
+
+
       {
         "nombre": "Cynar Julep",
         "ingredientes": [
@@ -478,6 +496,9 @@
           "Garnish: Piel de limon y menta"
         ]
       },
+
+
+
       {
         "nombre": "Pisco Sour",
         "ingredientes": [
@@ -524,6 +545,9 @@
             "Garnish: 8 gotas de Bitter Prohibition"
         ]
     },
+
+
+
     {
       "nombre": "Golden Cadillac",
       "ingredientes": [
@@ -570,6 +594,9 @@
           "Vodka: 60 ml"
       ]
     },
+
+
+
       {
         "nombre": "Zombie",
         "ingredientes": [
@@ -651,6 +678,9 @@
             "Garnish: piel de pomelo, penca de anana y petalos de rosa (3gr)"
           ]
         },
+
+
+
       {
         "nombre": "Monkey Island",
         "ingredientes": [
@@ -743,6 +773,9 @@
                 "Garnish: Medio Labiado de Sal del Himalaya y Piel de Limon"
             ]
           },
+
+
+
           {
             "nombre": "Black Widow",
             "ingredientes": [
@@ -797,6 +830,9 @@
                 "Ron Blanco: 50 ml"  
             ]
           },
+
+
+
           {
             "nombre": "Full To Matcha",
             "ingredientes": [
@@ -869,7 +905,9 @@
                 "Agua: 90 ml"
             ]
           },
-          ,
+
+
+
           {
             "nombre": "Jarra De Limonada",
             "ingredientes": [
@@ -917,6 +955,8 @@
                 "Agua: 200 ml"
             ]
           },
+
+
           
         {
             "nombre": "Barcelona Style",
