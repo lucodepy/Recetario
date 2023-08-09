@@ -75,6 +75,22 @@
           "Garnish: 1 slice de naranja (3gr)"
         ]
       },
+      {
+        "nombre": "Gin Tonic",
+        "ingredientes": [
+          "Hielo: 200 gr",
+          "Gin: 60 ml",
+          "Tonica: 200 ml",
+          "Classic: Piel de limón y limón deshidratado",
+          "Hurlingham: Pimienta rosa, piel de naranja y anis estrellado",
+          "Cuba Style: Café, Vainilla, rama de Canela y piel de naranja",
+          "Kent Style: Mandarina, Piel de mandarina y Tomillo",
+          "Stardust: Naranja, piel de Naranja, menta y bitter Angostura",
+          "Psycodelic: Pimienta rosa, Pitaya y piel de pomelo",
+          "Berries Mood: Frutos rojos y piel de pomelo",
+          "Pop Brixton: Pepino, Bitter de Azahar, piel de Limón y Bitter Angostura"
+        ]
+      },
 
 
 
@@ -957,7 +973,7 @@
           },
 
 
-          
+
         {
             "nombre": "Barcelona Style",
             "ingredientes": [
