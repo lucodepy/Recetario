@@ -197,6 +197,9 @@
         "Jugo de tomate: 120 ml",
         "Garnish: 1 ramita de apio, piel de limón y labiado de sal"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -208,6 +211,9 @@
         "Gin Brighton: 90 ml",
         "Garnish: Aceituna verde en pick de bamboo"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -221,6 +227,9 @@
       "Gin Tanqueray: 75 ml",
       "Garnish: 1 naranja deshidratada y 1 piel de naranja"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -235,6 +244,9 @@
       "Jim Bean: 90 ml",
       "Garnish: 1 cereza en pick de bamboo"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -247,6 +259,9 @@
       "Jim Bean: 90 ml",
       "Garnish: 1 cereza en pick de bamboo"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -261,6 +276,9 @@
       "Vodka Sernova: 60 ml",
       "Garnish: Frutos rojos en pick de bamboo (3gr)"
       ],
+      "preparacion": [
+          ""
+        ],
       "clasificacion": [
           "Clasico"
         ]
@@ -275,6 +293,9 @@
     "Red Label: 60 ml",
     "Garnish: Moneda de Jengibre y piel de Limón"
     ],
+    "preparacion": [
+        ""
+      ],
     "clasificacion": [
         "Clasico"
       ]
@@ -288,6 +309,9 @@
     "Triple Sec: 45 ml",
     "Garnish: Labiado de sal (4gr)"
   ],
+  "preparacion": [
+      ""
+    ],
   "clasificacion": [
       "Clasico"
     ]
@@ -303,6 +327,9 @@
   "Ron Blanco: 30 ml",
   "Ron de Coco: 30 ml"
   ],
+  "preparacion": [
+      ""
+    ],
   "clasificacion": [
       "Clasico"
     ]
@@ -321,6 +348,9 @@
   "Triple sec: 22,5 ml",
   "Garnish: piel de limon y 1 penacho de menta"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -334,6 +364,9 @@
   "Ginger Ale: 100 ml",
   "Garnish: Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -347,6 +380,9 @@
   "Jack Daniels: 60 ml",
   "Garnish: 1 piel de limon y 1 limon deshidratado"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -360,6 +396,9 @@
   "Cassis: 15 ml",
   "Gin: 60 ml"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -371,6 +410,9 @@
   "Gin Brighton: 90 ml",
   "Garnish: Piel de limon"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -383,6 +425,9 @@
   "Licor de Cafe Espresso: 15 ml",
   "Vodka: 60 ml"
 ],
+"preparacion": [
+    ""
+  ],
 "clasificacion": [
     "Clasico"
   ]
@@ -770,7 +815,13 @@
         "Cynar: 75 ml"
       ],
       "preparacion": [
-          ""
+          "En un 'Jarrito Julep' poner el azucar con un poco de jugo.",
+          "Agregar la menta",
+          "Agregar la bebida alcoholica.",
+          "Llenar el vaso de hielo picado.",
+          "Completar con el resto del diluyente",
+          "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+          "Decorar."
         ],
         "clasificacion": [
             "Julep"
@@ -788,7 +839,13 @@
         "Garnish: Azucar impalpable (3gr), piel de limon y un penacho de menta (2gr)"
       ],
       "preparacion": [
-          ""
+          "En un 'Vaso Julep' poner el azucar con un poco de jugo.",
+          "Agregar la menta",
+          "Agregar la bebida alcoholica.",
+          "Llenar el vaso de hielo picado.",
+          "Completar con el resto del diluyente",
+          "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+          "Decorar."
         ],
         "clasificacion": [
             "Julep"
@@ -804,7 +861,13 @@
         "Jager: 60 ml"  
       ],
       "preparacion": [
-          ""
+          "En un 'Jarrito Julep' poner el azucar con un poco de jugo.",
+          "Agregar la menta",
+          "Agregar la bebida alcoholica.",
+          "Llenar el vaso de hielo picado.",
+          "Completar con el resto del diluyente",
+          "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+          "Decorar."
         ],
         "clasificacion": [
             "Julep"
@@ -824,26 +887,11 @@
           "Garnish: Anana Deshidratada, Penacho de Menta y Piel de Limon"
       ],
       "preparacion": [
-          ""
-        ],
-        "clasificacion": [
-            "Julep"
-          ]
-    },
-    {
-      "nombre": "Mate Mundial",
-      "ingredientes": [
-        "Hielo: 250 gr",
-        "Menta: 5 gr",
-        "Jugo de limon: 15 ml",
-        "Maracuya: 30 ml",
-        "Infusion de yerba mate: 50 ml",
-        "Syrup de cedron y mandarina: 30 ml",
-        "Whisky Jameson: 60 ml",
-        "Garnish: Piel de limon y menta"
-      ],
-      "preparacion": [
-          ""
+          "En un 'Vaso Julep' poner Hielo grande.",
+          "En una coctelera agregar los todos los ingredientes y batir.",
+          "Servir en el vaso con doble colado.",
+          "Agregar un hielo roto al vaso.",
+          "Decorar."
         ],
         "clasificacion": [
             "Julep"
@@ -862,7 +910,12 @@
         "Garnish: Bitter Angostura (2ml)"
       ],
       "preparacion": [
-          ""
+        "En una copa cocktail agregar hielo y refrescar.",
+        "En una coctelera agregar el Syrup, jugo de limon y albumina.",
+        "Batir.",
+        "Agregar el alcohol y volver a batir.",
+        "Agregar hielo a coctelera y volver a batir.",
+        "Servir en la copa sin hielo, con doble colado y decorar."
         ],
         "clasificacion": [
             "Sour"
@@ -878,7 +931,12 @@
         "Garnish: Bitter Angostura (2ml)"
       ],
       "preparacion": [
-          ""
+        "En una copa cocktail agregar hielo y refrescar.",
+        "En una coctelera agregar el Syrup, jugo de limon y albumina.",
+        "Batir.",
+        "Agregar el alcohol y volver a batir.",
+        "Agregar hielo a coctelera y volver a batir.",
+        "Servir en la copa sin hielo, con doble colado y decorar."
         ],
         "clasificacion": [
             "Sour"
@@ -897,7 +955,12 @@
         "Sernova: 60 ml"
       ],
       "preparacion": [
-          ""
+        "En una copa 'Paris' agregar hielo y refrescar.",
+        "En una coctelera agregar el Syrup, los jugos y la albumina.",
+        "Batir.",
+        "Agregar los alcoholes y volver a batir.",
+        "Agregar hielo a coctelera y volver a batir.",
+        "Servir en la copa sin hielo, con doble colado y decorar."
         ],
         "clasificacion": [
             "Sour"
@@ -916,7 +979,12 @@
           "Garnish: 8 gotas de Bitter Prohibition"
       ],
       "preparacion": [
-          ""
+        "En una copa 'Paris' agregar hielo y refrescar.",
+        "En una coctelera agregar el Syrup, los jugos y la albumina.",
+        "Batir.",
+        "Agregar los alcoholes y volver a batir.",
+        "Agregar hielo a coctelera y volver a batir.",
+        "Servir en la copa sin hielo, con doble colado y decorar."
         ],
         "clasificacion": [
             "Sour"
@@ -935,7 +1003,9 @@
       "Garnish: Nuez Moscada y Cacao"
     ],
     "preparacion": [
-        ""
+      "En una copa cocktail agregar hielo y refrescar.",
+      "En una coctelera agregar los todos los ingredientes y batir.",
+      "Servir en la copa sin hielo, con doble colado y decorar."
       ],
       "clasificacion": [
           "Cremoso"
@@ -949,7 +1019,10 @@
         "Vodka: 60 ml"
     ],
     "preparacion": [
-        ""
+      "En una vaso de whisky agregar hielo grande y refrescar.",
+      "En una coctelera agregar los todos los ingredientes (menos el licor de cafe) y batir.",
+      "Servir en el vaso el contenido de la coctelera.",
+      "Agregar el licor de cafe y decorar."
       ],
       "clasificacion": [
           "Cremoso"
@@ -965,7 +1038,10 @@
       "Garnish: Crema chantilly y dos ramitas de canela"
     ],
     "preparacion": [
-        ""
+      "En una vaso de whisky agregar hielo grande y refrescar.",
+      "En una coctelera agregar los todos los ingredientes y batir.",
+      "Servir en el vaso el contenido de la coctelera.",
+      "Decorar con crema chantilly, 2 ramas de canela y una palita 3D."
       ],
       "clasificacion": [
           "Cremoso"
@@ -980,7 +1056,11 @@
       "Garnish: medio marroc rayado"
     ],
     "preparacion": [
-        ""
+      "En una vaso de whisky agregar hielo grande y refrescar.",
+      "En una coctelera agregar los todos los ingredientes y batir.",
+      "Servir en el vaso el contenido de la coctelera.",
+      "Decorar con medio marroc rayado.",
+      "Preparar en la olla hielo seco con un poco de agua y colocar el cocktail."
       ],
       "clasificacion": [
           "Cremoso"
@@ -995,7 +1075,11 @@
         "Vodka: 60 ml"
     ],
     "preparacion": [
-        ""
+      "En una vaso de whisky agregar hielo grande y refrescar.",
+      "En una coctelera pisar la banana con azucar y crema con el pizon",
+      "Agregar los todos los ingredientes (menos el licor de cafe) y batir.",
+      "Servir en el vaso el contenido de la coctelera.",
+      "Agregar el licor de cafe y decorar."
       ],
       "clasificacion": [
           "Cremoso"
@@ -1265,32 +1349,15 @@
           "nombre": "Black Widow",
           "ingredientes": [
             "Reduccion de virgen negra: 45 ml",
-            "Jagger: 15 ml",
+            "Pineral: 15 ml",
             "Cognac: 60 ml",
             "Smirnoff manzana: 120 ml",
             "Garnish: manzana en cuadrado caramelizado"
           ],
           "preparacion": [
-              ""
-            ],
-            "clasificacion": [
-                "Intenso"
-              ]
-        },
-        {
-          "nombre": "Ziggy Demon",
-          "ingredientes": [
-            "Hielo: 250 gr",
-            "Bitter Coffe: 3 golpes",
-            "Jugo de limon: 13 ml",
-            "Syrup de cedron y mandarina: 30 ml",
-            "Apricot Brandy: 13 ml",
-            "Disaronno Amaretto: 15 ml",
-            "Gin Brighton: 60 ml",
-            "Garnish: labiado de pimenton (2gr) y 2 granos de cafe"
-          ],
-          "preparacion": [
-              ""
+              "En una copa cocktail agregar hielo y refrescar.",
+              "En una coctelera agregar los todos los ingredientes y batir.",
+              "Servir en la copa sin hielo, con doble colado y decorar."
             ],
             "clasificacion": [
                 "Intenso"
@@ -1322,7 +1389,14 @@
             "Ron Dorado: 45 ml"
           ],
           "preparacion": [
-              ""
+              "En una copa cocktail agregar hielo y refrescar.",
+              "En un vaso de compos agregar hielo y refrescar.",
+              "Vaciar la copa.",
+              "Ahumar la copa con canela y leña de manzana.",
+              "Retirar el exedente de agua del vaso de compos.",
+              "Agregar los ingredientes al vaso de compos y refrescar.",
+              "Servir en copa ahumada sin hielo.",
+              "Decorar."
             ],
             "clasificacion": [
                 "Intenso"
@@ -1339,7 +1413,9 @@
               "Ron Blanco: 50 ml"  
           ],
           "preparacion": [
-              ""
+              "En una copa cocktail agregar hielo y refrescar.",
+              "En una coctelera agregar los todos los ingredientes y batir.",
+              "Servir en la copa sin hielo, con doble colado y decorar."
             ],
             "clasificacion": [
                 "Intenso"
