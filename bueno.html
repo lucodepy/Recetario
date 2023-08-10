@@ -12,24 +12,21 @@
       <output class="text-output-dos" id="query-output"></output> 
     </div> 
     <div class="rectangle-class">
-      <output class="text-output-cuatro" id="query-output"></output> 
+      <output class="text-output-cuatro" id="classification-output"></output> 
     </div> 
     <div class="back-button">
       <a href="index.html" class="back-link button"></a>
     </div>   
     <div class="rectangle">
-      <output class="text-output" id="results-output"></output>
+      <output class="text-output" id="ingredients-output"></output>
     </div>
     <div class="rectangle-other">
-      <output class="text-output-tres" id="results-output-other"></output>
+      <output class="text-output-tres" id="preparation-output"></output>
     </div>
     <div class="rectangle-img">
       <img src="" alt="Imagen del trago" class="foto" id="drink-image">
     </div>    
   </div>
-</body>
-</html>
-
 
   <script>
   function titleCase(string) {
@@ -42,7 +39,9 @@
 
   function searchRecipe(query) {
     const trago = titleCase(query);
-    let receta = '';
+    let ingredientes = '';
+    let preparacion = '';
+    let clasificacion = '';
 
     fetch('./recetas.json')
       .then(response => response.json())
@@ -52,20 +51,19 @@
         for (let i = 0; i < recipes.length; i++) {
           const recipe = recipes[i];
           if (recipe.nombre === trago) {
-            receta = recipe.ingredientes.join('<br>');
+            ingredientes = recipe.ingredientes.join('<br>');
             preparacion = recipe.preparacion.join('<br>');
             clasificacion = recipe.clasificacion.join('<br>');
             break;
           }
         }
 
-        if (receta) {
+        if (ingredientes) {
           const image_path = `./images/${encodeURIComponent(query.toLowerCase().replace(/\s/g, ""))}.png`;
-          console.log(image_path)
-          document.getElementById('query-output-dos').textContent = trago;
-          document.getElementById('results-output').innerHTML = receta;
-          document.getElementById('results-output-tres').innerHTML = preparacion;
-          document.getElementById('results-output-cuatro').innerHTML = receta;
+          document.getElementById('query-output').textContent = trago;
+          document.getElementById('classification-output').textContent = clasificacion;
+          document.getElementById('ingredients-output').innerHTML = ingredientes;
+          document.getElementById('preparation-output').innerHTML = preparacion;
           document.getElementById('drink-image').src = image_path;
         } else {
           // Redirigir a la página de error y pasar el query como parámetro
@@ -83,6 +81,6 @@
   if (query) {
     searchRecipe(query);
   }
-</script>
+  </script>
 </body>
 </html>
