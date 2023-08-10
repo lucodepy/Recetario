@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Recetario BRIXTON</title>
   <link rel="stylesheet" type="text/css" href="./static/styles2.css">
@@ -10,16 +11,25 @@
     <div class="rectangle-name">
       <output class="text-output-dos" id="query-output"></output> 
     </div> 
-      <div class="back-button">
-        <a href="index.html" class="back-link button"></a>
-      </div>   
+    <div class="rectangle-class">
+      <output class="text-output-cuatro" id="query-output"></output> 
+    </div> 
+    <div class="back-button">
+      <a href="index.html" class="back-link button"></a>
+    </div>   
     <div class="rectangle">
       <output class="text-output" id="results-output"></output>
+    </div>
+    <div class="rectangle-other">
+      <output class="text-output-tres" id="results-output-other"></output>
     </div>
     <div class="rectangle-img">
       <img src="" alt="Imagen del trago" class="foto" id="drink-image">
     </div>    
   </div>
+</body>
+</html>
+
 
   <script>
   function titleCase(string) {
@@ -34,7 +44,7 @@
     const trago = titleCase(query);
     let receta = '';
 
-    fetch('./recetario.json')
+    fetch('./recetas.json')
       .then(response => response.json())
       .then(data => {
         const recipes = data.recetas;
@@ -43,6 +53,8 @@
           const recipe = recipes[i];
           if (recipe.nombre === trago) {
             receta = recipe.ingredientes.join('<br>');
+            preparacion = recipe.preparacion.join('<br>');
+            clasificacion = recipe.clasificacion.join('<br>');
             break;
           }
         }
@@ -50,8 +62,10 @@
         if (receta) {
           const image_path = `./images/${encodeURIComponent(query.toLowerCase().replace(/\s/g, ""))}.png`;
           console.log(image_path)
-          document.getElementById('query-output').textContent = trago;
+          document.getElementById('query-output-dos').textContent = trago;
           document.getElementById('results-output').innerHTML = receta;
+          document.getElementById('results-output-tres').innerHTML = preparacion;
+          document.getElementById('results-output-cuatro').innerHTML = receta;
           document.getElementById('drink-image').src = image_path;
         } else {
           // Redirigir a la página de error y pasar el query como parámetro
@@ -72,6 +86,3 @@
 </script>
 </body>
 </html>
-
-
-GET https://lucodepy.github.io/Recetario/images/bosquede%20miel.png 404

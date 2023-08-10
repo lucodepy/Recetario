@@ -7,7 +7,17 @@
           "Coca-Cola: 250 ml",
           "Fernet Branca: 60 ml",
           "Garnish: Agitador 3D"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner hielo grande.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Campari",
@@ -15,8 +25,18 @@
           "Hielo: 200 gr",
           "Jugo de naranja exprimido: 250 ml",
           "Campari: 60 ml",
-          "Garnish: Agitador 3D"
-        ]
+          "Garnish: Agitador 3D, slice de naranja y piel de naranja"
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner hielo grande.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Cuba Libre",
@@ -24,8 +44,18 @@
           "Hielo: 200 gr",
           "Coca-Cola: 250 ml",
           "Ron: 60 ml",
-          "Garnish: Agitador 3D"
-        ]
+          "Garnish: Agitador 3D, slice de limon y piel de limon"
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner hielo grande.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Vermu Bianco",
@@ -33,8 +63,18 @@
           "Hielo: 200 gr",
           "Soda: 90 ml",
           "Carpano Bianco: 90 ml",
-          "Garnish: 1 slice de limon (3gr)"
-        ]
+          "Garnish: 1 slice de limon"
+        ],
+        "preparacion": [
+            "En un vaso de vermú o trago largo poner hielo grande.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con soda o el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Vermu Rosso",
@@ -43,7 +83,17 @@
           "Soda: 90 ml",
           "Carpano Rosso: 90 ml",
           "Garnish: 1 slice de limon (3gr)"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de vermú o trago largo poner hielo grande.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con soda o el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Vermu Ferroviario",
@@ -53,7 +103,17 @@
           "Fernet Branca: 15 ml",
           "Vermu Rosso: 75 ml",
           "Garnish: 1 slice de limon (3gr)"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de vermú o trago largo poner hielo grande.",
+            "Servir las medidas de las bebida alcoholicas.",
+            "Completar con soda o el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Vermu De La Casa",
@@ -63,7 +123,17 @@
           "Carpano Bianco: 45 ml",
           "Pineral: 45 ml",
           "Garnish: 2 cubitos de queso con pimienta y un cherry con tomillo en pick de bamboo"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de vermú o trago largo poner hielo grande.",
+            "Servir las medidas de las bebidas alcoholicas.",
+            "Completar con soda o el diluyente correspondiente.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Aperol Spritz",
@@ -73,7 +143,18 @@
           "Aperol: 60 ml",
           "Espumante Callia: 150 ml",
           "Garnish: 1 slice de naranja (3gr)"
-        ]
+        ],
+        "preparacion": [
+            "En una copa de gin o copon poner hielo grande.",
+            "Servir la medida de Aperol.",
+            "Servir el espumante casi hasta arriba",
+            "Completar con agua tonica.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
       {
         "nombre": "Gin Tonic",
@@ -89,7 +170,18 @@
           "Psycodelic: Pimienta rosa, Pitaya y piel de pomelo",
           "Berries Mood: Frutos rojos y piel de pomelo",
           "Pop Brixton: Pepino, Bitter de Azahar, piel de Limón y Bitter Angostura"
-        ]
+        ],
+        "preparacion": [
+            "En una copa de gin o copon poner hielo grande.",
+            "Servir la medida del gin correspondiente.",
+            "En caso de llevar fruta, almibar, bitter o licor agregarlo en este paso.",
+            "Completar con agua tonica.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Directo"
+            ]
       },
 
 
@@ -104,7 +196,10 @@
           "Vodka Sernova: 60 ml",
           "Jugo de tomate: 120 ml",
           "Garnish: 1 ramita de apio, piel de limón y labiado de sal"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
       },
       {
         "nombre": "Dry Martini",
@@ -112,7 +207,10 @@
           "Martini Extra Dry: 10 ml",
           "Gin Brighton: 90 ml",
           "Garnish: Aceituna verde en pick de bamboo"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
       },
     {
         "nombre": "Tanqueray Negroni",
@@ -122,7 +220,10 @@
         "Campari: 30 ml",
         "Gin Tanqueray: 75 ml",
         "Garnish: 1 naranja deshidratada y 1 piel de naranja"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
     },
     {
         "nombre": "Old Fashioned Smoked",
@@ -133,7 +234,10 @@
         "Soda: 15 ml",
         "Jim Bean: 90 ml",
         "Garnish: 1 cereza en pick de bamboo"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
     },
     {
         "nombre": "Manhattan",
@@ -142,7 +246,10 @@
         "Carpano Rosso: 15 ml",
         "Jim Bean: 90 ml",
         "Garnish: 1 cereza en pick de bamboo"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
     },
     {
         "nombre": "Cosmopolitan",
@@ -153,7 +260,10 @@
         "Licor Golden ace Parfait amour: 15 ml",
         "Vodka Sernova: 60 ml",
         "Garnish: Frutos rojos en pick de bamboo (3gr)"
-        ]
+        ],
+        "clasificacion": [
+            "Clasico"
+          ]
     },
     {
       "nombre": "Penicillin",
@@ -164,7 +274,10 @@
       "Almibar de Jengibre: 45 ml",
       "Red Label: 60 ml",
       "Garnish: Moneda de Jengibre y piel de Limón"
-      ]
+      ],
+      "clasificacion": [
+          "Clasico"
+        ]
   },
   {
     "nombre": "Margarita",
@@ -174,7 +287,10 @@
       "Tequila Jose Cuervo Silver: 20 ml",
       "Triple Sec: 45 ml",
       "Garnish: Labiado de sal (4gr)"
-    ]
+    ],
+    "clasificacion": [
+        "Clasico"
+      ]
   },
   {
     "nombre": "Piña Colada",
@@ -186,7 +302,10 @@
     "Falernum: 30 ml",
     "Ron Blanco: 30 ml",
     "Ron de Coco: 30 ml"
-    ]
+    ],
+    "clasificacion": [
+        "Clasico"
+      ]
 },
 
 {
@@ -201,7 +320,10 @@
     "Tequila: 22,5 ml",
     "Triple sec: 22,5 ml",
     "Garnish: piel de limon y 1 penacho de menta"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 {
   "nombre": "Moscow Mule",
@@ -211,7 +333,10 @@
     "Vodka: 90 ml",
     "Ginger Ale: 100 ml",
     "Garnish: Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 {
   "nombre": "Linchburg Lemonade",
@@ -221,7 +346,10 @@
     "Limon: 100 gr",
     "Jack Daniels: 60 ml",
     "Garnish: 1 piel de limon y 1 limon deshidratado"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 {
   "nombre": "Bramble",
@@ -231,7 +359,10 @@
     "Licor de petalos de rosa Golden Age: 15 ml",
     "Cassis: 15 ml",
     "Gin: 60 ml"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 {
   "nombre": "Clarito",
@@ -239,7 +370,10 @@
     "Vermout Dry: 10 ml",
     "Gin Brighton: 90 ml",
     "Garnish: Piel de limon"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 {
   "nombre": "Espresso Martini",
@@ -248,7 +382,10 @@
     "Cafe Espresso: 30 ml",
     "Licor de Cafe Espresso: 15 ml",
     "Vodka: 60 ml"
-  ]
+  ],
+  "clasificacion": [
+      "Clasico"
+    ]
 },
 
 
@@ -261,7 +398,18 @@
         "Lima: 12 gr",
         "Syrup neutro: 15 ml",
         "Cachaza: 75 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
     },
     {
         "nombre": "Caipiroska",
@@ -271,7 +419,18 @@
         "Azucar: 1 cucharada",
         "Syrup neutro: 15 ml",
         "Vodka neutro: 75 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
     },
     {
         "nombre": "Caipirissima",
@@ -282,7 +441,18 @@
           "Lima: 10 gr",
           "Syrup neutro: 15 ml",
           "Ron: 50 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
       },
       {
         "nombre": "Caipi Fruta",
@@ -294,7 +464,18 @@
           "Frutilla: 30 ml",
           "Syrup neutro: 15 ml",
           "Vodka Sernova: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
       },
       {
         "nombre": "Caipi Maracuya",
@@ -305,7 +486,18 @@
           "Maracuya: 30 ml",
           "Syrup neutro: 15 ml",
           "Vodka Sernova: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
       },
       {
         "nombre": "London Beach Caipi",
@@ -317,7 +509,18 @@
           "Syrup neutro: 15 ml",
           "Cassis: 15 ml",
           "Vodka Sernova: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
       },
       {
         "nombre": "Jagerinha",
@@ -328,7 +531,18 @@
           "Syrup neutro: 15 ml",
           "Jugo de Pomelo: 30 ml",
           "Jager: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago corto poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Tapar con la coctelera y batir durante 10 seg aprox.",
+            "Servir y decorar."
+          ],
+          "clasificacion": [
+              "Caipi"
+            ]
       },
 
 
@@ -345,7 +559,20 @@
           "Tonica: 60 ml",
           "Ron: 75 ml",
           "Garnish: Menta (3gr)"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Agregar la menta",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con agua tonica o el diluyente correspondiente",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Mojito"
+            ]
       },
       {
         "nombre": "Mojito Frutal",
@@ -360,7 +587,20 @@
           "Ron: 75 ml",
           "Fruta: Cassis 15 ml (fr) | Maracuya 30 ml | Naranja 5 gr",
           "Garnish: Menta"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Agregar la menta",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con agua tonica o el diluyente correspondiente",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Mojito"
+            ]
       },
       {
         "nombre": "Mojito Hawaiano",
@@ -372,7 +612,20 @@
           "Malibu: 30 ml",
           "Ron: 45 ml",
           "Garnish: Menta"
-        ]
+        ],
+        "preparacion": [
+            "En un vaso de trago largo poner la fruta con el azucar.",
+            "Machacar con el pizon.",
+            "Agregar la menta",
+            "Completar el vaso con hielo roto.",
+            "Servir la medida de la bebida alcoholica.",
+            "Completar con agua tonica o el diluyente correspondiente",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Mojito"
+            ]
       },
 
 
@@ -384,7 +637,13 @@
           "Jugo de naranja exprimido: 60 ml",
           "Espumante Callia: 120 ml", 
           "Garnish: 1 slice de naranja (3gr)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Espumante"
+            ]
       },
       {
         "nombre": "Kir Royale",
@@ -393,7 +652,13 @@
           "Cassis: 60 ml",
           "Espumante Callia: 150 ml",
           "Garnish: Frutos rojos (5gr)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Espumante"
+            ]
       },
       {
         "nombre": "Champagne Julep",
@@ -403,7 +668,13 @@
           "Bitter Angostura: 5 ml",
           "Menta: 5 gr",
           "Espumante Callia: 200 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Espumante"
+            ]
       },
       {
         "nombre": "Negroni Sbagliatto",
@@ -413,7 +684,13 @@
           "Carpano Rosso: 45 ml",
           "Espumante Callia: 120 ml",
           "Garnish: 1 slice de naranja (3gr)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Espumante"
+            ]
       },
 
 
@@ -427,7 +704,17 @@
           "Ballentines's: 15 gr",
           "Licor de chocolate: 30 ml",
           "Baileys: 45 ml"
-        ]
+        ],
+        "preparacion": [
+            "Poner los ingredientes  y la medida de bebida alcoholica en la licuadora.",
+            "Agregar el hielo picado.",
+            "Licuar hasta que tome el 'punto frozen'.",
+            "Servir en copa 'Huracan' o vaso de trago mediano.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Frozen"
+            ]
       },
       {
         "nombre": "Copa Oreo",
@@ -438,7 +725,17 @@
           "Helado de crema americana: 2 bochas",
           "Cognac: 15 ml",
           "Baileys: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "Poner los ingredientes  y la medida de bebida alcoholica en la licuadora.",
+            "Agregar el hielo picado.",
+            "Licuar hasta que tome el 'punto frozen'.",
+            "Servir en copa 'Huracan' o vaso de trago mediano.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Frozen"
+            ]
       },
       {
         "nombre": "Daiquiri Frozen",
@@ -448,7 +745,17 @@
           "Azucar: 2 cucharadas",
           "Fruta: 60 ml",
           "Ron 3 años: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            "Poner los ingredientes  y la medida de bebida alcoholica en la licuadora.",
+            "Agregar el hielo picado.",
+            "Licuar hasta que tome el 'punto frozen'.",
+            "Servir en copa 'Huracan' o vaso de trago mediano.",
+            "Decorar."
+          ],
+          "clasificacion": [
+              "Frozen"
+            ]
       },
 
 
@@ -461,7 +768,13 @@
           "Azucar mascabo: 2 cucharadas",
           "Pomelo: 90 ml",
           "Cynar: 75 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Julep"
+            ]
       },
       {
         "nombre": "Mint Julep",
@@ -473,7 +786,13 @@
           "Syrup neutro: 15 ml",
           "Jim Bean: 60 ml",
           "Garnish: Azucar impalpable (3gr), piel de limon y un penacho de menta (2gr)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Julep"
+            ]
       },
       {
         "nombre": "Amy Jaggerhouse",
@@ -483,7 +802,13 @@
           "Menta: 20 ml",
           "Jugo de pomelo: 100 ml",
           "Jager: 60 ml"  
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Julep"
+            ]
       },
       {
         "nombre": "Bosque De Miel",
@@ -497,7 +822,13 @@
             "Syrup Neutro: 15 ml",
             "Fernet: 60 ml",
             "Garnish: Anana Deshidratada, Penacho de Menta y Piel de Limon"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Julep"
+            ]
       },
       {
         "nombre": "Mate Mundial",
@@ -510,7 +841,13 @@
           "Syrup de cedron y mandarina: 30 ml",
           "Whisky Jameson: 60 ml",
           "Garnish: Piel de limon y menta"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Julep"
+            ]
       },
 
 
@@ -523,7 +860,13 @@
           "Syrup Simple: 30 ml",
           "Pisco Mistral: 90 ml",
           "Garnish: Bitter Angostura (2ml)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Sour"
+            ]
       },
       {
         "nombre": "Whisky Sour",
@@ -533,7 +876,13 @@
           "Syrup Simple: 30 ml",
           "Jameson: 90 ml",
           "Garnish: Bitter Angostura (2ml)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Sour"
+            ]
       },
       {
         "nombre": "Bermellon",
@@ -546,7 +895,13 @@
           "Malamado Malbec: 10 ml",
           "Parfait Amour: 30 ml",
           "Sernova: 60 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Sour"
+            ]
       },
     {
         "nombre": "Pecado",
@@ -559,7 +914,13 @@
             "Aperol: 30 ml",
             "Vodka: 60 ml",
             "Garnish: 8 gotas de Bitter Prohibition"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Sour"
+            ]
     },
 
 
@@ -572,7 +933,13 @@
         "Licor de Chocolate Blanco: 30 ml",
         "Cordial de Vainilla: 45 ml",
         "Garnish: Nuez Moscada y Cacao"
-      ]
+      ],
+      "preparacion": [
+          ""
+        ],
+        "clasificacion": [
+            "Cremoso"
+          ]
     },
     {
       "nombre": "White Russian",
@@ -580,7 +947,13 @@
           "Crema: 30 ml",
           "Licor de Cafe: 30 ml",
           "Vodka: 60 ml"
-      ]
+      ],
+      "preparacion": [
+          ""
+        ],
+        "clasificacion": [
+            "Cremoso"
+          ]
     },
     {
       "nombre": "New Casttle",
@@ -590,7 +963,13 @@
         "Ron de canela: 30 ml",
         "Amarula: 45 ml",
         "Garnish: Crema chantilly y dos ramitas de canela"
-      ]
+      ],
+      "preparacion": [
+          ""
+        ],
+        "clasificacion": [
+            "Cremoso"
+          ]
     },
     {
       "nombre": "Marroc Mist",
@@ -599,7 +978,13 @@
         "Frangelico: 30 ml",
         "Licor de Marroc: 60 ml",
         "Garnish: medio marroc rayado"
-      ]
+      ],
+      "preparacion": [
+          ""
+        ],
+        "clasificacion": [
+            "Cremoso"
+          ]
     },
   {
       "nombre": "Banana Ice",
@@ -608,7 +993,13 @@
           "Crema: 30 ml",
           "Licor de Cafe: 30 ml",
           "Vodka: 60 ml"
-      ]
+      ],
+      "preparacion": [
+          ""
+        ],
+        "clasificacion": [
+            "Cremoso"
+          ]
     },
 
 
@@ -625,7 +1016,13 @@
           "Falernum: 15 ml",
           "Ron blanco: 45 ml",
           "Ron especial: 45 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Tiki"
+            ]
       },
       {
         "nombre": "Pocion Tiki 27",
@@ -638,7 +1035,13 @@
           "Cynar: 30 ml",
           "Ron dorado: 45 ml",
           "Garnish: Romero (2gr), 1 banana dish, canela en polvo (2gr)"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Tiki"
+            ]
       },
       {
         "nombre": "Passion Nai",
@@ -650,7 +1053,13 @@
           "Falernum: 30 ml",
           "Apricot Brandy: 30 ml",
           "Smirnoff sandia: 45 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Tiki"
+            ]
       },
       {
         "nombre": "Pascualito",
@@ -664,7 +1073,13 @@
           "Pineral: 30 ml",
           "Disaronno Amaretto: 15 ml",
           "Pisco Mistral: 90 ml"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Tiki"
+            ]
       },
           {
             "nombre": "Bikini Bottom",
@@ -678,7 +1093,13 @@
               "Apricot Brandy: 22,5 ml",
               "Gin: 75 ml",
               "Anis estrellado: 1 unidad"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Tiki"
+                ]
           },    
         {
           "nombre": "Maracucoco",
@@ -692,7 +1113,13 @@
             "Ron 3 años: 45 ml",
             "Malibu: 45 ml",
             "Garnish: piel de pomelo, penca de anana y petalos de rosa (3gr)"
-          ]
+          ],
+          "preparacion": [
+              ""
+            ],
+            "clasificacion": [
+                "Tiki"
+              ]
         },
 
 
@@ -708,7 +1135,13 @@
           "Amargo obrero: 25 ml",
           "Smirnoff manzana: 60 ml",
           "Garnish: 1 slice manzana (5gr), piel de lima y banderita"
-        ]
+        ],
+        "preparacion": [
+            ""
+          ],
+          "clasificacion": [
+              "Frutal"
+            ]
       },
         {
           "nombre": "Ritzy Gallito",
@@ -720,7 +1153,13 @@
             "Ron 3 años: 45 ml",
             "Ron especial: 45 ml",
             "Garnish: piel de pomelo y cereza en pick de bamboo"
-          ]
+          ],
+          "preparacion": [
+              ""
+            ],
+            "clasificacion": [
+                "Frutal"
+              ]
         },
         {
           "nombre": "New Paradise",
@@ -736,7 +1175,13 @@
             "Carpano Bianco: 30 ml",
             "Pepino: 1 slice",
             "Garnish: piel de limon y 1 flor comesible"
-          ]
+          ],
+          "preparacion": [
+              ""
+            ],
+            "clasificacion": [
+                "Frutal"
+              ]
         },
           {
             "nombre": "Floral Plum",
@@ -748,7 +1193,13 @@
               "Cassis Bols: 15 ml",
               "Gin Brighton: 60 ml",
               "Garnish: Penacho de menta y flor comestible"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Frutal"
+                ]
           },
           {
             "nombre": "Oasis",
@@ -760,7 +1211,13 @@
               "Malibu: 30 ml",
               "Smirnoff de Sandia: 50 ml",
               "Garnish: Cereza con Piel de Limon e Infusionador con Hielo Seco"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Frutal"
+                ]
           },
           {
             "nombre": "Caisara",
@@ -773,7 +1230,13 @@
                 "Frangelico: 30 ml",
                 "Cachaça: 60 ml",
                 "Garnish: Menta y piel de Lima"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Frutal"
+                ]
           },
         {
             "nombre": "All Blue",
@@ -787,7 +1250,13 @@
                 "Bianco 22 ml",
                 "Vodka: 60 ml",
                 "Garnish: Medio Labiado de Sal del Himalaya y Piel de Limon"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Frutal"
+                ]
           },
 
 
@@ -800,7 +1269,13 @@
               "Cognac: 60 ml",
               "Smirnoff manzana: 120 ml",
               "Garnish: manzana en cuadrado caramelizado"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Intenso"
+                ]
           },
           {
             "nombre": "Ziggy Demon",
@@ -813,7 +1288,13 @@
               "Disaronno Amaretto: 15 ml",
               "Gin Brighton: 60 ml",
               "Garnish: labiado de pimenton (2gr) y 2 granos de cafe"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Intenso"
+                ]
           },
          {
             "nombre": "Naranjo En Flor",
@@ -824,7 +1305,13 @@
               "Apricot Brandy: 15 ml",
               "Cognac: 45 ml",
               "Garnish: Piel de 1 naranja en forma de flor y copa labiada con azucar macerada en naranja" 
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Intenso"
+                ]
           },
         {
             "nombre": "Al Capone",
@@ -833,7 +1320,13 @@
               "Licor Endelflower: 22 ml",
               "Vechio Amaro: 30 ml",
               "Ron Dorado: 45 ml"
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Intenso"
+                ]
           },
         {
             "nombre": "Aurora Boreal",
@@ -844,7 +1337,13 @@
                 "Apricot Brandy: 22 ml",
                 "Malibu: 30 ml",
                 "Ron Blanco: 50 ml"  
-            ]
+            ],
+            "preparacion": [
+                ""
+              ],
+              "clasificacion": [
+                  "Intenso"
+                ]
           },
 
 
@@ -858,7 +1357,17 @@
               "Helado de crema americana: 1 bocha",
               "Leche: 120 ml",
               "Garnish: 1 oreo"
-            ]
+            ],
+            "preparacion": [
+                "Poner los ingredientes en la licuadora.",
+                "Agregar el hielo picado.",
+                "Licuar hasta que tome el 'punto frozen'.",
+                "Servir en copa 'Huracan' o vaso de trago mediano.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Smoothie"
+                ]
           },
           {
             "nombre": "Milkshake Brixton",
@@ -869,7 +1378,17 @@
               "Helado de crema americana: 1 bocha",
               "Leche: 120 ml",
               "Garnish: 1 bocha de helado, penacho de Menta y Frutos rojos"
-            ]
+            ],
+            "preparacion": [
+                "Poner los ingredientes en la licuadora.",
+                "Agregar el hielo picado.",
+                "Licuar hasta que tome el 'punto frozen'.",
+                "Servir en copa 'Huracan' o vaso de trago mediano.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Smoothie"
+                ]
           },
           {
             "nombre": "Amarillo",
@@ -881,7 +1400,17 @@
               "Maracuya: 90 ml",
               "Jugo de naranja exprimido: 100 ml",
               "Garnish: penacho de Menta y piel de naranja"
-            ]
+            ],
+            "preparacion": [
+                "Poner los ingredientes en la licuadora.",
+                "Agregar el hielo picado.",
+                "Licuar hasta que tome el 'punto frozen'.",
+                "Servir en copa 'Huracan' o vaso de trago mediano.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Smoothie"
+                ]
           },
           {
             "nombre": "Verde",
@@ -894,7 +1423,17 @@
               "Menta: 1 Rama",
               "Jugo de naranja exprimido: 90 ml",
               "Garnish: penacho de Menta y manzana verde cortada"
-            ]
+            ],
+            "preparacion": [
+                "Poner los ingredientes en la licuadora.",
+                "Agregar el hielo picado.",
+                "Licuar hasta que tome el 'punto frozen'.",
+                "Servir en copa 'Huracan' o vaso de trago mediano.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Smoothie"
+                ]
           },
           {
             "nombre": "Licuado Al Agua",
@@ -905,7 +1444,17 @@
               "Fruta: 60 ml",
               "Agua: 100 ml",
               "Garnish: Piel de citricos y romero"
-            ]
+            ],
+            "preparacion": [
+                "Poner los ingredientes en la licuadora.",
+                "Agregar el hielo picado.",
+                "Licuar hasta que tome el 'punto frozen'.",
+                "Servir en copa 'Huracan' o vaso de trago mediano.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Smoothie"
+                ]
           },
 
           
@@ -919,7 +1468,18 @@
                 "Maracuya: 30 ml",
                 "Leche de Coco: 60 ml",
                 "Garnish: Penacho de menta, piel de naranja y flor comestible"
-            ]
+            ],
+            "preparacion": [
+                "En un vaso 'Illabhela' agregar hielo grande.",
+                "En una coctelera (1) agregar la crema vegetal y la leche de coco.",
+                "En otra coctelera (2) agregar la infusion de matcha, el maracuya y el syrup.",
+                "Tapar con las cocteleras y batir durante 10 seg aprox.",
+                "Servir la coctelera 2, luego servir la 1.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
           {
             "nombre": "Limonada Con Menta Y Jengibre",
@@ -930,7 +1490,18 @@
                 "Syrup de Jengibre: 60 ml",
                 "Agua: 150 ml",
                 "Garnish: Penacho de menta y moneda de jengibre"
-            ]
+            ],
+            "preparacion": [
+                "En un vaso de trago largo poner los ingredientes.",
+                "Agregar la menta.",
+                "Llenar el vaso de hielo picado.",
+                "Completar con agua.",
+                "Tapar con la coctelera y batir durante 10 seg aprox.",
+                "Servir y decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
           {
             "nombre": "Brixton Beach Tea",
@@ -944,7 +1515,18 @@
                 "Infusion de Very Berries: 60 ml",
                 "Jugo de Naranja: 30 ml",
                 "Garnish: 1 Lima deshidratada, piel de naranja y frutos rojos"
-            ]
+            ],
+            "preparacion": [
+              "En un vaso de trago largo poner los ingredientes.",
+              "Machacar con el pizon.",
+              "Completar el vaso con hielo roto.",
+              "Servir las bebidas.",
+              "Tapar con la coctelera y batir durante 10 seg aprox.",
+              "Servir y decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
           {
             "nombre": "Maracuyada",
@@ -956,7 +1538,17 @@
                 "Maracuya: 60 ml",
                 "Soda: 30 ml",
                 "Garnish: Piel de naranja y romero"
-            ]
+            ],
+            "preparacion": [
+                "En un vaso de trago largo poner los ingredientes.",
+                "Llenar el vaso de hielo picado.",
+                "Completar con agua.",
+                "Tapar con la coctelera y batir durante 10 seg aprox.",
+                "Servir y decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
           {
             "nombre": "Pomelada",
@@ -966,7 +1558,17 @@
                 "Jugo de Limon: 15 ml",
                 "Syrup Neutro: 30 ml",
                 "Agua: 100 ml"
-            ]
+            ],
+            "preparacion": [
+                "En un vaso de trago largo poner los ingredientes.",
+                "Llenar el vaso de hielo picado.",
+                "Completar con agua.",
+                "Tapar con la coctelera y batir durante 10 seg aprox.",
+                "Servir y decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
           {
             "nombre": "Pomelada de Frambuesa",
@@ -979,7 +1581,17 @@
                 "Very Berries: 15 ml",
                 "Syrup Neutro: 15 ml",
                 "Agua: 90 ml"
-            ]
+            ],
+            "preparacion": [
+                "En un vaso de trago largo poner los ingredientes.",
+                "Llenar el vaso de hielo picado.",
+                "Completar con agua.",
+                "Tapar con la coctelera y batir durante 10 seg aprox.",
+                "Servir y decorar."
+              ],
+              "clasificacion": [
+                  "Mocktail"
+                ]
           },
 
 
@@ -993,7 +1605,17 @@
                 "Syrup de Jengibre: 120 ml",
                 "Agua: 300 ml",
                 "Garnish: Penacho de menta y moneda de jengibre"
-            ]
+            ],
+            "preparacion": [
+                "En una jarra poner los ingredientes.",
+                "Llenar la jarra de hielo picado.",
+                "Completar con agua.",
+                "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Jarra"
+                ]
           },
           {
             "nombre": "Jarra De Brixton Beach Tea",
@@ -1007,7 +1629,17 @@
                 "Infusion de Very Berries: 120 ml",
                 "Jugo de Naranja: 60 ml",
                 "Garnish: 1 Lima deshidratada, piel de naranja y frutos rojos"
-            ]
+            ],
+            "preparacion": [
+                "En una jarra poner los ingredientes.",
+                "Llenar la jarra de hielo picado.",
+                "Completar con las bebidas.",
+                "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Jarra"
+                ]
           },
           {
             "nombre": "Jarra De Maracuyada",
@@ -1019,7 +1651,17 @@
                 "Maracuya: 120 ml",
                 "Soda: 60 ml",
                 "Garnish: Piel de naranja y romero"
-            ]
+            ],
+            "preparacion": [
+                "En una jarra poner los ingredientes.",
+                "Llenar la jarra de hielo picado.",
+                "Completar con agua.",
+                "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Jarra"
+                ]
           },
           {
             "nombre": "Jarra De Pomelada",
@@ -1029,7 +1671,17 @@
                 "Jugo de Limon: 30 ml",
                 "Syrup Neutro: 100 ml",
                 "Agua: 200 ml"
-            ]
+            ],
+            "preparacion": [
+                "En una jarra poner los ingredientes.",
+                "Llenar la jarra de hielo picado.",
+                "Completar con agua.",
+                "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+                "Decorar."
+              ],
+              "clasificacion": [
+                  "Jarra"
+                ]
           },
 
 

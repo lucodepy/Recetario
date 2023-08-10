@@ -1,0 +1,275 @@
+{
+    "produccion": [
+      {
+        "nombre": "Jugo De Maracuya",
+        "ingredientes": [
+          "Pulpa congelada: 1 kg",
+          "Jugo de naranja: 1 lt",
+          "Azucar: 700 gr",
+          "Rinde: 2,2 lts aprox."
+        ],
+          "preparacion": [
+              "Licuar todos los ingredientes.",
+              "Pasar a botellas."
+            ]
+      },
+      {
+        "nombre": "Pulpa De Anana",
+        "ingredientes": [
+          "Anana: 1 kg",
+          "Agua: 250 ml",
+          "Azucar: 500 gr",
+          "Rinde: 1,5 lts aprox."
+        ],
+        "preparacion": [
+            "Licuar todos los ingredientes.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Pulpa De Frutilla",
+        "ingredientes": [
+          "Frutilla: 1 kg",
+          "Agua: 250 ml",
+          "Azucar: 500 gr",
+          "Rinde: 1,5 lts aprox."
+        ],
+        "preparacion": [
+            "Licuar todos los ingredientes.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Very Berries",
+        "ingredientes": [
+          "Canela: 3 ramas",
+          "Manzana Verde: 1/4 de unidad",
+          "Manzana Roja: 1 unidad",
+          "Miel: 300 gr",
+          "Frutos Rojos: 500 gr",
+          "Jugo de Arandanos: 300 ml",
+          "Agua: 300 ml",
+          "Azucar: 250 gr",
+          "Rinde: 1,5 lts aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Licor de Marroc",
+        "ingredientes": [
+          "Marroc: 8 unidades",
+          "Syrup Neutro: 550 ml",
+          "Vodka: 400 ml",
+          "Rinde: 1 lt aprox."
+        ],
+        "preparacion": [
+            "Licuar los marroc con el vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 24 hs",
+            "Agregar el syrup.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Falernum",
+        "ingredientes": [
+          "Jengibre picado: 56 gr",
+          "Cascara de Limon: 4 unidades",
+          "Clavo de olor: 16 unidades",
+          "Almendras pisadas: 5 unidades",
+          "Canela en rama: 10 gr",
+          "Azucar Mascabo: 3 cucharadas",
+          "Ron Dorado: 240 ml",
+          "Ron Blanco: 60 ml",
+          "Jugo de Limon: 195 ml",
+          "Syrup Neutro: 360 ml",
+          "Rinde: 1 lt aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes a los rones.",
+            "(menos el almibar)",
+            "(Solo 60 ml de jugo de limon).",
+            "Pasar a botellas.",
+            "Dejar macerar minimo 1 dia.",
+            "Agregar el syrup y el resto de jugo de limon.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Cordial De Rosas",
+        "ingredientes": [
+          "Petalos de Rosas: 25 gr",
+          "Cafe en Granos: 2 unidades",
+          "Clavo de olor: 3 unidades",
+          "Escencia de Vainilla: 1/2 tapa",
+          "Syrup de Rosas: 500 ml",
+          "Vodka: 500 ml",
+          "Rinde: 950 ml aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes al vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 7 dias",
+            "Agregar el syrup.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Syrup De Rosas",
+        "ingredientes": [
+          "Petalos de Rosas: 15 gr",
+          "Piel de Limon: 3 unidades",
+          "Cardamomo: 3 unidades",
+          "Hojas de Eucalipto: 3 unidades",
+          "Escencia de Vainilla: 1/2 tapa",
+          "Azucar: 350 gr",
+          "Agua: 330 ml",
+          "Rinde: 500 ml aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Cordial De Kiwi",
+        "ingredientes": [
+          "Cardamomo: 1 unidad",
+          "Hojas de Eucalipto: 1 unidad",
+          "Clavo de olor: 1 unidad",
+          "Syrup de Kiwi: 950 ml",
+          "Vodka: 800 ml",
+          "Rinde: 1,7 lts aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes al vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 7 dias",
+            "Agregar el syrup.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Syrup De Kiwi",
+        "ingredientes": [
+          "Kiwi: 350 gr",
+          "Hojas de Eucalipto: 1 unidad",
+          "Escencia de Vainilla: 1/2 tapa",
+          "Azucar: 350 gr",
+          "Agua: 350 ml",
+          "Rinde: 950 ml aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Licor De Pomelo",
+        "ingredientes": [
+          "Pomelo: 1 unidad con piel",
+          "Clavo de olor: 2 unidades",
+          "Syrup de Pomelo: 700 ml",
+          "Vodka: 750 ml",
+          "Rinde: 1,7 lts aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes al vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 7 dias",
+            "Agregar el syrup.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Syrup De Pomelo",
+        "ingredientes": [
+          "Jugo de Pomelo: 200 ml",
+          "Azucar: 350 gr",
+          "Agua: 280 ml",
+          "Rinde: 700 ml aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Licor De Anana",
+        "ingredientes": [
+          "Anana: 750 gr",
+          "Syrup de Anana: 750 ml",
+          "Vodka: 750 ml",
+          "Rinde: 1,5 lts aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes al vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 7 dias",
+            "Agregar el syrup.",
+            "Pasar a botellas."
+          ]
+      },
+      {
+        "nombre": "Syrup De Anana",
+        "ingredientes": [
+          "Anana: 300 gr",
+          "Azucar: 400 gr",
+          "Agua: 200 ml",
+          "Rinde: 700 ml aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Pasar a botellas con colador malla."
+          ]
+      },
+      {
+        "nombre": "Reduccion de Honey",
+        "ingredientes": [
+          "Jengibre: 150 gr",
+          "Miel: 5 cucharadas",
+          "Jugo de Limon: 8 ml",
+          "Honey: 500 ml",
+          "Azucar: 350 gr",
+          "Agua: 250 ml",
+          "Rinde: 750 ml aprox."
+        ],
+        "preparacion": [
+            "Cocinar ingredientes en una olla a fuego lento.",
+            "Agregar el agua.",
+            "Sacar la espuma.",
+            "Pasar a botellas sin colar."
+          ]
+      },
+      {
+        "nombre": "Oporto De Eucalipto",
+        "ingredientes": [
+          "Hojas de Eucalito: 35 unidades",
+          "Malamado: 340 ml",
+          "Vodka: 360 ml",
+          "Rinde: 750 ml aprox."
+        ],
+        "preparacion": [
+            "Agregar los ingredientes al vodka.",
+            "Pasar a botellas.",
+            "Dejar macerar 7 dias"
+          ]
+      },
+      {
+        "nombre": "Syrup De Jengibre",
+        "ingredientes": [
+          "Jengibre: 250 gr",
+          "Azucar: 1 kg",
+          "Agua: 1 lt",
+          "Rinde: 1,9 lts aprox."
+        ],
+        "preparacion": [
+            "Licuar todos los ingredientes.",
+            "Pasar a botellas con colador malla."
+          ]
+      }
+    ]
+  }
