@@ -15,6 +15,11 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Bebida ícono de la Argentina.",
+            "La fabrica de Italia distribuye a todo el mundo,",
+            "sin embargo, la fabrica de Cordoba vendiendo solamente en Argentina la supera en ventas."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -33,6 +38,34 @@
           "Completar con el diluyente correspondiente.",
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
+        ],
+      "sugerencia": [
+          "Tambien conocido como 'Garibaldi'."
+        ],
+        "clasificacion": [
+            "Directo"
+          ]
+    },
+    {
+      "nombre": "Screwdriver",
+      "ingredientes": [
+        "Hielo: 200 gr",
+        "Jugo de naranja exprimido: 250 ml",
+        "Vodka neutro: 60 ml",
+        "Garnish: Agitador 3D, slice de naranja y piel de naranja"
+      ],
+      "preparacion": [
+          "En un vaso de trago largo poner hielo grande.",
+          "Servir la medida de la bebida alcoholica.",
+          "Completar con el diluyente correspondiente.",
+          "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+          "Decorar."
+        ],
+      "sugerencia": [
+          "El famoso 'Destornillador'.",
+          "Inventado por los obreros petroleros estadounidenses en el siglo XX.",
+          "Despues de trabajar descansaban tomando una mezcla de jugo de naranja con vodka,",
+          "Como no tenian nada para revolver utilizaban un destornillador."
         ],
         "clasificacion": [
             "Directo"
@@ -53,6 +86,11 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Comunmente conocido como 'Ron con Coca'.",
+            "Su nombre simboliza la libertad e independencia de la isla en relacion a EE.UU,",
+            "denotando la ironia de ser preparado con la bebida emblema del capitalismo."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -72,6 +110,10 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Vermú mas similar al Gancia.",
+            "Refrescante y 'dulzón'."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -91,6 +133,10 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Vermú excelente para ofrecer como aperitivo.",
+            "Leve amargor y dulzor."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -111,6 +157,10 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Vermú excelente para gente preferente del fernet.",
+            "Amargo."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -131,6 +181,12 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+            "Es un vermú dulce creado en Brixton.",
+            "excelente para ofrecer como aperitivo.",
+            "Combina lo amargo del pineral con el dulce del bianco y la gaseosa de pomelo,",
+            "Termina de exlotar los sabores con el queso y la pimienta."
+          ],
         "clasificacion": [
             "Directo"
           ]
@@ -151,6 +207,11 @@
           "Completar con agua tonica.",
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
+        ],
+        "sugerencia": [
+          "Ideal para gente amante del espumante.",
+          "Notas dulces a mandarina gracias al Aperol.",
+          "Cocktail fresco, 'piletero'."
         ],
         "clasificacion": [
             "Directo"
@@ -179,6 +240,10 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          "Lo que hace la diferencia en este trago es la calidad de la marca del gin y sus botanicos.",
+          "Cocktail seco y levemente amargo, pero tambien refrescante."
+        ],
         "clasificacion": [
             "Directo"
           ]
@@ -190,6 +255,9 @@
       "nombre": "Bloody Mary",
       "ingredientes": [
         "Hielo: 200 gr",
+        "Tabasco: 3 golpes",
+        "Salsa inglesa: 1 golpe",
+        "Bitter Angostura: 1 ml",
         "Sal de apio: 2 gr",
         "Bitter angostura: 1 ml",
         "Jugo de limon: 15 ml",
@@ -198,7 +266,21 @@
         "Garnish: 1 ramita de apio, piel de limón y labiado de sal"
       ],
       "preparacion": [
-          ""
+          "En un vaso 'Collins Premium' poner hielo grande.",
+          "En una coctelera agregar la sal de apio, limon, salsa inglesa, salsa tabasco y el bitter.",
+          "Disolver con un cucharin la sal en la coctelera.",
+          "Agregar hielo grande y el resto de ingredientes a la coctelera.",
+          "Batir.",
+          "Retirar el hielo del vaso y labiarlo con sal de apio.",
+          "Volver a agregarle hielo grande.",
+          "Servir en el vaso el contenido de la coctelera con colado simple.",
+          "Decorar."
+        ],
+        "sugerencia": [
+          "Es el segundo cocktail mas vendido en hotelerias de 5 estrellas.",
+          "Suele ser tomado luego de una 'wild night' para recomponerse.",
+          "Es un cocktail para paladares muy especiales, ya que es salado y picante.",
+          "Se recomienda tomarlo con el labiado de sal e ir mordiendo la rama de apio mientras se bebe."
         ],
       "clasificacion": [
           "Clasico"
@@ -212,6 +294,15 @@
         "Garnish: Aceituna verde en pick de bamboo"
       ],
       "preparacion": [
+          "En una copa cocktail agregar hielo y refrescar.",
+          "En un vaso de compos agregar hielo y refrescar.",
+          "Retirar el exedente de agua del vaso de compos.",
+          "Agregar los ingredientes al vaso de compos y refrescar.",
+          "Retirar el hielo de la copa.",
+          "Agregar el garnish a la copa.",
+          "Servir el contenido."
+        ],
+        "sugerencia": [
           ""
         ],
       "clasificacion": [
@@ -228,6 +319,15 @@
       "Garnish: 1 naranja deshidratada y 1 piel de naranja"
       ],
       "preparacion": [
+          "En un vaso de Whisky Premium agregar hielo grande y refrescar.",
+          "En un vaso de compos agregar hielo y refrescar.",
+          "Retirar el exedente de agua del vaso de compos.",
+          "Agregar los ingredientes al vaso de compos y refrescar.",
+          "Retirar el exedente de agua del vaso.",
+          "Servir el contenido.",
+          "Decorar flambeando la piel de naranja."
+        ],
+        "sugerencia": [
           ""
         ],
       "clasificacion": [
@@ -242,9 +342,16 @@
       "Azucar: 2 cucharadas",
       "Soda: 15 ml",
       "Jim Bean: 90 ml",
-      "Garnish: 1 cereza en pick de bamboo"
+      "Garnish: 1 cereza en pick de bamboo, piel de limon de naranja"
       ],
       "preparacion": [
+          "En un vaso de Whisky Premium agregar azucar, un dash de soda y el bitter.",
+          "Disolver con un cucharin.",
+          "Agregar la medida de whisky.",
+          "Agregar hielo grande y refrescar.",
+          "Decorar flambeando las pieles de limon de naranja."
+        ],
+        "sugerencia": [
           ""
         ],
       "clasificacion": [
@@ -260,6 +367,15 @@
       "Garnish: 1 cereza en pick de bamboo"
       ],
       "preparacion": [
+          "En una copa cocktail agregar hielo y refrescar.",
+          "En un vaso de compos agregar hielo y refrescar.",
+          "Retirar el exedente de agua del vaso de compos.",
+          "Agregar los ingredientes al vaso de compos y refrescar.",
+          "Retirar el hielo de la copa.",
+          "Agregar el garnish a la copa.",
+          "Servir el contenido."
+        ],
+        "sugerencia": [
           ""
         ],
       "clasificacion": [
@@ -277,6 +393,12 @@
       "Garnish: Frutos rojos en pick de bamboo (3gr)"
       ],
       "preparacion": [
+          "En una copa cocktail agregar hielo y refrescar.",
+          "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+          "Servir en la copa el contenido de la coctelera con doble colado.",
+          "Decorar."
+        ],
+        "sugerencia": [
           ""
         ],
       "clasificacion": [
@@ -294,6 +416,12 @@
     "Garnish: Moneda de Jengibre y piel de Limón"
     ],
     "preparacion": [
+        "En un vaso de Whisky Premium agregar hielo grande y refrescar.",
+        "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+        "Servir en el vaso el contenido de la coctelera con colado simple.",
+        "Decorar."
+      ],
+      "sugerencia": [
         ""
       ],
     "clasificacion": [
@@ -310,6 +438,14 @@
     "Garnish: Labiado de sal (4gr)"
   ],
   "preparacion": [
+      "En una copa 'Margarita' agregar hielo y refrescar.",
+      "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+      "Retirar el hielo de la copa.",
+      "Labiar el borde de la copa con sal.",
+      "Servir en el vaso el contenido de la coctelera con colado doble.",
+      "Decorar."
+    ],
+    "sugerencia": [
       ""
     ],
   "clasificacion": [
@@ -328,6 +464,13 @@
   "Ron de Coco: 30 ml"
   ],
   "preparacion": [
+      "Llenar un vaso de coco de hielo picado.",
+      "En una coctelera agregar todos los ingredientes.",
+      "Agregar el hielo del vaso a la coctelera y batir.",
+      "Servir todo el contenido de la coctelera sin colar.",
+      "Decorar."
+    ],
+    "sugerencia": [
       ""
     ],
   "clasificacion": [
@@ -341,6 +484,7 @@
   "Menta: 15 gr",
   "Jugo de limon: 22,5 gr",
   "Syrup Simple: 30 ml",
+  "Coca-cola: 60 ml",
   "Vodka: 22,5 ml",
   "Gin: 22,5 ml",
   "Ron: 22,5 ml",
@@ -349,6 +493,13 @@
   "Garnish: piel de limon y 1 penacho de menta"
 ],
 "preparacion": [
+    "En un vaso de trago largo poner hielo grande.",
+    "En una coctelera agregar todos los ingredientes (Menos la coca-cola) con hielo grande y batir.",
+    "Servir todo el contenido de la coctelera con doble colado.",
+    "Completar con la gaseosa.",
+    "Decorar."
+  ],
+  "sugerencia": [
     ""
   ],
 "clasificacion": [
@@ -360,11 +511,19 @@
 "ingredientes": [
   "Jugo de limon: 20 ml",
   "Syrup de jengibre: 30 ml",
+  "Gaseosa de jengibre: 60 ml",
   "Vodka: 90 ml",
   "Ginger Ale: 100 ml",
   "Garnish: Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
 ],
 "preparacion": [
+    "En un vaso 'Copper Mug' poner todos los ingredientes (menos la gaseosa).",
+    "Agregar el hielo picado.",
+    "Completar con la gaseosa.",
+    "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+    "Decorar."
+  ],
+  "sugerencia": [
     ""
   ],
 "clasificacion": [
@@ -381,6 +540,12 @@
   "Garnish: 1 piel de limon y 1 limon deshidratado"
 ],
 "preparacion": [
+    "En un vaso 'Collins Premium' pisar azucar y 4 pedazos de limon.",
+    "Agregar hielo grande y el resto de ingredientes.",
+    "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+    "Decorar."
+  ],
+  "sugerencia": [
     ""
   ],
 "clasificacion": [
@@ -397,6 +562,13 @@
   "Gin: 60 ml"
 ],
 "preparacion": [
+    "En un vaso de Whisky Premium agregar hielo picado.",
+    "En una coctelera agregar todos los ingredientes (Menos el licor de cassis y el golden age) con hielo grande y batir.",
+    "Servir en el vaso el contenido de la coctelera con colado simple.",
+    "Completar con los licores para agregar un degradado.",
+    "Decorar."
+  ],
+  "sugerencia": [
     ""
   ],
 "clasificacion": [
@@ -411,8 +583,17 @@
   "Garnish: Piel de limon"
 ],
 "preparacion": [
-    ""
-  ],
+    "En una copa cocktail agregar hielo y refrescar.",
+    "En un vaso de compos agregar hielo y refrescar.",
+    "Retirar el exedente de agua del vaso de compos.",
+    "Agregar los ingredientes al vaso de compos y refrescar.",
+    "Retirar el hielo de la copa.",
+    "Servir el contenido.",
+    "Decorar."
+],
+"sugerencia": [
+  ""
+],
 "clasificacion": [
     "Clasico"
   ]
@@ -423,9 +604,16 @@
   "Syrup Neutro: 15 ml",
   "Cafe Espresso: 30 ml",
   "Licor de Cafe Espresso: 15 ml",
-  "Vodka: 60 ml"
+  "Vodka: 60 ml",
+  "Garnish: 3 granos de cafe"
 ],
 "preparacion": [
+    "En una copa cocktail agregar hielo y refrescar.",
+    "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+    "Servir en la copa el contenido de la coctelera con doble colado.",
+    "Decorar."
+  ],
+  "sugerencia": [
     ""
   ],
 "clasificacion": [
@@ -473,6 +661,9 @@
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Caipi"
           ]
@@ -494,6 +685,9 @@
           "Servir la medida de la bebida alcoholica.",
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Caipi"
@@ -518,6 +712,9 @@
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Caipi"
           ]
@@ -539,6 +736,9 @@
           "Servir la medida de la bebida alcoholica.",
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Caipi"
@@ -563,6 +763,9 @@
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Caipi"
           ]
@@ -584,6 +787,9 @@
           "Servir la medida de la bebida alcoholica.",
           "Tapar con la coctelera y batir durante 10 seg aprox.",
           "Servir y decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Caipi"
@@ -615,6 +821,9 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Mojito"
           ]
@@ -643,6 +852,9 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Mojito"
           ]
@@ -668,6 +880,9 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Mojito"
           ]
@@ -684,6 +899,16 @@
         "Garnish: 1 slice de naranja (3gr)"
       ],
       "preparacion": [
+          "En una copa 'Flauta' agregar hielo grande y refrescar.",
+          "En un vaso de compos agregar hielo y refrescar.",
+          "Retirar el exedente de agua del vaso de compos.",
+          "Agregar los ingredientes (Menos el espumante) al vaso de compos y refrescar.",
+          "Retirar el hielo de la copa.",
+          "Servir el contenido del vaso de compos.",
+          "Completar con espumante.",
+          "Decorar."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -699,8 +924,18 @@
         "Garnish: Frutos rojos (5gr)"
       ],
       "preparacion": [
-          ""
-        ],
+        "En una copa 'Flauta' agregar hielo grande y refrescar.",
+        "En un vaso de compos agregar hielo y refrescar.",
+        "Retirar el exedente de agua del vaso de compos.",
+        "Agregar los ingredientes (Menos el espumante) al vaso de compos y refrescar.",
+        "Retirar el hielo de la copa.",
+        "Servir el contenido del vaso de compos.",
+        "Completar con espumante.",
+        "Decorar."
+      ],
+      "sugerencia": [
+        ""
+      ],
         "clasificacion": [
             "Espumante"
           ]
@@ -715,8 +950,18 @@
         "Espumante Callia: 200 ml"
       ],
       "preparacion": [
-          ""
-        ],
+        "En una copa 'Flauta' agregar hielo grande y refrescar.",
+        "En un vaso de compos agregar hielo y refrescar.",
+        "Retirar el exedente de agua del vaso de compos.",
+        "Agregar los ingredientes (Menos el espumante) al vaso de compos y refrescar.",
+        "Retirar el hielo de la copa.",
+        "Servir el contenido del vaso de compos.",
+        "Completar con espumante.",
+        "Decorar."
+      ],
+      "sugerencia": [
+        ""
+      ],
         "clasificacion": [
             "Espumante"
           ]
@@ -731,8 +976,15 @@
         "Garnish: 1 slice de naranja (3gr)"
       ],
       "preparacion": [
-          ""
-        ],
+        "En una vaso 'Illabhela' agregar hielo grande y refrescar.",
+        "Retirar el exedente de agua del vaso.",
+        "Agregar los ingredientes.",
+        "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+        "Decorar."
+      ],
+      "sugerencia": [
+        ""
+      ],
         "clasificacion": [
             "Espumante"
           ]
@@ -757,6 +1009,9 @@
           "Servir en copa 'Huracan' o vaso de trago mediano.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Frozen"
           ]
@@ -778,6 +1033,9 @@
           "Servir en copa 'Huracan' o vaso de trago mediano.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Frozen"
           ]
@@ -797,6 +1055,9 @@
           "Licuar hasta que tome el 'punto frozen'.",
           "Servir en copa 'Huracan' o vaso de trago mediano.",
           "Decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Frozen"
@@ -823,6 +1084,9 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Julep"
           ]
@@ -847,6 +1111,9 @@
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Julep"
           ]
@@ -868,6 +1135,9 @@
           "Completar con el resto del diluyente",
           "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
           "Decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Julep"
@@ -893,6 +1163,9 @@
           "Agregar un hielo roto al vaso.",
           "Decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Julep"
           ]
@@ -917,6 +1190,9 @@
         "Agregar hielo a coctelera y volver a batir.",
         "Servir en la copa sin hielo, con doble colado y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Sour"
           ]
@@ -937,6 +1213,9 @@
         "Agregar el alcohol y volver a batir.",
         "Agregar hielo a coctelera y volver a batir.",
         "Servir en la copa sin hielo, con doble colado y decorar."
+        ],
+        "sugerencia": [
+          ""
         ],
         "clasificacion": [
             "Sour"
@@ -962,6 +1241,9 @@
         "Agregar hielo a coctelera y volver a batir.",
         "Servir en la copa sin hielo, con doble colado y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Sour"
           ]
@@ -986,6 +1268,9 @@
         "Agregar hielo a coctelera y volver a batir.",
         "Servir en la copa sin hielo, con doble colado y decorar."
         ],
+        "sugerencia": [
+          ""
+        ],
         "clasificacion": [
             "Sour"
           ]
@@ -1007,6 +1292,9 @@
       "En una coctelera agregar los todos los ingredientes y batir.",
       "Servir en la copa sin hielo, con doble colado y decorar."
       ],
+      "sugerencia": [
+        ""
+      ],
       "clasificacion": [
           "Cremoso"
         ]
@@ -1020,9 +1308,12 @@
     ],
     "preparacion": [
       "En una vaso de whisky agregar hielo grande y refrescar.",
-      "En una coctelera agregar los todos los ingredientes (menos el licor de cafe) y batir.",
+      "En una coctelera agregar todos los ingredientes (menos el licor de cafe) y batir.",
       "Servir en el vaso el contenido de la coctelera.",
       "Agregar el licor de cafe y decorar."
+      ],
+      "sugerencia": [
+        ""
       ],
       "clasificacion": [
           "Cremoso"
@@ -1043,6 +1334,9 @@
       "Servir en el vaso el contenido de la coctelera.",
       "Decorar con crema chantilly, 2 ramas de canela y una palita 3D."
       ],
+      "sugerencia": [
+        ""
+      ],
       "clasificacion": [
           "Cremoso"
         ]
@@ -1062,6 +1356,9 @@
       "Decorar con medio marroc rayado.",
       "Preparar en la olla hielo seco con un poco de agua y colocar el cocktail."
       ],
+      "sugerencia": [
+        ""
+      ],
       "clasificacion": [
           "Cremoso"
         ]
@@ -1080,6 +1377,9 @@
       "Agregar los todos los ingredientes (menos el licor de cafe) y batir.",
       "Servir en el vaso el contenido de la coctelera.",
       "Agregar el licor de cafe y decorar."
+      ],
+      "sugerencia": [
+        ""
       ],
       "clasificacion": [
           "Cremoso"
@@ -1102,6 +1402,14 @@
         "Ron especial: 45 ml"
       ],
       "preparacion": [
+          "En un vaso tiki 'Mengano' (el marron) poner todos los ingredientes (menos el Triple Sec).",
+          "Llenar el vaso de hielo picado.",
+          "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+          "Decorar con cuenca de lima.",
+          "Servir el Triple Sec en la lima con un anis estrellado.",
+          "Llevar a la mesa y prender fuego el contenido de la lima."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -1121,6 +1429,14 @@
         "Garnish: Romero (2gr), 1 banana dish, canela en polvo (2gr)"
       ],
       "preparacion": [
+          "En un vaso tiki 'Alien Azul' llenar de hielo picado.",
+          "En una coctelera pisar media banana con azucar y almibar.",
+          "Agregar todos los ingredientes a la coctelera con hielo grande y batir.",
+          "Servir en el vaso el contenido de la coctelera con colado simple.",
+          "Decorar.",
+          "Quemar la canela en la mesa."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -1139,6 +1455,12 @@
         "Smirnoff sandia: 45 ml"
       ],
       "preparacion": [
+          "En un vaso tiki 'Mascara Verde' llenar de hielo picado.",
+          "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+          "Servir en el vaso el contenido de la coctelera con colado simple.",
+          "Decorar."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -1159,6 +1481,12 @@
         "Pisco Mistral: 90 ml"
       ],
       "preparacion": [
+          "En un vaso tiki 'Samoai' llenar de hielo picado.",
+          "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+          "Servir en el vaso el contenido de la coctelera con colado simple.",
+          "Decorar."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -1179,6 +1507,13 @@
             "Anis estrellado: 1 unidad"
           ],
           "preparacion": [
+              "En un vaso 'Illabhela' agregar los ingredientes.",
+              "Llenar el vaso de hielo picado.",
+              "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+              "Decorar.",
+              "Quemar el anis estrellado."
+            ],
+            "sugerencia": [
               ""
             ],
             "clasificacion": [
@@ -1199,6 +1534,13 @@
           "Garnish: piel de pomelo, penca de anana y petalos de rosa (3gr)"
         ],
         "preparacion": [
+            "Llenar un vaso de coco de hielo picado.",
+            "En una coctelera agregar todos los ingredientes.",
+            "Agregar el hielo del vaso a la coctelera y batir.",
+            "Servir todo el contenido de la coctelera sin colar.",
+            "Decorar."
+          ],
+          "sugerencia": [
             ""
           ],
           "clasificacion": [
@@ -1221,6 +1563,17 @@
         "Garnish: 1 slice manzana (5gr), piel de lima y banderita"
       ],
       "preparacion": [
+          "Llenar un vaso de Whisky con hielo grande.",
+          "En una coctelera agregar todos los ingredientes (Menos el amargo obrero) con hielo grande y batir.",
+          "Servir todo el contenido de la coctelera con colado simple.",
+          "Completar con sombrero de amargo obrero.",
+          "Decorar.",
+          "Dentro de un cofre de madera situar el cocktail.",
+          "Colocar romero y madera en un dip dentro del cofre.",
+          "Prender fuego el contenido del dip e inmediatamente cerrar el cofre.",
+          "Llevar a la mesa con el cofre cerrado."
+        ],
+        "sugerencia": [
           ""
         ],
         "clasificacion": [
@@ -1238,8 +1591,14 @@
           "Ron especial: 45 ml",
           "Garnish: piel de pomelo y cereza en pick de bamboo"
         ],
+        "sugerencia": [
+          ""
+        ],
         "preparacion": [
-            ""
+            "En una copa 'Brunello' llenar de hielo picado.",
+            "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+            "Servir en el vaso el contenido de la coctelera con colado simple.",
+            "Decorar."
           ],
           "clasificacion": [
               "Frutal"
@@ -1261,6 +1620,12 @@
           "Garnish: piel de limon y 1 flor comesible"
         ],
         "preparacion": [
+            "En un vaso 'Collins Premium' pisar kiwi con azucar y limon.",
+            "Agregar el resto de ingredientes en el vaso.",
+            "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
+            "Decorar."
+          ],
+          "sugerencia": [
             ""
           ],
           "clasificacion": [
@@ -1279,6 +1644,12 @@
             "Garnish: Penacho de menta y flor comestible"
           ],
           "preparacion": [
+              "En un vaso tiki 'Linterna' llenar de hielo picado.",
+              "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+              "Servir en el vaso el contenido de la coctelera con colado simple.",
+              "Decorar."
+            ],
+            "sugerencia": [
               ""
             ],
             "clasificacion": [
@@ -1297,6 +1668,14 @@
             "Garnish: Cereza con Piel de Limon e Infusionador con Hielo Seco"
           ],
           "preparacion": [
+              "En una copa de acero agregar hielo para refrescar.",
+              "En una coctelera agregar todos los ingredientes con hielo grande y batir.",
+              "Vaciar la copa.",
+              "Servir en el vaso el contenido de la coctelera con colado simple.",
+              "Decorar.",
+              "Agregar dentro del cocktail un infusionador con hielo seco."
+            ],
+            "sugerencia": [
               ""
             ],
             "clasificacion": [
@@ -1318,6 +1697,9 @@
           "preparacion": [
               ""
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Frutal"
               ]
@@ -1336,6 +1718,9 @@
               "Garnish: Medio Labiado de Sal del Himalaya y Piel de Limon"
           ],
           "preparacion": [
+              ""
+            ],
+            "sugerencia": [
               ""
             ],
             "clasificacion": [
@@ -1359,6 +1744,9 @@
               "En una coctelera agregar los todos los ingredientes y batir.",
               "Servir en la copa sin hielo, con doble colado y decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Intenso"
               ]
@@ -1374,6 +1762,9 @@
             "Garnish: Piel de 1 naranja en forma de flor y copa labiada con azucar macerada en naranja" 
           ],
           "preparacion": [
+              ""
+            ],
+            "sugerencia": [
               ""
             ],
             "clasificacion": [
@@ -1398,6 +1789,9 @@
               "Servir en copa ahumada sin hielo.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Intenso"
               ]
@@ -1416,6 +1810,9 @@
               "En una copa cocktail agregar hielo y refrescar.",
               "En una coctelera agregar los todos los ingredientes y batir.",
               "Servir en la copa sin hielo, con doble colado y decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Intenso"
@@ -1441,6 +1838,9 @@
               "Servir en copa 'Huracan' o vaso de trago mediano.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Smoothie"
               ]
@@ -1461,6 +1861,9 @@
               "Licuar hasta que tome el 'punto frozen'.",
               "Servir en copa 'Huracan' o vaso de trago mediano.",
               "Decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Smoothie"
@@ -1483,6 +1886,9 @@
               "Licuar hasta que tome el 'punto frozen'.",
               "Servir en copa 'Huracan' o vaso de trago mediano.",
               "Decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Smoothie"
@@ -1507,6 +1913,9 @@
               "Servir en copa 'Huracan' o vaso de trago mediano.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Smoothie"
               ]
@@ -1527,6 +1936,9 @@
               "Licuar hasta que tome el 'punto frozen'.",
               "Servir en copa 'Huracan' o vaso de trago mediano.",
               "Decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Smoothie"
@@ -1553,6 +1965,9 @@
               "Servir la coctelera 2, luego servir la 1.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Mocktail"
               ]
@@ -1574,6 +1989,9 @@
               "Completar con agua.",
               "Tapar con la coctelera y batir durante 10 seg aprox.",
               "Servir y decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Mocktail"
@@ -1600,6 +2018,9 @@
             "Tapar con la coctelera y batir durante 10 seg aprox.",
             "Servir y decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Mocktail"
               ]
@@ -1622,6 +2043,9 @@
               "Tapar con la coctelera y batir durante 10 seg aprox.",
               "Servir y decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Mocktail"
               ]
@@ -1641,6 +2065,9 @@
               "Completar con agua.",
               "Tapar con la coctelera y batir durante 10 seg aprox.",
               "Servir y decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Mocktail"
@@ -1664,6 +2091,9 @@
               "Completar con agua.",
               "Tapar con la coctelera y batir durante 10 seg aprox.",
               "Servir y decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Mocktail"
@@ -1689,6 +2119,9 @@
               "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Jarra"
               ]
@@ -1705,6 +2138,9 @@
               "Infusion de Very Berries: 120 ml",
               "Jugo de Naranja: 60 ml",
               "Garnish: 1 Lima deshidratada, piel de naranja y frutos rojos"
+          ],
+          "sugerencia": [
+            ""
           ],
           "preparacion": [
               "En una jarra poner los ingredientes.",
@@ -1735,6 +2171,9 @@
               "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
               "Decorar."
             ],
+            "sugerencia": [
+              ""
+            ],
             "clasificacion": [
                 "Jarra"
               ]
@@ -1754,6 +2193,9 @@
               "Completar con agua.",
               "Integrar todos los ingredientes con el cucharin de abajo hacia arriba.",
               "Decorar."
+            ],
+            "sugerencia": [
+              ""
             ],
             "clasificacion": [
                 "Jarra"
