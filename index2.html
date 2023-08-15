@@ -50,23 +50,18 @@
 </body>
 </html>
 
-  <script>
-    function handleSubmit(event) {
-      let selectedValue = '';
+<script>
+  function handleSubmit(event) {   
+    event.preventDefault();
+    const inputValor = document.getElementById("input-query").value;
 
-    function handleButtonSelection(selection) {
-      selectedValue = selection;
+    if (inputValor.trim() === '') {
+      return;
     }
-      event.preventDefault();
-      const inputValor = document.getElementById("input-query").value;
 
-      if (inputValor.trim() === '') {
-        return;
-      }
-
-      const encodedQuery = encodeURIComponent(inputValor);
-      window.location.href = `bueno.html?query=${encodedQuery}&selection=${encodeURIComponent(selectedValue)}`;
-    }
-  </script>
+    const encodedQuery = encodeURIComponent(inputValor);
+    window.location.href = `bueno.html?query=${encodedQuery}`;
+  }
+</script>
 </body>
 </html>

@@ -38,13 +38,12 @@
   </section>
 
   <script>
-    let selectedValue = '';
-
     function handleButtonSelection(selection) {
-      selectedValue = selection;
-      window.location.href = `index2.html?selection=${encodeURIComponent(selectedValue)}`;
+      localStorage.setItem('selectedValue', selection);
+      window.location.href = `index2.html`;
     }
   </script>
+  
 </body>
 </html>
 
