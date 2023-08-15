@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recetario BRIXTON</title>
+  <link rel="stylesheet" type="text/css" href="./static/styles.css">
+</head>
+<body>
+  <header class="barra-superior"></header>
+  <nav class="button-wrapper">
+    <button class="button">
+      <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
+    </button>
+    <button class="button">
+      <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
+    </button>
+  </nav>
+  <section class="input-section">
+    <div class="input-wrapper">
+      <form onsubmit="handleSubmit(event)">
+        <div class="input-container">
+          <input type="text" id="input-query" class="input-consulta" placeholder="Ingrese el trago a consultar" autocomplete="off">
+          <button type="submit" class="enter-button"></button>
+        </div>
+      </form>
+    </div>
+    <div class="linea"></div>
+    <div class="input-container">
+      <input type="text" class="input-half" placeholder="Filtra por ingrediente" autocomplete="off">
+      <button class="input-half-button"></button>
+      <select class="select-custom">
+        <option value="" disabled selected>Filtra por metodo</option>
+        <option value="Directos">Directos</option>
+        <option value="Clasicos">Clasicos</option>
+        <option value="Caipis">Caipis</option>
+        <option value="Mojitos">Mojitos</option>
+        <option value="Espumantes">Espumantes</option>
+        <option value="Frozen">Frozen</option>
+        <option value="Julep">Julep</option>
+        <option value="Sour">Sour</option>
+        <option value="Cremosos">Cremosos</option>
+        <option value="Frutales">Frutales</option>
+        <option value="Intensos">Intensos</option>
+        <option value="Tikis">Tikis</option>
+        <option value="Smoothies">Smoothies</option>
+        <option value="Mocktails">Mocktails</option>
+        <option value="Jarras">Jarras</option>
+      </select>
+    </div>
+  </section>
+</body>
+</html>
+
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+      const inputValor = document.getElementById("input-query").value;
+
+      if (inputValor.trim() === '') {
+        return;
+      }
+
+      const encodedQuery = encodeURIComponent(inputValor);
+      window.location.href = `bueno.html?query=${encodedQuery}&selection=${encodeURIComponent(selectedValue)}`;
+    }
+  </script>
+</body>
+</html>
