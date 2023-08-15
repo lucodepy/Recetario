@@ -52,6 +52,11 @@
 
   <script>
     function handleSubmit(event) {
+      let selectedValue = '';
+
+    function handleButtonSelection(selection) {
+      selectedValue = selection;
+    }
       event.preventDefault();
       const inputValor = document.getElementById("input-query").value;
 
