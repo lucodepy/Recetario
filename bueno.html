@@ -96,7 +96,7 @@
 
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('query');
-  const selection = urlParams.get('selection');
+  const selection = localStorage.getItem('selection'); 
 
   if (query && selection) {
     searchRecipe(query, selection);
@@ -105,3 +105,4 @@
   </script>
 </body>
 </html>
+
