@@ -12,7 +12,7 @@
       <output class="text-output-dos" id="query-output"></output> 
     </div> 
     <div class="rectangle-class">
-      <output class="text-output-dos" id="classification-output"></output> 
+      <output class="text-output" id="classification-output"></output> 
     </div> 
     <div class="back-button">
       <a href="index.html" class="back-link button"></a>
@@ -38,45 +38,46 @@
   }
 
   function searchRecipe(query) {
-    const cleanedQuery = query.replace(/\s+/g, ' ').trim(); // Remover espacios extras
+  const cleanedQuery = query.replace(/\s+/g, ' ').trim(); // Remover espacios extras
 
-    const trago = titleCase(cleanedQuery);
-    let ingredientes = '';
-    let preparacion = '';
-    let clasificacion = '';
+  const trago = titleCase(cleanedQuery);
+  let ingredientes = '';
+  let sugerencia = '';
+  let clasificacion = '';
 
-    fetch('./recetas.json')
-      .then(response => response.json())
-      .then(data => {
-        const recipes = data.recetas;
+  fetch('./recetas.json')
+    .then(response => response.json())
+    .then(data => {
+      const recipes = data.recetas;
 
-        for (let i = 0; i < recipes.length; i++) {
-          const recipe = recipes[i];
-          if (recipe.nombre === trago) {
-            ingredientes = recipe.ingredientes.join('<br>');
-            preparacion = recipe.preparacion.join('<br>');
-            clasificacion = recipe.clasificacion.join('<br>');
-            break;
-          }
+      for (let i = 0; i < recipes.length; i++) {
+        const recipe = recipes[i];
+        if (recipe.nombre === trago) {
+          ingredientes = Object.keys(recipe.ingredientes).join('<br>');
+          sugerencia = recipe.sugerencia.join('<br>');
+          clasificacion = recipe.clasificacion.join('<br>');
+          break;
         }
+      }
 
-        if (ingredientes) {
-          const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-          document.getElementById('query-output').textContent = trago;
-          document.getElementById('classification-output').textContent = clasificacion;
-          document.getElementById('ingredients-output').innerHTML = ingredientes;
-          document.getElementById('preparation-output').innerHTML = preparacion;
-          document.getElementById('drink-image').src = image_path;
-        } else {
-          // Redirigir a la página de error y pasar el query como parámetro
-          window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-        }
-      })
-      .catch(error => {
+      if (ingredientes) {
+        const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
+        document.getElementById('query-output').textContent = trago;
+        document.getElementById('classification-output').textContent = clasificacion;
+        document.getElementById('ingredients-output').innerHTML = ingredientes;
+        document.getElementById('preparation-output').innerHTML = sugerencia;
+        document.getElementById('drink-image').src = image_path;
+      } else {
         // Redirigir a la página de error y pasar el query como parámetro
         window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-      });
-  }
+      }
+    })
+    .catch(error => {
+      // Redirigir a la página de error y pasar el query como parámetro
+      window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+    });
+}
+
 
 
   const urlParams = new URLSearchParams(window.location.search);
