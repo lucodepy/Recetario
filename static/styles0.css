@@ -1,5 +1,4 @@
 /* Estilos generales */
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -53,6 +52,28 @@ body {
   font-size: 1.5vw;
   text-align: left;
   box-sizing: border-box;
+  outline: none;
+  margin: 1vh 0vw;
+}
+
+.rectangle-login {
+  width: 100%;
+  height: 65px;
+  background-color: #B13157;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5vw;
+  margin: 1vh 0vw;
+}
+
+.login-button {
+  border: none;
+  background-color: transparent;
+  color: #DBAFB8;
+  font-size: 2vw;
+  font-weight: bold;
+  cursor: pointer;
   outline: none;
 }
 
@@ -156,20 +177,33 @@ body {
   min-width: 170px;
   height: 0.3vh;
   background-color: #DBAFB8;
-  margin: 3vh auto;
+  margin: 2vh auto;
 }
 
 .button {
-  width: 8vw;
+  width: 20vw;
   height: 10vh;
-  margin: 0 1vw;
-  background-color: transparent;
-  border: 2px solid #5D3F44;
-  border-radius: 0.5vw;
-  color: #5D3F44;
+  margin: 0 0.3vw;
+  background-color: #DBAFB8;
+  border-radius: 1.5vw;
   font-size: 2vw;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
+  display:flex;
+}
+
+
+.button span {
+  font-size: 1.5vw;
+  margin-right: 4vw;
+}
+
+.button img {
+  width: 3.5vw; /* Ajusta el tamaño de la imagen según tu necesidad */
+  height: auto;
+  margin: 1.3vw;
 }
 
 .button-image {
@@ -183,7 +217,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 6vw 0 1vw 0;
+  padding: 6vw 0 0 0;
 }
 
 .input-container {
@@ -204,4 +238,7 @@ body {
   .button {
     font-size: 3vw; /* Aumentar el tamaño de fuente en dispositivos móviles */
   }
+    .barra-superior {
+      background-size: calc(width 100%-50px); /* Ajustar el tamaño del nombre */
+    }
 }
