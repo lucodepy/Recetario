@@ -144,12 +144,8 @@ function searchRecipe(query, selection) {
           document.getElementById('ingredients-output').innerHTML = ingredientes;
           document.getElementById('preparation-output').innerHTML = preparacion;
         } else {
-          // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
-          const ingredientesArray = [];
-          for (const clave in ingredientes) {
-            const valor = ingredientes[clave];
-            ingredientesArray.push(`${clave}: ${valor}`);
-          }
+          // Mostrar solo las claves de los ingredientes para camareros
+          const ingredientesArray = Object.keys(ingredientes);
           ingredientes = ingredientesArray.join('<br>');
 
           document.getElementById('ingredients-output').innerHTML = ingredientes;
