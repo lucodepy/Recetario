@@ -38,65 +38,63 @@
     }
   
     function searchRecipe(query, selection) {
-      console.log('Query en searchRecipe:', query); // Impresión del query
-      console.log('Selection en searchRecipe:', selection); // Impresión del selection
-  
-      const cleanedQuery = query.replace(/\s+/g, ' ').trim();
-      const trago = titleCase(cleanedQuery);
-      let ingredientes = '';
-      let preparacion = '';
-      let clasificacion = '';
-  
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          const recipes = data.recetas;
-  
-          for (let i = 0; i < recipes.length; i++) {
-            const recipe = recipes[i];
-            if (recipe.nombre === trago) {
-              ingredientes = recipe.ingredientes.join('<br>');
-              preparacion = recipe.preparacion.join('<br>');
-              clasificacion = recipe.clasificacion.join('<br>');
-              break;
-            }
+  const cleanedQuery = query.replace(/\s+/g, ' ').trim();
+  const trago = titleCase(cleanedQuery);
+  let ingredientes = '';
+  let preparacion = '';
+  let clasificacion = '';
+
+  fetch('./recetas.json')
+    .then(response => response.json())
+    .then(data => {
+      const recipes = data.recetas;
+
+      for (let i = 0; i < recipes.length; i++) {
+        const recipe = recipes[i];
+        if (recipe.nombre === trago) {
+          ingredientes = recipe.ingredientes;
+          preparacion = recipe.preparacion.join('<br>');
+          clasificacion = recipe.clasificacion.join('<br>');
+          break;
+        }
+      }
+
+      if (ingredientes) {
+        const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
+        document.getElementById('query-output').textContent = trago;
+        document.getElementById('classification-output').textContent = clasificacion;
+
+        if (selection === 'bartender') {
+          // Mostrar ingredientes como clave: valor
+          const ingredientesArray = [];
+          for (const clave in ingredientes) {
+            const valor = ingredientes[clave];
+            ingredientesArray.push(`${clave}: ${valor}`);
           }
-  
-          if (ingredientes) {
-            const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-            document.getElementById('query-output').textContent = trago;
-            document.getElementById('classification-output').textContent = clasificacion;
-  
-            if (selection === 'bartender') {
-              // Mostrar ingredientes como clave: valor
-              const ingredientesDict = recipe.ingredientes.reduce((acc, ingrediente) => {
-                const [clave, valor] = ingrediente.split(': ');
-                acc[clave] = valor;
-                return acc;
-              }, {});
-              ingredientes = Object.entries(ingredientesDict).map(([clave, valor]) => `${clave}: ${valor}`).join('<br>');
-  
-              // Mostrar la sección de preparación en lugar de sugerencia
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = preparacion;
-            } else {
-              // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = recipe.sugerencia.join('<br>');
-            }
-  
-            document.getElementById('drink-image').src = image_path;
-          } else {
-            // Redirigir a la página de error y pasar el query como parámetro
-            window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-          }
-        })
-        .catch(error => {
-          // Redirigir a la página de error y pasar el query como parámetro
-          window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-        });
-    }
-  
+          ingredientes = ingredientesArray.join('<br>');
+
+          // Mostrar la sección de preparación en lugar de sugerencia
+          document.getElementById('ingredients-output').innerHTML = ingredientes;
+          document.getElementById('preparation-output').innerHTML = preparacion;
+        } else {
+          // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
+          ingredientes = Object.keys(ingredientes).join('<br>');
+          document.getElementById('ingredients-output').innerHTML = ingredientes;
+          document.getElementById('preparation-output').innerHTML = recipe.sugerencia.join('<br>');
+        }
+
+        document.getElementById('drink-image').src = image_path;
+      } else {
+        // Redirigir a la página de error y pasar el query como parámetro
+        window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+      }
+    })
+    .catch(error => {
+      // Redirigir a la página de error y pasar el query como parámetro
+      window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+    });
+}
+
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('query');
     const selection = urlParams.get('selection');
