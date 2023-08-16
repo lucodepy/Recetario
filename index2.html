@@ -51,6 +51,11 @@
 </html>
 
 <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const selection = urlParams.get('selection');
+  
+  console.log('Selection en index2:', selection); // Agregando la impresión
+
   function handleSubmit(event) {   
     event.preventDefault();
     const inputValor = document.getElementById("input-query").value;
@@ -60,8 +65,11 @@
     }
 
     const encodedQuery = encodeURIComponent(inputValor);
-    window.location.href = `bueno.html?query=${encodedQuery}`;
+    // Agregar la variable "selection" a la URL
+    window.location.href = `bueno.html?query=${encodedQuery}&selection=${encodeURIComponent(selection)}`;
   }
 </script>
+
+
 </body>
 </html>

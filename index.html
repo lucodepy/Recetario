@@ -39,8 +39,8 @@
 
   <script>
     function handleButtonSelection(selection) {
-      localStorage.setItem('selectedValue', selection);
-      window.location.href = `index2.html`;
+      window.location.href = `index2.html?selection=${encodeURIComponent(selection)}`;
+      console.log("Selection en index:", selection);
     }
   </script>
   
