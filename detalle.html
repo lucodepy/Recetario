@@ -52,12 +52,12 @@
         });
     }
   
-    const selectedClassification = urlParams.get('option'); // Cambiar 'option' por el nombre correcto del parámetro
+    const selectedClassification = urlParams.get('select'); // Cambiar 'option' por el nombre correcto del parámetro
     if (selectedClassification) {
       console.log('Filtrando por clasificación:', selectedClassification);
       filterRecipesByClassification(selectedClassification);
     } else {
-      console.log('Clasificación no encontrada. No se ejecutará el filtrado.');
+      console.log('Clasificación no encontrada. No se ejecutará el filtrado.', selectedClassification);
     }
   </script>
   
