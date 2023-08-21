@@ -132,6 +132,17 @@ body {
     background-position: center ;
     transform: translateX(470%) translateY(-350%);
   }
+
+  .trago-item {
+    cursor: pointer; /* Cambia el cursor a un ícono de puntero */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para cambios */
+  }
+  
+  /* Cambia el color de fondo y el color de texto al pasar el mouse sobre los elementos de la lista */
+  .trago-item:hover {
+    background-color: #5D3F44; /* Cambia el color de fondo al pasar el mouse */
+    color: #edeff2; /* Cambia el color de texto al pasar el mouse */
+  }
   
   @media only screen and (max-width: 767px) {
     .container {
