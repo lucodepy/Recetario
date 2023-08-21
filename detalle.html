@@ -59,6 +59,12 @@
     } else {
       console.log('Clasificación no encontrada. No se ejecutará el filtrado.', selectedClassification);
     }
+
+    const selectElement = document.getElementById('select-custom');
+    selectElement.addEventListener('change', () => {
+      const selectedOption = selectElement.value;
+      document.getElementById('query-output').textContent = selectedOption;
+    });
   </script>
   
 </body>
