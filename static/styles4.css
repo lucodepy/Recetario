@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #edeff2;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .barra-superior {
+    width: 100vw;
+    height: 18vh;
+    background-color: rgba(69, 47, 51, 0.9); /* Fondo transparente */
+    background-image: url('./nombre.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 50vh;
+  }
+  
+  .rectangle-name {
+    position: absolute;
+    width: 342px;
+    height: 60px;
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid #B13157; /* Borde de color */
+    border-radius: 1.5vw; /* Borde redondeado */
+    background-image: url(./metodo2.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    background-size: 35px auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 1vw; /* Espacio interno */
+    box-sizing: border-box; /* Contabilizar el espacio del borde en el tamaño */
+    font-size: 1.5vw;
+    text-align: left;
+    color: #B13157;
+    outline: none;
+  }
+  
+  .rectangle-name {
+    margin-top: -320px;
+    margin-left: -370px;
+    z-index: 4;
+  }
+  
+  .rectangle-other {
+    width: 50vw;
+    height: 60vh;
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid #DBAFB8; /* Borde de color */
+    border-radius: 1.5vw; /* Borde redondeado */
+    background-image: url(./recipe.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) calc(0% + 15px);
+    background-size: 35px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 180px;
+    margin-left: -750px;
+    z-index: 3;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #e19ca9 #853449;
+    position: absolute;
+    padding: 1 1vw; /* Espacio interno */
+    box-sizing: border-box; /* Contabilizar el espacio del borde en el tamaño */
+    font-size: 1.5vw;
+    text-align: left;
+    color: #DBAFB8;
+  }
+  
+  .rectangle-other {
+    margin-left: -30px;
+  }
+  
+  .rectangle::-webkit-scrollbar,
+  .rectangle-other::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .rectangle::-webkit-scrollbar-track,
+  .rectangle-other::-webkit-scrollbar-track {
+    background-color: transparent; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+  .rectangle::-webkit-scrollbar-thumb,
+  .rectangle-other::-webkit-scrollbar-thumb {
+    background-color: #DBAFB8; /* Color de la barra de desplazamiento */
+    border-radius: 2px;
+  }
+  
+  .text-output {
+    color: #edeff2;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  .button {
+    width: 60px; /* Cambia el ancho según sea necesario */
+    height: 40px; /* Cambia la altura según sea necesario */
+    background-color: transparent;
+    border: 2px solid #5D3F44;
+    border-radius: 5px; /* Bordes redondeados */
+    color: #5D3F44;
+    cursor: pointer;
+    display: flex;
+    background-image: url('./flechanew (1).png');
+    background-repeat: no-repeat;
+    background-size: 65%; /* Tamaño de la imagen de fondo */
+    background-position: center ;
+    transform: translateX(470%) translateY(-350%);
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .container {
+      padding: 0 2vw;
+    }
+  }
+  
