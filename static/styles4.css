@@ -140,8 +140,8 @@ body {
   
   /* Cambia el color de fondo y el color de texto al pasar el mouse sobre los elementos de la lista */
   .trago-item:hover {
-    background-color: #5D3F44; /* Cambia el color de fondo al pasar el mouse */
-    color: #edeff2; /* Cambia el color de texto al pasar el mouse */
+    background-color:transparent; /* Cambia el color de fondo al pasar el mouse */
+    color: #B13157; /* Cambia el color de texto al pasar el mouse */
   }
   
   @media only screen and (max-width: 767px) {
