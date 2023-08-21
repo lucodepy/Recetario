@@ -27,23 +27,23 @@
     <div class="input-container">
       <input type="text" class="input-half" placeholder="Filtra por ingrediente" autocomplete="off">
       <button class="input-half-button"></button>
-      <select class="select-custom">
+      <select class="select-custom" onchange="handleSelectChange()">
         <option value="" disabled selected>Filtra por metodo</option>
-        <option value="Directos">Directos</option>
-        <option value="Clasicos">Clasicos</option>
-        <option value="Caipis">Caipis</option>
-        <option value="Mojitos">Mojitos</option>
-        <option value="Espumantes">Espumantes</option>
+        <option value="Directo">Directos</option>
+        <option value="Clasico">Clasicos</option>
+        <option value="Caipi">Caipis</option>
+        <option value="Mojito">Mojitos</option>
+        <option value="Espumante">Espumantes</option>
         <option value="Frozen">Frozen</option>
         <option value="Julep">Julep</option>
         <option value="Sour">Sour</option>
-        <option value="Cremosos">Cremosos</option>
-        <option value="Frutales">Frutales</option>
-        <option value="Intensos">Intensos</option>
-        <option value="Tikis">Tikis</option>
-        <option value="Smoothies">Smoothies</option>
-        <option value="Mocktails">Mocktails</option>
-        <option value="Jarras">Jarras</option>
+        <option value="Cremoso">Cremosos</option>
+        <option value="Frutale">Frutales</option>
+        <option value="Intenso">Intensos</option>
+        <option value="Tiki">Tikis</option>
+        <option value="Smoothie">Smoothies</option>
+        <option value="Mocktail">Mocktails</option>
+        <option value="Jarra">Jarra</option>
       </select>
     </div>
   </section>
@@ -67,6 +67,13 @@
     const encodedQuery = encodeURIComponent(inputValor);
     // Agregar la variable "selection" a la URL
     window.location.href = `bueno.html?query=${encodedQuery}&selection=${encodeURIComponent(selection)}`;
+  }
+
+  function handleSelectChange() {
+    const selectedOption = document.querySelector('.select-custom').value;
+    if (selectedOption) {
+      window.location.href = `detalle.html?select=${encodeURIComponent(selectedOption)}&selection=${encodeURIComponent(selection)}`;
+    }
   }
 </script>
 

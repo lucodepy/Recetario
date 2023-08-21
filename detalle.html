@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recetario BRIXTON</title>
+  <link rel="stylesheet" type="text/css" href="./static/styles4.css">
+</head>
+<body>
+  <div class="container">
+    <div class="centered-wrapper"></div>
+    <div class="barra-superior"></div>
+    <div class="rectangle-name">
+      <output class="text-output-dos" id="query-output"></output> 
+    </div>  
+    <div class="back-button">
+      <a href="index.html" class="back-link button"></a>
+    </div>
+    <div class="rectangle-other">
+      <!-- Aquí mostrar la lista de tragos -->
+      <ul id="trago-list" class="text-output"></ul>
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const selection = urlParams.get('selection');
+    const select = urlParams.get('select');
+
+    function filterRecipesByClassification(classification) {
+      fetch('./recetas.json')
+        .then(response => response.json())
+        .then(data => {
+          const recipes = data.recetas;
+          const filteredRecipes = recipes.filter(recipe => recipe.clasificacion.includes(classification));
+  
+          const tragoList = document.getElementById('trago-list');
+          tragoList.innerHTML = ''; // Limpiar la lista actual
+  
+          filteredRecipes.forEach(trago => {
+            const tragoItem = document.createElement('li');
+            tragoItem.textContent = trago.nombre;
+            tragoItem.classList.add('trago-item'); // Puedes agregar estilos si deseas
+            tragoList.appendChild(tragoItem);
+  
+            // Agregar un evento clic para redirigir a la página de detalles del trago
+            tragoItem.addEventListener('click', () => {
+              window.location.href = `detalle.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
+            });
+          });
+        })
+        .catch(error => {
+          console.error('Error al cargar las recetas:', error);
+        });
+    }
+  
+    const selectedClassification = urlParams.get('option'); // Cambiar 'option' por el nombre correcto del parámetro
+    if (selectedClassification) {
+      console.log('Filtrando por clasificación:', selectedClassification);
+      filterRecipesByClassification(selectedClassification);
+    } else {
+      console.log('Clasificación no encontrada. No se ejecutará el filtrado.');
+    }
+  </script>
+  
+</body>
+</html>
