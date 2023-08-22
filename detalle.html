@@ -58,7 +58,15 @@
       console.log('Filtrando por clasificación:', selectedClassification);
       filterRecipesByClassification(selectedClassification);
     } else {
-      console.log('Clasificación no encontrada. No se ejecutará el filtrado.', selectedClassification);
+      if (ingredient) {
+      console.log('Filtrando por ingrediente:', ingredient);
+      filterRecipesByIngredient(ingredient);
+      document.getElementById('query-output').textContent = `Tragos con: ${decodeURIComponent(ingredient)}`;
+    } else {
+      const ingredientQuery = urlParams.get('ingredient');
+      console.log('Filtrando ingredientes por:', ingredientQuery);
+      filterIngredientsByName(decodeURIComponent(ingredientQuery));
+    }
     }
 
     const selectElement = document.getElementById('select-custom');
@@ -125,15 +133,7 @@
         });
     }
 
-    if (ingredient) {
-      console.log('Filtrando por ingrediente:', ingredient);
-      filterRecipesByIngredient(ingredient);
-      document.getElementById('query-output').textContent = `Tragos con: ${decodeURIComponent(ingredient)}`;
-    } else {
-      const ingredientQuery = urlParams.get('ingredient');
-      console.log('Filtrando ingredientes por:', ingredientQuery);
-      filterIngredientsByName(decodeURIComponent(ingredientQuery));
-    }
+    
   </script>
   
 </body>
