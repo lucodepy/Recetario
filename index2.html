@@ -25,10 +25,12 @@
     </div>
     <div class="linea"></div>
     <div class="input-container">
-      <input type="text" class="input-half" placeholder="Filtra por ingrediente" autocomplete="off">
+      <form onsubmit="handleIngredientFilter(event)">
+      <input type="text" id="input-ingredient" class="input-half" placeholder="Filtra por ingrediente" autocomplete="off">
       <button class="input-half-button"></button>
+      </form>
       <select class="select-custom" onchange="handleSelectChange()">
-        <option value="" disabled selected>Filtra por clasificacion</option>
+        <option value="" disabled selected>Filtra por metodo</option>
         <option value="Directo">Directos</option>
         <option value="Clasico">Clasicos</option>
         <option value="Caipi">Caipis</option>
@@ -74,6 +76,17 @@
     if (selectedOption) {
       window.location.href = `detalle.html?select=${encodeURIComponent(selectedOption)}&selection=${encodeURIComponent(selection)}`;
     }
+  }
+
+  function handleIngredientFilter(event) {
+    event.preventDefault();
+    const inputIngredient = document.getElementById("input-ingredient").value.trim();
+    if (inputIngredient === '') {
+      return;
+    }
+
+    const encodedIngredient = encodeURIComponent(inputIngredient);
+    window.location.href = `detalle.html?ingredient=${encodedIngredient}&selection=${encodeURIComponent(selection)}`;
   }
 </script>
 

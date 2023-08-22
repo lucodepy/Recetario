@@ -8,13 +8,13 @@
   <div class="container">
     <div class="centered-wrapper"></div>
     <div class="barra-superior"></div>
-    <div class="rectangle-name">
+    <div class="rectangulo-de-clasificacion">
       <output class="text-output-dos" id="query-output"></output> 
     </div>  
     <div class="back-button">
       <a href="index.html" class="back-link button"></a>
     </div>
-    <div class="rectangle-other">
+    <div class="rectangulo-de-lista">
       <!-- Aquí mostrar la lista de tragos -->
       <ul id="trago-list" class="text-output"></ul>
     </div>
@@ -24,6 +24,7 @@
     const urlParams = new URLSearchParams(window.location.search);
     const selection = urlParams.get('selection');
     const select = urlParams.get('select');
+    const ingredient = urlParams.get('ingredient');
 
     function filterRecipesByClassification(classification) {
       fetch('./recetas.json')
@@ -65,8 +66,75 @@
       const selectedOption = selectElement.value;
       document.getElementById('query-output').textContent = selectedOption;
     });
+
+    function filterIngredientsByName(ingredientName) {
+      fetch('./ingredientes.json')
+        .then(response => response.json())
+        .then(data => {
+          const ingredients = data.ingredientes;
+          const filteredIngredients = ingredients.filter(ing => ing.nombre.toLowerCase().includes(ingredientName.toLowerCase()));
+
+          const tragoList = document.getElementById('trago-list');
+          tragoList.innerHTML = ''; // Limpiar la lista actual
+
+          filteredIngredients.forEach(ing => {
+            const ingredientItem = document.createElement('li');
+            ingredientItem.textContent = ing.nombre;
+            ingredientItem.classList.add('ingredient-item'); // Puedes agregar estilos si deseas
+            tragoList.appendChild(ingredientItem);
+
+            // Agregar un evento clic para filtrar los tragos por el ingrediente seleccionado
+            ingredientItem.addEventListener('click', () => {
+              filterRecipesByIngredient(ing.nombre);
+              document.getElementById('query-output').textContent = `Tragos con: ${ing.nombre}`;
+            });
+          });
+        })
+        .catch(error => {
+          console.error('Error al cargar los ingredientes:', error);
+        });
+    }
+
+    function filterRecipesByIngredient(ingredient) {
+      fetch('./recetas.json')
+        .then(response => response.json())
+        .then(data => {
+          const recipes = data.recetas;
+          const filteredRecipes = recipes.filter(recipe => {
+            const ingredientes = Object.keys(recipe.ingredientes);
+            return ingredientes.some(ing => ing.toLowerCase().includes(ingredient.toLowerCase()));
+          });
+
+          const tragoList = document.getElementById('trago-list');
+          tragoList.innerHTML = ''; // Limpiar la lista actual
+
+          filteredRecipes.forEach(trago => {
+            const tragoItem = document.createElement('li');
+            tragoItem.textContent = trago.nombre;
+            tragoItem.classList.add('trago-item'); // Puedes agregar estilos si deseas
+            tragoList.appendChild(tragoItem);
+
+            // Agregar un evento clic para redirigir a la página de detalles del trago
+            tragoItem.addEventListener('click', () => {
+              window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
+            });
+          });
+        })
+        .catch(error => {
+          console.error('Error al cargar las recetas:', error);
+        });
+    }
+
+    if (ingredient) {
+      console.log('Filtrando por ingrediente:', ingredient);
+      filterRecipesByIngredient(ingredient);
+      document.getElementById('query-output').textContent = `Tragos con: ${decodeURIComponent(ingredient)}`;
+    } else {
+      const ingredientQuery = urlParams.get('ingredient');
+      console.log('Filtrando ingredientes por:', ingredientQuery);
+      filterIngredientsByName(decodeURIComponent(ingredientQuery));
+    }
   </script>
   
 </body>
 </html>
-

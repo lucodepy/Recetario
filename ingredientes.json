@@ -1,0 +1,803 @@
+{
+  "Hielo": [
+    "Fernet",
+    "Campari",
+    "Screwdriver",
+    "Cuba Libre",
+    "Vermu Bianco",
+    "Vermu Rosso",
+    "Vermu Ferroviario",
+    "Vermu De La Casa",
+    "Aperol Spritz",
+    "Gin Tonic",
+    "Bloody Mary",
+    "Negroni",
+    "Old Fashioned Smoked",
+    "Caipirinha",
+    "Caipiroska",
+    "Caipirissima",
+    "Caipi Fruta",
+    "Caipi Maracuya",
+    "London Beach Caipi",
+    "Jagerinha",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mojito Hawaiano",
+    "Mimosa",
+    "Kir Royale",
+    "Champagne Julep",
+    "Negroni Sbagliatto",
+    "Copa Baileys",
+    "Copa Oreo",
+    "Daiquiri Frozen",
+    "Cynar Julep",
+    "Mint Julep",
+    "Amy Jagerhouse",
+    "Bosque De Miel",
+    "Zombie",
+    "Pocion Tiki 27",
+    "Passion Nai",
+    "Pascualito",
+    "Bikini Bottom",
+    "Maracucoco",
+    "Monkey Island",
+    "Ritzy Gallito",
+    "New Paradise",
+    "Floral Plum",
+    "Caisara",
+    "All Blue",
+    "Milkshake Oreo",
+    "Milkshake Brixton",
+    "Amarillo",
+    "Verde",
+    "Licuado Al Agua",
+    "Full To Matcha",
+    "Limonada Con Menta Y Jengibre",
+    "Brixton Beach Tea",
+    "Maracuyada",
+    "Pomelada",
+    "Pomelada De Frambuesa",
+    "Jarra De Limonada",
+    "Jarra De Brixton Beach Tea",
+    "Jarra De Maracuyada",
+    "Jarra De Pomelada"
+  ],
+  "Garnish": [
+    "Fernet",
+    "Campari",
+    "Screwdriver",
+    "Cuba Libre",
+    "Vermu Bianco",
+    "Vermu Rosso",
+    "Vermu Ferroviario",
+    "Vermu De La Casa",
+    "Aperol Spritz",
+    "Bloody Mary",
+    "Dry Martini",
+    "Negroni",
+    "Old Fashioned Smoked",
+    "Manhattan",
+    "Cosmopolitan",
+    "Penicillin",
+    "Margarita",
+    "Long Island Ice Tea",
+    "Moscow Mule",
+    "Linchburg Lemonade",
+    "Clarito",
+    "Espresso Martini",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mojito Hawaiano",
+    "Mimosa",
+    "Kir Royale",
+    "Negroni Sbagliatto",
+    "Mint Julep",
+    "Bosque De Miel",
+    "Pisco Sour",
+    "Whisky Sour",
+    "Pecado",
+    "Golden Cadillac",
+    "New Casttle",
+    "Marroc Mist",
+    "Pocion Tiki 27",
+    "Maracucoco",
+    "Monkey Island",
+    "Ritzy Gallito",
+    "New Paradise",
+    "Floral Plum",
+    "Oasis",
+    "Caisara",
+    "All Blue",
+    "Black Widow",
+    "Naranjo En Flor",
+    "Milkshake Oreo",
+    "Milkshake Brixton",
+    "Amarillo",
+    "Verde",
+    "Licuado Al Agua",
+    "Full To Matcha",
+    "Limonada Con Menta Y Jengibre",
+    "Brixton Beach Tea",
+    "Maracuyada",
+    "Jarra De Limonada",
+    "Jarra De Brixton Beach Tea",
+    "Jarra De Maracuyada"
+  ],
+
+  "Coca Cola": [
+    "Fernet",
+    "Long Island Ice Tea",
+    "Cuba Libre"
+  ],
+  "Soda": [
+    "Vermu Bianco",
+    "Vermu Rosso",
+    "Vermu Ferroviario",
+    "Old Fashioned Smoked",
+    "Maracuyada",
+    "Jarra De Maracuyada"
+  ],
+  "Paso De Los Toros": [
+    "Vermu De La Casa",
+    "Mojito Hawaiano"
+  ],
+  "Tonica": [
+    "Aperol Spritz",
+    "Gin Tonic",
+    "Mojito Cubano",
+    "Mojito Frutal"
+  ],
+  "Gaseosa De jengibre": [
+    "Moscow Mule"
+  ],
+  "Sprite": [
+    "Linchburg Lemonade"
+  ],
+  "Agua": [
+    "Licuado Al Agua",
+    "Limonada Con Menta Y Jengibre",
+    "Pomelada",
+    "Pomelada De Frambuesa",
+    "Jarra De Limonada",
+    "Jarra De Pomelada"
+  ],
+
+  "Fernet": [
+    "Fernet",
+    "Vermu Ferroviario",
+    "Bosque De Miel"
+  ],
+  "Campari": [
+    "Campari",
+    "Negroni",
+    "Negroni Sbagliatto"
+  ],
+  "Bianco": [
+    "Vermu Bianco",
+    "Vermu De La Casa",
+    "New Paradise"
+  ],
+  "Rosso": [
+    "Vermu Rosso",
+    "Vermu Ferroviario",
+    "Negroni",
+    "Manhattan",
+    "Negroni Sbagliatto"
+  ],
+  "Aperol": [
+    "Aperol Spritz",
+    "Pecado"
+  ],
+  "Gin": [
+    "Gin Tonic",
+    "Dry Martini",
+    "Negroni",
+    "Long Island Ice Tea",
+    "Bramble",
+    "Clarito",
+    "Bikini Bottom",
+    "Floral Plum"
+  ],
+  "Martini Dry": [
+    "Dry Martini",
+    "Clarito"
+  ],
+
+  "Jugo De Naranja Exprimido": [
+    "Campari",
+    "Screwdriver",
+    "Mimosa",
+    "Pascualito",
+    "Maracucoco",
+    "Oasis",
+    "Amarillo",
+    "Verde",
+    "Brixton Beach Tea",
+    "Maracuyada",
+    "Jarra De Brixton Beach Tea",
+    "Jarra De Maracuyada"
+  ],
+  "Jugo De Limon": [
+    "Bloody Mary",
+    "Margarita",
+    "Long Island Ice Tea",
+    "Moscow Mule",
+    "Bramble",
+    "Daiquiri Frozen",
+    "Mint Julep",
+    "Pisco Sour",
+    "Whisky Sour",
+    "Bermellon",
+    "Pocion Tiki 27",
+    "Passion Nai",
+    "Pascualito",
+    "Bikini Bottom",
+    "New Paradise",
+    "Floral Plum",
+    "All Blue",
+    "Aurora Boreal",
+    "Limonada Con Menta Y Jengibre",
+    "Maracuyada",
+    "Pomelada",
+    "Pomelada De Frambuesa",
+    "Jarra De Limonada",
+    "Jarra De Maracuyada",
+    "Jarra De Pomelada"
+  ],
+  "Jugo De Tomate": [
+    "Bloody Mary"
+  ],
+  "Jugo De Media Lima": [
+    "Cosmopolitan",
+    "Zombie"
+  ],
+  "Jugo De Arandanos": [
+    "Cosmopolitan",
+    "Brixton Beach Tea",
+    "Jarra De Brixton Beach Tea"
+  ],
+  "Jugo De Frambuesa": [
+    "Pomelada De Frambuesa"
+  ],
+  "Jugo de Limon": [
+    "Penicillin",
+    "Piña Colada"
+  ],
+  "Jugo De Pomelo": [
+    "Jagerinha",
+    "Amy Jagerhouse",
+    "Ritzy Gallito",
+    "Pomelada",
+    "Pomelada De Frambuesa",
+    "Jarra De Pomelada"
+  ],
+
+  "Ron": [
+    "Cuba Libre",
+    "Piña Colada",
+    "Long Island Ice Tea",
+    "Caipirissima",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mojito Hawaiano",
+    "Daiquiri Frozen",
+    "Zombie",
+    "Maracucoco",
+    "Ritzy Gallito",
+    "Aurora Boreal"
+  ],
+  "Ron Dorado": [
+    "Zombie",
+    "Pocion Tiki 27",
+    "Monkey Island",
+    "Ritzy Gallito",
+    "Al Capone"
+  ],
+  "Ron De Coco Malibu": [
+    "Piña Colada",
+    "Mojito Hawaiano",
+    "Maracucoco",
+    "Oasis",
+    "Aurora Boreal"
+  ],
+  "Ron de Canela": [
+    "New Casttle"
+  ],
+  "Triple Sec": [
+    "Cosmopolitan",
+    "Margarita",
+    "Long Island Ice Tea"
+  ],
+  "Tequila": [
+    "Margarita",
+    "Long Island Ice Tea"
+  ],
+  "Pisco Mistral": [
+    "Pisco Sour",
+    "Pascualito"
+  ],
+  "Vodka Smirnoff De Manzana": [
+    "Monkey Island",
+    "Black Widow"
+  ],
+  "Vodka Smirnoff De Sandia": [
+    "Passion Nai",
+    "Oasis"
+  ],
+  "Vodka Sernova": [
+    "Screwdriver",
+    "Bloody Mary",
+    "Cosmopolitan",
+    "Long Island Ice Tea",
+    "Moscow Mule",
+    "Espresso Martini",
+    "Caipiroska",
+    "Caipi Fruta",
+    "Caipi Maracuya",
+    "London Beach Caipi",
+    "Bermellon",
+    "Pecado",
+    "White Russian",
+    "Banana Ice",
+    "New Paradise",
+    "All Blue"
+  ],
+ 
+  "Azucar": [
+    "Old Fashioned Smoked",
+    "Margarita",
+    "Linchburg Lemonade",
+    "Caipirinha",
+    "Caipiroska",
+    "Caipirissima",
+    "Caipi Fruta",
+    "Caipi Maracuya",
+    "London Beach Caipi",
+    "Jagerinha",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Champagne Julep",
+    "Copa Baileys",
+    "Copa Oreo",
+    "Daiquiri Frozen",
+    "Mint Julep",
+    "New Paradise",
+    "Milkshake Oreo",
+    "Milkshake Brixton",
+    "Amarillo",
+    "Verde",
+    "Licuado Al Agua",
+    "Brixton Beach Tea"
+  ],
+  "Azucar Mascabo": [
+    "Cynar Julep"
+  ],
+  "Azucar Negra": [
+    "Amy Jagerhouse"
+  ],
+
+  "Whisky Jim Bean": [
+    "Old Fashioned Smoked",
+    "Manhattan",
+    "Mint Julep"
+  ],
+  "Whisky Jameson": [
+    "Whisky Sour"
+  ],
+  "Whisky Red Label": [
+    "Penicillin"
+  ],
+  "Whisky Jack Daniels": [
+    "Linchburg Lemonade"
+  ],
+  "Whisky Ballentines": [
+    "Copa Baileys"
+  ],
+
+  "Jalea De Calabaza": [
+    "Pascualito"
+  ],
+  "Jalea De Frambuesa": [
+    "Bermellon",
+    "Ritzy Gallito"
+  ],
+  "Jalea De Pera": [
+    "Monkey Island"
+  ],
+
+  "Pulpa De Anana": [
+    "Bosque De Miel",
+    "Zombie",
+    "Bikini Bottom",
+    "Ritzy Gallito"
+  ],
+  "Pulpa De Ciruela": [
+    "Floral Plum"
+  ],
+  "Pulpa de Durazno": [
+    "Naranjo En Flor"
+  ],
+
+  "Reduccion De Honey": [
+    "Bosque De Miel"
+  ],
+  "Reduccion De Virgen Negra": [
+    "Black Widow"
+  ],
+
+  "Cynar": [
+    "Cynar Julep",
+    "Pocion Tiki 27"
+  ],
+  "Pineral": [
+    "Vermu De La Casa",
+    "Pascualito",
+    "Black Widow"
+  ],
+  "Espumante": [
+    "Aperol Spritz",
+    "Mimosa",
+    "Kir Royale",
+    "Champagne Julep",
+    "Negroni Sbagliatto"
+  ],
+  "Falernum": [
+    "Pi\u00f1a Colada",
+    "Zombie",
+    "Passion Nai",
+    "Maracucoco",
+    "Oasis"
+  ],
+  "Cachaza": [
+    "Caipirinha",
+    "Caisara"
+  ],
+  "Jager": [
+    "Jagerinha",
+    "Amy Jagerhouse"
+  ],
+  
+  "Tabasco": [
+    "Bloody Mary"
+  ],
+  "Salsa Inglesa": [
+    "Bloody Mary"
+  ],
+  "Sal De Apio": [
+    "Bloody Mary"
+  ],
+  "Humo Liquido": [
+    "Penicillin"
+  ],
+  "Miel": [
+    "Penicillin"
+  ],
+  "Menta": [
+    "Long Island Ice Tea",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mojito Hawaiano",
+    "Champagne Julep",
+    "Cynar Julep",
+    "Mint Julep",
+    "Amy Jagerhouse",
+    "Bikini Bottom",
+    "Verde",
+    "Limonada Con Menta Y Jengibre",
+    "Jarra De Limonada"
+  ],
+  "Cafe Espresso": [
+    "Espresso Martini"
+  ],
+  "Oreo": [
+    "Copa Oreo",
+    "Milkshake Oreo"
+  ],
+  "Albumina": [
+    "Pisco Sour",
+    "Whisky Sour",
+    "Bermellon",
+    "Pecado"
+  ],
+  "Oleo De Pomelo": [
+    "Pecado"
+  ],
+  "Cordial de Vainilla": [
+    "Golden Cadillac"
+  ],
+  "Granadina": [
+    "Zombie",
+    "Pocion Tiki 27"
+  ],
+  "Gomitas": [
+    "Bikini Bottom"
+  ],
+  "Anis Estrellado": [
+    "Bikini Bottom"
+  ],
+  "Ahumado": [
+    "Monkey Island"
+  ],
+  "Hesperedina": [
+    "Naranjo En Flor"
+  ],
+  "Curcuma": [
+    "Amarillo",
+    "Verde"
+  ],
+  "Apio": [
+    "Verde"
+  ],
+
+  "Amargo Obrero": [
+    "Monkey Island"
+  ],
+  "Malamado Malbec": [
+    "Bermellon"
+  ],
+
+  "Bitter Old Baried": [
+    "Al Capone"
+  ],
+  "Bitter New Orlands": [
+    "New Paradise"
+  ],
+  "Bitter Angostura": [
+    "Bloody Mary",
+    "Old Fashioned Smoked",
+    "Manhattan",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Champagne Julep",
+    "Zombie",
+    "Caisara"
+  ],
+  "Bitter Oak": [
+    "All Blue"
+  ],
+  "Bitter Floral": [
+    "Floral Plum"
+  ],
+  "Bitter Prohibition": [
+    "Bermellon"
+  ],
+  "Bitter Tiki": [
+    "Bosque De Miel",
+    "Pocion Tiki 27",
+    "Pascualito"
+  ],
+  "Bitter De Coco": [
+    "Piña Colada",
+    "Maracucoco"
+  ],
+  
+  "Syrup Neutro": [
+    "Long Island Ice Tea",
+    "Bramble",
+    "Espresso Martini",
+    "Caipirinha",
+    "Caipiroska",
+    "Caipirissima",
+    "Caipi Fruta",
+    "Caipi Maracuya",
+    "London Beach Caipi",
+    "Jagerinha",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mint Julep",
+    "Bosque De Miel",
+    "Pisco Sour",
+    "Whisky Sour",
+    "Bermellon",
+    "Pecado",
+    "New Casttle",
+    "New Paradise",
+    "Caisara",
+    "Aurora Boreal",
+    "Maracuyada",
+    "Pomelada",
+    "Pomelada De Frambuesa",
+    "Jarra De Brixton Beach Tea",
+    "Jarra De Maracuyada",
+    "Jarra De Pomelada"
+  ],
+  "Syrup De Jengibre": [
+    "Penicillin",
+    "Moscow Mule",
+    "Zombie",
+    "Limonada Con Menta Y Jengibre",
+    "Jarra De Limonada"
+  ],
+  "Syrup De Manzana": [
+    "Monkey Island"
+  ],
+  "Syrup Blue": [
+    "Bikini Bottom",
+    "All Blue",
+    "Full To Matcha"
+  ],
+  "Syrup 27": [
+    "Pocion Tiki 27"
+  ],
+  "Syrup De Vainilla": [
+    "Pascualito"
+  ],
+  
+  "Leche": [
+    "Milkshake Oreo",
+    "Milkshake Brixton"
+  ],
+  "Crema Vegetal": [
+    "Golden Cadillac",
+    "White Russian",
+    "New Casttle",
+    "Marroc Mist",
+    "Banana Ice",
+    "Full To Matcha"
+  ],
+  "Leche De Coco": [
+    "Piña Colada",
+    "Full To Matcha"
+  ],
+  "Helado De Crema Americana": [
+    "Copa Baileys",
+    "Copa Oreo",
+    "Milkshake Oreo",
+    "Milkshake Brixton"
+  ],
+ 
+  "Licor Endelflower": [
+    "Al Capone"
+  ],
+  "Licor Vechio Amaro": [
+    "Al Capone"
+  ],
+  "Licor Golden Age De Petalos De Rosa": [
+    "Bramble"
+  ],
+  "Licor De Cassis": [
+    "Bramble",
+    "London Beach Caipi",
+    "Kir Royale",
+    "Floral Plum",
+    "Naranjo En Flor"
+  ],
+  "Licor De Marroc": [
+    "Marroc Mist"
+  ],
+  "Licor De Chocolate Blanco": [
+    "Golden Cadillac"
+  ],
+  "Licor De Chocolate": [
+    "Copa Baileys"
+  ],
+  "Licor Golden Age Parfait Amour": [
+    "Cosmopolitan",
+    "Bermellon"
+  ],
+  "Licor de Cafe Espresso": [
+    "Espresso Martini",
+    "White Russian",
+    "Banana Ice"
+  ],
+  "Licor De Amaretto": [
+    "Pecado",
+    "Pascualito",
+    "Maracucoco"
+  ],
+  "Baileys": [
+    "Copa Baileys",
+    "Copa Oreo"
+  ],
+  "Cognac": [
+    "Copa Oreo",
+    "Golden Cadillac",
+    "Black Widow",
+    "Naranjo En Flor"
+  ],
+  "Amarula": [
+    "New Casttle"
+  ],
+  "Frangelico": [
+    "Marroc Mist",
+    "Caisara"
+  ],
+  "Apricot Brandy": [
+    "Passion Nai",
+    "Bikini Bottom",
+    "Naranjo En Flor",
+    "Aurora Boreal"
+  ],
+
+  "Manzana Verde": [
+    "Verde"
+  ],
+  "Kiwi": [
+    "New Paradise"
+  ],
+  "Pepino": [
+    "New Paradise"
+  ],
+  "Sandia": [
+    "Passion Nai"
+  ],
+  "Banana": [
+    "Banana Ice",
+    "Amarillo"
+  ],
+  "Pomelo": [
+    "Cynar Julep"
+  ],
+  "Naranja": [
+    "Caipirissima",
+    "Caipi Fruta",
+    "Brixton Beach Tea",
+    "Jarra De Brixton Beach Tea"
+  ],
+  "Frutilla": [
+    "Caipi Fruta",
+    "New Paradise"
+  ],
+  "Maracuya": [
+    "Caipi Maracuya",
+    "Passion Nai",
+    "Maracucoco",
+    "Oasis",
+    "Amarillo",
+    "Full To Matcha",
+    "Maracuyada",
+    "Jarra De Maracuyada"
+  ],
+  "Frutos Rojos": [
+    "London Beach Caipi",
+    "Milkshake Brixton",
+    "Brixton Beach Tea",
+    "Jarra De Brixton Beach Tea"
+  ],
+  "Anana": [
+    "Piña Colada",
+    "Caisara",
+    "All Blue",
+    "Aurora Boreal"
+  ],
+  "Lima": [
+    "Caipirinha",
+    "Caipiroska",
+    "Caipirissima",
+    "Caipi Fruta",
+    "Caipi Maracuya",
+    "London Beach Caipi",
+    "Jagerinha",
+    "Mojito Cubano",
+    "Mojito Frutal",
+    "Mojito Hawaiano",
+    "Caisara",
+    "All Blue",
+    "Brixton Beach Tea",
+    "Jarra De Brixton Beach Tea"
+  ],
+  "Limon": [
+    "Linchburg Lemonade",
+    "Bosque De Miel",
+    "Pecado",
+    "Oasis",
+    "Licuado Al Agua"
+  ],
+  "Fruta": [
+    "Mojito Frutal",
+    "Daiquiri Frozen",
+    "Licuado Al Agua"
+  ],
+
+  "Infusion De Matcha": [
+    "Full To Matcha"
+  ],
+  "Infusion De Very Berries": [
+    "Brixton Beach Tea",
+    "Pomelada De Frambuesa",
+    "Jarra De Brixton Beach Tea"
+  ],
+  "Infusion de Hibisco": [
+    "Pomelada De Frambuesa"
+  ]
+}
