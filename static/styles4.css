@@ -35,7 +35,7 @@ body {
     background-size: 50vh;
   }
   
-  .rectangle-name {
+  .rectangulo-de-clasificacion {
     position: absolute;
     width: 342px;
     height: 60px;
@@ -55,15 +55,11 @@ body {
     text-align: left;
     color: #B13157;
     outline: none;
-  }
-  
-  .rectangle-name {
     margin-top: -320px;
     margin-left: -370px;
-    z-index: 4;
   }
   
-  .rectangle-other {
+  .rectangulo-de-lista {
     width: 50vw;
     height: 60vh;
     background-color: transparent; /* Fondo transparente */
@@ -90,22 +86,19 @@ body {
     color: #DBAFB8;
   }
   
-  .rectangle-other {
+  .rectangulo-de-lista {
     margin-left: -30px;
   }
   
-  .rectangle::-webkit-scrollbar,
-  .rectangle-other::-webkit-scrollbar {
+  .rectangulo-de-lista::-webkit-scrollbar {
     width: 8px; /* Ancho de la barra de desplazamiento */
   }
   
-  .rectangle::-webkit-scrollbar-track,
-  .rectangle-other::-webkit-scrollbar-track {
+  .rectangulo-de-lista::-webkit-scrollbar-track {
     background-color: transparent; /* Color del fondo de la barra de desplazamiento */
   }
   
-  .rectangle::-webkit-scrollbar-thumb,
-  .rectangle-other::-webkit-scrollbar-thumb {
+  .rectangulo-de-lista::-webkit-scrollbar-thumb {
     background-color: #DBAFB8; /* Color de la barra de desplazamiento */
     border-radius: 2px;
   }
