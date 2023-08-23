@@ -10,9 +10,9 @@
     <button class="button">
       <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
     </button>
-    <button class="button">
+    <button class="button" onclick="handleLogout()">
       <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
-    </button>
+    </button>    
   </nav>
   <section class="input-section">
     <div class="input-wrapper">
@@ -58,6 +58,10 @@
   
   console.log('Selection en index2:', selection); // Agregando la impresión
 
+  function handleLogout() {
+    window.location.href = 'index.html'; // Cambiar la URL según tu estructura de carpetas
+  }
+  
   function handleSubmit(event) {   
     event.preventDefault();
     const inputValor = document.getElementById("input-query").value;

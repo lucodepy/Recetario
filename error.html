@@ -8,13 +8,13 @@
   <div class="container">
     <header class="barra-superior"></header>
     <nav class="button-wrapper">
-      <form onsubmit="handleSubmit(event)">
         <button class="button">
           <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
         </button>
-        <button class="button">
+        <button class="button"onclick="handleLogout()">
           <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
         </button>
+        <form onsubmit="handleSubmit(event)">
         <button class="button">
           <a href="index2.html" class="back-link">
             <img src="./static/flechanew (1).png" class="button-image">
@@ -30,6 +30,10 @@
   </div>
 
   <script>
+  function handleLogout() {
+    window.location.href = 'index.html'; // Cambiar la URL según tu estructura de carpetas
+  }
+
     function handleSubmit(event) {
       event.preventDefault();
       const urlParams = new URLSearchParams(window.location.search);

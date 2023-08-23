@@ -7,11 +7,9 @@
 <body>
   <header class="barra-superior"></header>
   <nav class="button-wrapper">
-    <button class="button" onclick="handleButtonSelection('bartender');">
       <img src="./static/preparacion2.png" alt="Descripción de la imagen" class="button-image">
       <span>Sección de Bartenders</span>
     </button>
-    <button class="button" onclick="handleButtonSelection('camarero');">
       <img src="./static/waiter.png" alt="Descripción de la imagen" class="button-image">
       <span>Sección de Camareros</span>
     </button>
@@ -57,6 +55,9 @@
 
       const users = await loadUsersFromJson();
 
+      console.log(inputUsername)
+      console.log(inputPassword)
+
       const user = users.find(u => u.usuario === inputUsername && u.contrasena === inputPassword);
 
       if (user) {
@@ -64,11 +65,6 @@
       } else {
         alert("Usuario o contraseña incorrectos. Por favor, intenta de nuevo.");
       }
-    }
-
-    function handleButtonSelection(selection) {
-      window.location.href = `index2.html?selection=${encodeURIComponent(selection)}`;
-      console.log("Selection en index:", selection);
     }
   </script>
   
