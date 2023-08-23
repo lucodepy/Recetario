@@ -9,35 +9,63 @@
   <nav class="button-wrapper">
     <button class="button" onclick="handleButtonSelection('bartender');">
       <img src="./static/preparacion2.png" alt="Descripción de la imagen" class="button-image">
-      <span>Secci&oacute;n de Bartenders</span>
+      <span>Sección de Bartenders</span>
     </button>
     <button class="button" onclick="handleButtonSelection('camarero');">
       <img src="./static/waiter.png" alt="Descripción de la imagen" class="button-image">
-      <span>Secci&oacute;n de Camareros</span>
+      <span>Sección de Camareros</span>
     </button>
     <button class="button">
       <img src="./static/cooker.png" alt="Descripción de la imagen" class="button-image">
-      <span>Secci&oacute;n de Cocina</span>
+      <span>Sección de Cocina</span>
     </button>
   </nav>
   <section class="input-section">
     <div class="input-wrapper">
-      <form> 
+      <form onsubmit="handleLogin(event)"> 
         <div class="linea"></div>
         <div class="input-container">
           <input type="text" id="input-query" class="input-consulta" placeholder="Nombre de usuario" autocomplete="off">
         </div>
         <div class="input-container">
-          <input type="password" id="input-password" class="input-consulta" placeholder="Contrase&ntilde;a" autocomplete="off">
+          <input type="password" id="input-password" class="input-consulta" placeholder="Contraseña" autocomplete="off">
         </div>
         <div class="rectangle-login">
-          <button class="login-button">Iniciar Sesi&oacute;n</button>
+          <button type="submit" class="login-button">Iniciar Sesión</button>
         </div>
       </form>
     </div>
   </section>
 
   <script>
+    async function loadUsersFromJson() {
+      try {
+        const response = await fetch('./users.json');
+        const usersData = await response.json();
+        return usersData.users;
+      } catch (error) {
+        console.error('Error al cargar usuarios:', error);
+        return [];
+      }
+    }
+
+    async function handleLogin(event) {
+      event.preventDefault();
+      
+      const inputUsername = document.getElementById("input-query").value;
+      const inputPassword = document.getElementById("input-password").value;
+
+      const users = await loadUsersFromJson();
+
+      const user = users.find(u => u.usuario === inputUsername && u.contrasena === inputPassword);
+
+      if (user) {
+        window.location.href = `index2.html?selection=${encodeURIComponent(user.permiso)}`;
+      } else {
+        alert("Usuario o contraseña incorrectos. Por favor, intenta de nuevo.");
+      }
+    }
+
     function handleButtonSelection(selection) {
       window.location.href = `index2.html?selection=${encodeURIComponent(selection)}`;
       console.log("Selection en index:", selection);
@@ -46,4 +74,3 @@
   
 </body>
 </html>
-
