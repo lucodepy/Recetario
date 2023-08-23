@@ -32,14 +32,9 @@
   <script>
     function handleSubmit(event) {
       event.preventDefault();
-      const inputValor = document.getElementById("input-query").value;
-
-      if (inputValor.trim() === '') {
-        return;
-      }
-
+      const inputValor = document.getElementById("selection").value;
       const encodedQuery = encodeURIComponent(inputValor);
-      window.location.href = `bueno.html?query=${encodedQuery}`;
+      window.location.href = `index2.html?selection=${encodedQuery}`;
     }
   </script>
 </body>
