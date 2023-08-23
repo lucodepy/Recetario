@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "usuario": "emilioveron",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "camiladenaro",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "luanamanieri",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "miabettarel",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "lucamasalan",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "lucasperalta",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "rociofranco",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "rodrigopedrozo",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "tomasdure",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "wandallano",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "facundolopez",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "fiorellasinnona",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "nataliatabbia",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "lujangaleano",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "agostinariquelme",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "ivanlopez",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "chiaraespasandin",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "diegoleon",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "claudiosalvatierra",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "jeronimoamado",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "pablorodriguez",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "gonzalobulacio",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "johnattancuba",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "facundokent",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    },
+    {
+      "usuario": "nicolasmagnelli",
+      "contrasena": "contra",
+      "permiso": "camarero"
+    }
+  ]
+}
