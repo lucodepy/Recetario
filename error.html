@@ -32,9 +32,10 @@
   <script>
     function handleSubmit(event) {
       event.preventDefault();
-      const inputValor = document.getElementById("selection").value;
-      const encodedQuery = encodeURIComponent(inputValor);
-      window.location.href = `index2.html?selection=${encodedQuery}`;
+      const urlParams = new URLSearchParams(window.location.search);
+      const inputValor = urlParams.get('selection');
+      console.log('selection', inputValor)
+      window.location.href = `index2.html?selection=${encodeURIComponent(inputValor)}`;
     }
   </script>
 </body>
