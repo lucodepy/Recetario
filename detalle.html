@@ -15,6 +15,7 @@
       <a href="index.html" class="back-link button"></a>
     </div>
     <div class="rectangulo-de-lista">
+      <!-- Aquí mostrar la lista de ingredientes o tragos -->
       <ul id="trago-list" class="text-output"></ul>
     </div>
   </div>
@@ -25,43 +26,15 @@
     const select = urlParams.get('select');
     const ingredient = urlParams.get('ingredient');
 
-    function filterRecipesByClassification(classification) {
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          const recipes = data.recetas;
-          const filteredRecipes = recipes.filter(recipe => recipe.clasificacion.includes(classification));
-  
-          const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = ''; // Limpiar la lista actual
-  
-          filteredRecipes.forEach(trago => {
-            const tragoItem = document.createElement('li');
-            tragoItem.textContent = trago.nombre;
-            tragoItem.classList.add('trago-item'); // Puedes agregar estilos si deseas
-            tragoList.appendChild(tragoItem);
-  
-            // Agregar un evento clic para redirigir a la página de detalles del trago
-            tragoItem.addEventListener('click', () => {
-              window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
-            });
-          });
-        });
-    }
-  
-    const selectedClassification = urlParams.get('select'); // Cambiar 'option' por el nombre correcto del parámetro
-    if (selectedClassification) {
-      filterRecipesByClassification(selectedClassification);
-    } else {
-      if (ingredient) {
+    if (ingredient) {
       filterRecipesByIngredient(ingredient);
       document.getElementById('query-output').textContent = `Ingrediente: ${decodeURIComponent(ingredient)}`;
-      console.log('aca muestra el ingrediente en si')
+    } else if (select) {
+      filterRecipesByClassification(select);
+      document.getElementById('query-output').textContent = select;
     } else {
       const ingredientQuery = urlParams.get('ingredient');
       filterIngredientsByName(decodeURIComponent(ingredientQuery));
-      console.log('aca muestra algo mas en teoria')
-    }
     }
 
     const selectElement = document.getElementById('select-custom');
@@ -78,20 +51,23 @@
           const filteredIngredients = ingredients.filter(ing => ing.nombre.toLowerCase().includes(ingredientName.toLowerCase()));
 
           const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = ''; // Limpiar la lista actual
+          tragoList.innerHTML = '';
 
-          filteredIngredients.forEach(ing => {
-            const ingredientItem = document.createElement('li');
-            ingredientItem.textContent = ing.nombre;
-            ingredientItem.classList.add('ingredient-item'); // Puedes agregar estilos si deseas
-            tragoList.appendChild(ingredientItem);
+          if (filteredIngredients.length === 0) {
+            redirectToErrorPage(selection);
+          } else {
+            filteredIngredients.forEach(ing => {
+              const ingredientItem = document.createElement('li');
+              ingredientItem.textContent = ing.nombre;
+              ingredientItem.classList.add('ingredient-item');
+              tragoList.appendChild(ingredientItem);
 
-            // Agregar un evento clic para filtrar los tragos por el ingrediente seleccionado
-            ingredientItem.addEventListener('click', () => {
-              filterRecipesByIngredient(ing.nombre);
-              document.getElementById('query-output').textContent = `Tragos con: ${ing.nombre}`;
+              ingredientItem.addEventListener('click', () => {
+                filterRecipesByIngredient(ing.nombre);
+                document.getElementById('query-output').textContent = `Tragos con: ${ing.nombre}`;
+              });
             });
-          });
+          }
         });
     }
 
@@ -106,24 +82,55 @@
           });
 
           const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = ''; // Limpiar la lista actual
+          tragoList.innerHTML = '';
 
-          filteredRecipes.forEach(trago => {
-            const tragoItem = document.createElement('li');
-            tragoItem.textContent = trago.nombre;
-            tragoItem.classList.add('trago-item'); // Puedes agregar estilos si deseas
-            tragoList.appendChild(tragoItem);
+          if (filteredRecipes.length === 0) {
+            redirectToErrorPage(selection);
+          } else {
+            filteredRecipes.forEach(trago => {
+              const tragoItem = document.createElement('li');
+              tragoItem.textContent = trago.nombre;
+              tragoItem.classList.add('trago-item');
+              tragoList.appendChild(tragoItem);
 
-            // Agregar un evento clic para redirigir a la página de detalles del trago
-            tragoItem.addEventListener('click', () => {
-              window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
+              tragoItem.addEventListener('click', () => {
+                window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
+              });
             });
-          });
+          }
         });
     }
 
-    
-  </script>
+    function filterRecipesByClassification(classification) {
+      fetch('./recetas.json')
+        .then(response => response.json())
+        .then(data => {
+          const recipes = data.recetas;
+          const filteredRecipes = recipes.filter(recipe => recipe.clasificacion.includes(classification));
   
+          const tragoList = document.getElementById('trago-list');
+          tragoList.innerHTML = '';
+  
+          if (filteredRecipes.length === 0) {
+            redirectToErrorPage(selection);
+          } else {
+            filteredRecipes.forEach(trago => {
+              const tragoItem = document.createElement('li');
+              tragoItem.textContent = trago.nombre;
+              tragoItem.classList.add('trago-item');
+              tragoList.appendChild(tragoItem);
+  
+              tragoItem.addEventListener('click', () => {
+                window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
+              });
+            });
+          }
+        });
+    }
+
+    function redirectToErrorPage(selection) {
+      window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
+    }
+  </script>
 </body>
 </html>
