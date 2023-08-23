@@ -155,12 +155,12 @@ function searchRecipe(query, selection) {
         document.getElementById('drink-image').src = image_path;
       } else {
         // Redirigir a la página de error y pasar el query como parámetro
-        window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+        window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
       }
     })
     .catch(error => {
       // Redirigir a la página de error y pasar el query como parámetro
-      window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+      window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
     });
 }
 
