@@ -8,16 +8,20 @@
   <div class="container">
     <header class="barra-superior"></header>
     <nav class="button-wrapper">
-      <button class="button">
-        <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
-      </button>
-      <button class="button">
-        <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
-      </button>
-      <button class="button">
-        <img src="./static/flechanew (1).png" href="index2.html" class="button-image"></a>
-      </div>
+      <form onsubmit="handleSubmit(event)">
+        <button class="button">
+          <img src="./static/info.png" alt="Descripción de la imagen" class="button-image">
+        </button>
+        <button class="button">
+          <img src="./static/logout.png" alt="Descripción de la imagen" class="button-image">
+        </button>
+        <button class="button">
+          <img src="./static/flechanew (1).png" class="button-image">
+          <a href="index2.html" class="back-link button"></a>
+        </div>
+      </form>
     </nav>  
+    
     <div class="no-trago">
       <img src="./static/notfound.png" alt="No se encontró el trago">
       <p>No se encontró el trago ingresado</p>
