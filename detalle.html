@@ -15,7 +15,6 @@
       <a href="index.html" class="back-link button"></a>
     </div>
     <div class="rectangulo-de-lista">
-      <!-- Aquí mostrar la lista de tragos -->
       <ul id="trago-list" class="text-output"></ul>
     </div>
   </div>
@@ -47,25 +46,21 @@
               window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
             });
           });
-        })
-        .catch(error => {
-          console.error('Error al cargar las recetas:', error);
         });
     }
   
     const selectedClassification = urlParams.get('select'); // Cambiar 'option' por el nombre correcto del parámetro
     if (selectedClassification) {
-      console.log('Filtrando por clasificación:', selectedClassification);
       filterRecipesByClassification(selectedClassification);
     } else {
       if (ingredient) {
-      console.log('Filtrando por ingrediente:', ingredient);
       filterRecipesByIngredient(ingredient);
-      document.getElementById('query-output').textContent = `Tragos con: ${decodeURIComponent(ingredient)}`;
+      document.getElementById('query-output').textContent = `Ingrediente: ${decodeURIComponent(ingredient)}`;
+      console.log('aca muestra el ingrediente en si')
     } else {
       const ingredientQuery = urlParams.get('ingredient');
-      console.log('Filtrando ingredientes por:', ingredientQuery);
       filterIngredientsByName(decodeURIComponent(ingredientQuery));
+      console.log('aca muestra algo mas en teoria')
     }
     }
 
@@ -97,9 +92,6 @@
               document.getElementById('query-output').textContent = `Tragos con: ${ing.nombre}`;
             });
           });
-        })
-        .catch(error => {
-          console.error('Error al cargar los ingredientes:', error);
         });
     }
 
@@ -127,9 +119,6 @@
               window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
             });
           });
-        })
-        .catch(error => {
-          console.error('Error al cargar las recetas:', error);
         });
     }
 
