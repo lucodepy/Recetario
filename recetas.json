@@ -4,8 +4,8 @@
       "nombre": "Fernet",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Coca-Cola": "250 ml",
-        "Fernet Branca": "60 ml",
+        "Coca Cola": "250 ml",
+        "Fernet": "60 ml",
         "Garnish": "Agitador 3D"
       },
       "preparacion": [
@@ -28,7 +28,7 @@
       "nombre": "Campari",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de naranja exprimido": "250 ml",
+        "Jugo De Naranja Exprimido": "250 ml",
         "Campari": "60 ml",
         "Garnish": "Agitador 3D, slice de naranja y piel de naranja"
       },
@@ -52,8 +52,8 @@
       "nombre": "Screwdriver",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de naranja exprimido": "250 ml",
-        "Vodka neutro": "60 ml",
+        "Jugo De Naranja Exprimido": "250 ml",
+        "Vodka Sernova": "60 ml",
         "Garnish": "Agitador 3D, slice de naranja y piel de naranja"
       },
       "preparacion": [
@@ -77,7 +77,7 @@
       "nombre": "Cuba Libre",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Coca-Cola": "250 ml",
+        "Coca Cola": "250 ml",
         "Ron": "60 ml",
         "Garnish": "Agitador 3D, slice de limon y piel de limon"
       },
@@ -102,7 +102,7 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Soda": "90 ml",
-        "Carpano Bianco": "90 ml",
+        "Bianco": "90 ml",
         "Garnish": "1 slice de limon"
       },
       "preparacion": [
@@ -125,7 +125,7 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Soda": "90 ml",
-        "Carpano Rosso": "90 ml",
+        "Rosso": "90 ml",
         "Garnish": "1 slice de limon (3gr)"
       },
       "preparacion": [
@@ -148,8 +148,8 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Soda": "90 ml",
-        "Fernet Branca": "15 ml",
-        "Vermu Rosso": "75 ml",
+        "Fernet": "15 ml",
+        "Rosso": "75 ml",
         "Garnish": "1 slice de limon (3gr)"
       },
       "preparacion": [
@@ -171,8 +171,8 @@
       "nombre": "Vermu De La Casa",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Paso de los Toros": "90 ml",
-        "Carpano Bianco": "45 ml",
+        "Paso De Los Toros": "90 ml",
+        "Bianco": "45 ml",
         "Pineral": "45 ml",
         "Garnish": "2 cubitos de queso con pimienta y un cherry con tomillo en pick de bamboo"
       },
@@ -199,7 +199,7 @@
         "Hielo": "200 gr",
         "Tonica": "30 ml",
         "Aperol": "60 ml",
-        "Espumante Callia": "150 ml",
+        "Espumante": "150 ml",
         "Garnish": "1 slice de naranja (3gr)"
       },
       "preparacion": [
@@ -255,13 +255,12 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Tabasco": "3 golpes",
-        "Salsa inglesa": "1 golpe",
+        "Salsa Inglesa": "1 golpe",
         "Bitter Angostura": "1 ml",
-        "Sal de apio": "2 gr",
-        "Bitter angostura": "1 ml",
-        "Jugo de limon": "15 ml",
+        "Sal De Apio": "2 gr",
+        "Jugo De Limon": "15 ml",
         "Vodka Sernova": "60 ml",
-        "Jugo de tomate": "120 ml",
+        "Jugo De Tomate": "120 ml",
         "Garnish": "1 ramita de apio, piel de limón y labiado de sal"
       },
       "preparacion": [
@@ -288,8 +287,8 @@
     {
       "nombre": "Dry Martini",
       "ingredientes": {
-        "Martini Extra Dry": "10 ml",
-        "Gin Brighton": "90 ml",
+        "Martini Dry": "10 ml",
+        "Gin": "90 ml",
         "Garnish": "Aceituna verde en pick de bamboo"
       },
       "preparacion": [
@@ -312,12 +311,12 @@
       ]
     },
     {
-      "nombre": "Tanqueray Negroni",
+      "nombre": "Negroni",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Carpano Rosso": "25 ml",
+        "Rosso": "25 ml",
         "Campari": "30 ml",
-        "Gin Tanqueray": "75 ml",
+        "Gin": "75 ml",
         "Garnish": "1 naranja deshidratada y 1 piel de naranja"
       },
       "preparacion": [
@@ -345,7 +344,7 @@
         "Bitter Angostura": "5 ml",
         "Azucar": "2 cucharadas",
         "Soda": "15 ml",
-        "Jim Bean": "90 ml",
+        "Whisky Jim Bean": "90 ml",
         "Garnish": "1 cereza en pick de bamboo, piel de limon de naranja"
       },
       "preparacion": [
@@ -367,8 +366,8 @@
       "nombre": "Manhattan",
       "ingredientes": {
         "Bitter Angostura": "5 ml",
-        "Carpano Rosso": "15 ml",
-        "Jim Bean": "90 ml",
+        "Rosso": "15 ml",
+        "Whisky Jim Bean": "90 ml",
         "Garnish": "1 cereza en pick de bamboo"
       },
       "preparacion": [
@@ -392,10 +391,10 @@
     {
       "nombre": "Cosmopolitan",
       "ingredientes": {
-        "Jugo de media lima": "15 ml",
-        "Jugo de arandanos": "30 ml",
+        "Jugo De Media Lima": "15 ml",
+        "Jugo De Arandanos": "30 ml",
         "Triple Sec": "15 ml",
-        "Licor Golden ace Parfait amour": "15 ml",
+        "Licor Golden Age Parfait Amour": "15 ml",
         "Vodka Sernova": "60 ml",
         "Garnish": "Frutos rojos en pick de bamboo (3gr)"
       },
@@ -419,9 +418,9 @@
       "ingredientes": {
         "Humo Liquido": "2 gotas",
         "Miel": "15 ml",
-        "Jugo de Limón": "30 ml",
-        "Almibar de Jengibre": "45 ml",
-        "Red Label": "60 ml",
+        "Jugo de Limon": "30 ml",
+        "Syrup De Jengibre": "45 ml",
+        "Whisky Red Label": "60 ml",
         "Garnish": "Moneda de Jengibre y piel de Limón"
       },
       "preparacion": [
@@ -443,8 +442,8 @@
       "nombre": "Margarita",
       "ingredientes": {
         "Azucar": "2 cucharadas",
-        "Jugo de limon": "25 ml",
-        "Tequila Jose Cuervo Silver": "20 ml",
+        "Jugo De Limon": "25 ml",
+        "Tequila": "20 ml",
         "Triple Sec": "45 ml",
         "Garnish": "Labiado de sal (4gr)"
       },
@@ -468,13 +467,13 @@
     {
       "nombre": "Piña Colada",
       "ingredientes": {
-        "Bitter de Coco": "2 golpes",
-        "Jugo de Limón": "15 ml",
-        "Leche de Coco": "30 ml",
-        "Ananá": "60 ml",
+        "Bitter De Coco": "2 golpes",
+        "Jugo de Limon": "15 ml",
+        "Leche De Coco": "30 ml",
+        "Anana": "60 ml",
         "Falernum": "30 ml",
-        "Ron Blanco": "30 ml",
-        "Ron de Coco": "30 ml"
+        "Ron": "30 ml",
+        "Ron De Coco Malibu": "30 ml"
       },
       "preparacion": [
         "Llenar un vaso de coco de hielo picado.",
@@ -496,14 +495,14 @@
       "nombre": "Long Island Ice Tea",
       "ingredientes": {
         "Menta": "15 gr",
-        "Jugo de limon": "22,5 gr",
-        "Syrup Simple": "30 ml",
-        "Coca-cola": "60 ml",
-        "Vodka": "22,5 ml",
+        "Jugo De Limon": "22,5 gr",
+        "Syrup Neutro": "30 ml",
+        "Coca Cola": "60 ml",
+        "Vodka Sernova": "22,5 ml",
         "Gin": "22,5 ml",
         "Ron": "22,5 ml",
         "Tequila": "22,5 ml",
-        "Triple sec": "22,5 ml",
+        "Triple Sec": "22,5 ml",
         "Garnish": "piel de limon y 1 penacho de menta"
       },
       "preparacion": [
@@ -525,11 +524,10 @@
     {
       "nombre": "Moscow Mule",
       "ingredientes": {
-        "Jugo de limon": "20 ml",
-        "Syrup de jengibre": "30 ml",
-        "Gaseosa de jengibre": "60 ml",
-        "Vodka": "90 ml",
-        "Ginger Ale": "100 ml",
+        "Jugo De Limon": "20 ml",
+        "Syrup De Jengibre": "30 ml",
+        "Gaseosa De jengibre": "60 ml",
+        "Vodka Sernova": "90 ml",
         "Garnish": "Menta (2gr), 1 moneda de jengibre y azucar impalpable (3gr)"
       },
       "preparacion": [
@@ -556,7 +554,7 @@
         "Azucar": "2 cucharadas",
         "Sprite": "60 ml",
         "Limon": "100 gr",
-        "Jack Daniels": "60 ml",
+        "Whisky Jack Daniels": "60 ml",
         "Garnish": "1 piel de limon y 1 limon deshidratado"
       },
       "preparacion": [
@@ -577,10 +575,10 @@
     {
       "nombre": "Bramble",
       "ingredientes": {
-        "Jugo de limon": "15 ml",
-        "Syrup Simple": "15 ml",
-        "Licor de petalos de rosa Golden Age": "15 ml",
-        "Cassis": "15 ml",
+        "Jugo De Limon": "15 ml",
+        "Syrup Neutro": "15 ml",
+        "Licor Golden Age De Petalos De Rosa": "15 ml",
+        "Licor De Cassis": "15 ml",
         "Gin": "60 ml"
       },
       "preparacion": [
@@ -601,8 +599,8 @@
     {
       "nombre": "Clarito",
       "ingredientes": {
-        "Vermout Dry": "10 ml",
-        "Gin Brighton": "90 ml",
+        "Martini Dry": "10 ml",
+        "Gin": "90 ml",
         "Garnish": "Piel de limon"
       },
       "preparacion": [
@@ -629,7 +627,7 @@
         "Syrup Neutro": "15 ml",
         "Cafe Espresso": "30 ml",
         "Licor de Cafe Espresso": "15 ml",
-        "Vodka": "60 ml",
+        "Vodka Sernova": "60 ml",
         "Garnish": "3 granos de cafe"
       },
       "preparacion": [
@@ -653,7 +651,7 @@
         "Hielo": "200 gr",
         "Azucar": "1 cucharada",
         "Lima": "12 gr",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Cachaza": "75 ml"
       },
       "preparacion": [
@@ -680,8 +678,8 @@
         "Hielo": "200 gr",
         "Lima": "12 gr",
         "Azucar": "1 cucharada",
-        "Syrup neutro": "15 ml",
-        "Vodka neutro": "75 ml"
+        "Syrup Neutro": "15 ml",
+        "Vodka Sernova": "75 ml"
       },
       "preparacion": [
         "En un vaso de trago corto poner la fruta con el azucar.",
@@ -707,7 +705,7 @@
         "Azucar": "1 cucharada",
         "Naranja": "5 gr",
         "Lima": "10 gr",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Ron": "50 ml"
       },
       "preparacion": [
@@ -734,7 +732,7 @@
         "Naranja": "5 gr",
         "Lima": "10 gr",
         "Frutilla": "30 ml",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Vodka Sernova": "60 ml"
       },
       "preparacion": [
@@ -759,7 +757,7 @@
         "Azucar": "1 cucharada",
         "Lima": "10 gr",
         "Maracuya": "30 ml",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Vodka Sernova": "60 ml"
       },
       "preparacion": [
@@ -783,9 +781,9 @@
         "Hielo": "200 gr",
         "Azucar": "1 cucharada",
         "Lima": "10 gr",
-        "Frutos rojos": "10 gr",
-        "Syrup neutro": "15 ml",
-        "Cassis": "15 ml",
+        "Frutos Rojos": "10 gr",
+        "Syrup Neutro": "15 ml",
+        "Licor De Cassis": "15 ml",
         "Vodka Sernova": "60 ml"
       },
       "preparacion": [
@@ -810,8 +808,8 @@
         "Hielo": "200 gr",
         "Azucar": "1 cucharada",
         "Lima": "10 gr",
-        "Syrup neutro": "15 ml",
-        "Jugo de Pomelo": "30 ml",
+        "Syrup Neutro": "15 ml",
+        "Jugo De Pomelo": "30 ml",
         "Jager": "60 ml"
       },
       "preparacion": [
@@ -838,7 +836,7 @@
         "Bitter Angostura": "1 ml",
         "Lima": "5 gr",
         "Menta": "10 gr",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Tonica": "60 ml",
         "Ron": "75 ml",
         "Garnish": "Menta (3gr)"
@@ -870,7 +868,7 @@
         "Azucar": "1 cucharada",
         "Lima": "5 gr",
         "Menta": "10 gr",
-        "Syrup neutro": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Tonica": "60 ml",
         "Ron": "75 ml",
         "Fruta": "Cassis 15 ml (fr) | Maracuya 30 ml | Naranja 5 gr",
@@ -899,8 +897,8 @@
         "Hielo": "300 gr",
         "Lima": "5 gr",
         "Menta": "10 gr",
-        "Paso De los Toros": "60 ml",
-        "Malibu": "30 ml",
+        "Paso De Los Toros": "60 ml",
+        "Ron De Coco Malibu": "30 ml",
         "Ron": "45 ml",
         "Garnish": "Menta"
       },
@@ -926,8 +924,8 @@
       "nombre": "Mimosa",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de naranja exprimido": "60 ml",
-        "Espumante Callia": "120 ml",
+        "Jugo De Naranja Exprimido": "60 ml",
+        "Espumante": "120 ml",
         "Garnish": "1 slice de naranja (3gr)"
       },
       "preparacion": [
@@ -953,8 +951,8 @@
       "nombre": "Kir Royale",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Cassis": "60 ml",
-        "Espumante Callia": "150 ml",
+        "Licor De Cassis": "60 ml",
+        "Espumante": "150 ml",
         "Garnish": "Frutos rojos (5gr)"
       },
       "preparacion": [
@@ -983,7 +981,7 @@
         "Azucar": "1 terron",
         "Bitter Angostura": "5 ml",
         "Menta": "5 gr",
-        "Espumante Callia": "200 ml"
+        "Espumante": "200 ml"
       },
       "preparacion": [
         "En una copa 'Flauta' agregar hielo grande y refrescar.",
@@ -1009,8 +1007,8 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Campari": "45 ml",
-        "Carpano Rosso": "45 ml",
-        "Espumante Callia": "120 ml",
+        "Rosso": "45 ml",
+        "Espumante": "120 ml",
         "Garnish": "1 slice de naranja (3gr)"
       },
       "preparacion": [
@@ -1034,9 +1032,9 @@
       "ingredientes": {
         "Hielo": "250 gr",
         "Azucar": "1 cucharada",
-        "Helado de crema americana": "2 bochas",
-        "Ballentines's": "15 gr",
-        "Licor de chocolate": "30 ml",
+        "Helado De Crema Americana": "2 bochas",
+        "Whisky Ballentines": "15 gr",
+        "Licor De Chocolate": "30 ml",
         "Baileys": "45 ml"
       },
       "preparacion": [
@@ -1059,7 +1057,7 @@
         "Hielo": "250 gr",
         "Azucar": "1 cucharada",
         "Oreo": "3 unidades",
-        "Helado de crema americana": "2 bochas",
+        "Helado De Crema Americana": "2 bochas",
         "Cognac": "15 ml",
         "Baileys": "60 ml"
       },
@@ -1081,10 +1079,10 @@
       "nombre": "Daiquiri Frozen",
       "ingredientes": {
         "Hielo": "250 gr",
-        "Jugo de limon": "15 ml",
+        "Jugo De Limon": "15 ml",
         "Azucar": "2 cucharadas",
         "Fruta": "60 ml",
-        "Ron 3 años": "60 ml"
+        "Ron": "60 ml"
       },
       "preparacion": [
         "Poner los ingredientes  y la medida de bebida alcoholica en la licuadora.",
@@ -1105,7 +1103,7 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Menta": "20 gr",
-        "Azucar mascabo": "2 cucharadas",
+        "Azucar Mascabo": "2 cucharadas",
         "Pomelo": "90 ml",
         "Cynar": "75 ml"
       },
@@ -1133,9 +1131,9 @@
         "Hielo": "200 gr",
         "Menta": "6 gr",
         "Azucar": "1 cucharada",
-        "Jugo de limon": "5 ml",
-        "Syrup neutro": "15 ml",
-        "Jim Bean": "60 ml",
+        "Jugo De Limon": "5 ml",
+        "Syrup Neutro": "15 ml",
+        "Whisky Jim Bean": "60 ml",
         "Garnish": "Azucar impalpable (3gr), piel de limon y un penacho de menta (2gr)"
       },
       "preparacion": [
@@ -1156,12 +1154,12 @@
       ]
     },
     {
-      "nombre": "Amy Jaggerhouse",
+      "nombre": "Amy Jagerhouse",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Azucar negra": "2 cucharadas",
+        "Azucar Negra": "2 cucharadas",
         "Menta": "20 ml",
-        "Jugo de pomelo": "100 ml",
+        "Jugo De Pomelo": "100 ml",
         "Jager": "60 ml"
       },
       "preparacion": [
@@ -1186,8 +1184,8 @@
         "Hielo": "250 gr",
         "Bitter Tiki": "4 Golpes",
         "Limon": "30 ml",
-        "Pulpa de Anana": "60 ml",
-        "Reduccion de Honey": "60 ml",
+        "Pulpa De Anana": "60 ml",
+        "Reduccion De Honey": "60 ml",
         "Syrup Neutro": "15 ml",
         "Fernet": "60 ml",
         "Garnish": "Anana Deshidratada, Penacho de Menta y Piel de Limon"
@@ -1213,8 +1211,8 @@
       "nombre": "Pisco Sour",
       "ingredientes": {
         "Albumina": "4 gr",
-        "Jugo de limon": "20 ml",
-        "Syrup Simple": "30 ml",
+        "Jugo De Limon": "20 ml",
+        "Syrup Neutro": "30 ml",
         "Pisco Mistral": "90 ml",
         "Garnish": "Bitter Angostura (2ml)"
       },
@@ -1239,9 +1237,9 @@
       "nombre": "Whisky Sour",
       "ingredientes": {
         "Albumina": "4 gr",
-        "Jugo de limon": "20 ml",
-        "Syrup Simple": "30 ml",
-        "Jameson": "90 ml",
+        "Jugo De Limon": "20 ml",
+        "Syrup Neutro": "30 ml",
+        "Whisky Jameson": "90 ml",
         "Garnish": "Bitter Angostura (2ml)"
       },
       "preparacion": [
@@ -1266,12 +1264,12 @@
       "ingredientes": {
         "Bitter Prohibition": "2 ml",
         "Albumina": "1 cucharada",
-        "Syrup neutro": "15 ml",
-        "Jugo de limon": "30 ml",
-        "Jalea de Frambuesa": "45 ml",
+        "Syrup Neutro": "15 ml",
+        "Jugo De Limon": "30 ml",
+        "Jalea De Frambuesa": "45 ml",
         "Malamado Malbec": "10 ml",
-        "Parfait Amour": "30 ml",
-        "Sernova": "60 ml"
+        "Licor Golden Age Parfait Amour": "30 ml",
+        "Vodka Sernova": "60 ml"
       },
       "preparacion": [
         "En una copa 'Paris' agregar hielo y refrescar.",
@@ -1295,10 +1293,10 @@
         "Albumina": "1 cucharada",
         "Limon": "30 ml",
         "Syrup Neutro": "30 ml",
-        "Oleo de Pomelo": "60 ml",
-        "Dissarono Amareto": "10 ml",
+        "Oleo De Pomelo": "60 ml",
+        "Licor De Amaretto": "10 ml",
         "Aperol": "30 ml",
-        "Vodka": "60 ml",
+        "Vodka Sernova": "60 ml",
         "Garnish": "8 gotas de Bitter Prohibition"
       },
       "preparacion": [
@@ -1312,7 +1310,7 @@
       "sugerencia": [
         "'El Pecado' esta inspirado en 'El Jubileo', la fiesta de celebracion de la monarquia inglesa.",
         "Es un trago de base dulce con notas amargas destacadas por el particular oleo de pomelo",
-        "que eleva el agradable sabor del 'Dissaronno Amareto'. "
+        "que eleva el agradable sabor del 'Disaronno Amaretto'. "
       ],
       "clasificacion": [
         "Sour"
@@ -1323,7 +1321,7 @@
       "ingredientes": {
         "Crema Vegetal": "30 ml",
         "Cognac": "30 ml",
-        "Licor de Chocolate Blanco": "30 ml",
+        "Licor De Chocolate Blanco": "30 ml",
         "Cordial de Vainilla": "45 ml",
         "Garnish": "Nuez Moscada y Cacao"
       },
@@ -1345,9 +1343,9 @@
     {
       "nombre": "White Russian",
       "ingredientes": {
-        "Crema": "30 ml",
-        "Licor de Cafe": "30 ml",
-        "Vodka": "60 ml"
+        "Crema Vegetal": "30 ml",
+        "Licor de Cafe Espresso": "30 ml",
+        "Vodka Sernova": "60 ml"
       },
       "preparacion": [
         "En una vaso de whisky agregar hielo grande y refrescar.",
@@ -1367,9 +1365,9 @@
     {
       "nombre": "New Casttle",
       "ingredientes": {
-        "Syrup neutro": "30 ml",
-        "Crema": "30 ml",
-        "Ron de canela": "30 ml",
+        "Syrup Neutro": "30 ml",
+        "Crema Vegetal": "30 ml",
+        "Ron de Canela": "30 ml",
         "Amarula": "45 ml",
         "Garnish": "Crema chantilly y dos ramitas de canela"
       },
@@ -1391,9 +1389,9 @@
     {
       "nombre": "Marroc Mist",
       "ingredientes": {
-        "Crema": "60 ml",
+        "Crema Vegetal": "60 ml",
         "Frangelico": "30 ml",
-        "Licor de Marroc": "60 ml",
+        "Licor De Marroc": "60 ml",
         "Garnish": "medio marroc rayado"
       },
       "preparacion": [
@@ -1414,10 +1412,10 @@
     {
       "nombre": "Banana Ice",
       "ingredientes": {
-        "Banana Pisada": "Media Banana",
-        "Crema": "30 ml",
-        "Licor de Cafe": "30 ml",
-        "Vodka": "60 ml"
+        "Banana": "Media Banana Pisada",
+        "Crema Vegetal": "30 ml",
+        "Licor de Cafe Espresso": "30 ml",
+        "Vodka Sernova": "60 ml"
       },
       "preparacion": [
         "En una vaso de whisky agregar hielo grande y refrescar.",
@@ -1440,12 +1438,12 @@
         "Hielo": "250 gr",
         "Bitter Angostura": "1 ml",
         "Granadina": "5 ml",
-        "Syrup de Jengibre": "15 ml",
-        "Jugo de media lima": "15 ml",
-        "Pulpa anana": "60 ml",
+        "Syrup De Jengibre": "15 ml",
+        "Jugo De Media Lima": "15 ml",
+        "Pulpa De Anana": "60 ml",
         "Falernum": "15 ml",
-        "Ron blanco": "45 ml",
-        "Ron especial": "45 ml"
+        "Ron": "45 ml",
+        "Ron Dorado": "45 ml"
       },
       "preparacion": [
         "En un vaso tiki 'Mengano' (el marron) poner todos los ingredientes (menos el Triple Sec).",
@@ -1469,12 +1467,12 @@
       "nombre": "Pocion Tiki 27",
       "ingredientes": {
         "Hielo": "250 gr",
-        "Bitter tiki": "1,5 ml",
-        "Jugo de limon": "30 ml",
-        "Syrup #27": "30 ml",
+        "Bitter Tiki": "1,5 ml",
+        "Jugo De Limon": "30 ml",
+        "Syrup 27": "30 ml",
         "Granadina": "10 ml",
         "Cynar": "30 ml",
-        "Ron dorado": "45 ml",
+        "Ron Dorado": "45 ml",
         "Garnish": "Romero (2gr), 1 banana dish, canela en polvo (2gr)"
       },
       "preparacion": [
@@ -1498,12 +1496,12 @@
       "nombre": "Passion Nai",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de limon": "10 ml",
+        "Jugo De Limon": "10 ml",
         "Maracuya": "30 ml",
         "Sandia": "40 gr",
         "Falernum": "30 ml",
         "Apricot Brandy": "30 ml",
-        "Smirnoff sandia": "45 ml"
+        "Vodka Smirnoff De Sandia": "45 ml"
       },
       "preparacion": [
         "En un vaso tiki 'Mascara Verde' llenar de hielo picado.",
@@ -1523,13 +1521,13 @@
       "nombre": "Pascualito",
       "ingredientes": {
         "Hielo": "250 gr",
-        "Bitter tiki": "4 golpes",
-        "Jalea calabaza": "2 gr",
-        "Jugo de limon": "30 ml",
-        "Jugo de naranja": "90 ml",
-        "Syrup vainilla": "15 ml",
+        "Bitter Tiki": "4 golpes",
+        "Jalea De Calabaza": "2 gr",
+        "Jugo De Limon": "30 ml",
+        "Jugo De Naranja Exprimido": "90 ml",
+        "Syrup De Vainilla": "15 ml",
         "Pineral": "30 ml",
-        "Disaronno Amaretto": "15 ml",
+        "Licor De Amaretto": "15 ml",
         "Pisco Mistral": "90 ml"
       },
       "preparacion": [
@@ -1553,12 +1551,12 @@
         "Hielo": "250 gr",
         "Gomitas": "2 unidades",
         "Menta": "20 gr",
-        "Jugo de limon": "22,5 gr",
+        "Jugo De Limon": "22,5 gr",
         "Syrup Blue": "30 ml",
-        "Pulpa de anana": "60 ml",
+        "Pulpa De Anana": "60 ml",
         "Apricot Brandy": "22,5 ml",
         "Gin": "75 ml",
-        "Anis estrellado": "1 unidad"
+        "Anis Estrellado": "1 unidad"
       },
       "preparacion": [
         "En un vaso 'Illabhela' agregar los ingredientes.",
@@ -1580,13 +1578,13 @@
       "nombre": "Maracucoco",
       "ingredientes": {
         "Hielo": "250 gr",
-        "Bitter de coco": "3 golpes",
-        "Jugo de naranja": "30 ml",
+        "Bitter De Coco": "3 golpes",
+        "Jugo De Naranja Exprimido": "30 ml",
         "Maracuya": "60 ml",
         "Falernum": "15 ml",
-        "Amaretto Bols": "15 ml",
-        "Ron 3 años": "45 ml",
-        "Malibu": "45 ml",
+        "Licor De Amaretto": "15 ml",
+        "Ron": "45 ml",
+        "Ron De Coco Malibu": "45 ml",
         "Garnish": "piel de pomelo, penca de anana y petalos de rosa (3gr)"
       },
       "preparacion": [
@@ -1610,11 +1608,11 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Ahumado": "Romero y manzana (2gr)",
-        "Jalea de pera": "1 cucharada",
-        "Syrup de manzana": "15 ml",
-        "Ron dorado": "15 ml",
-        "Amargo obrero": "25 ml",
-        "Smirnoff manzana": "60 ml",
+        "Jalea De Pera": "1 cucharada",
+        "Syrup De Manzana": "15 ml",
+        "Ron Dorado": "15 ml",
+        "Amargo Obrero": "25 ml",
+        "Vodka Smirnoff De Manzana": "60 ml",
         "Garnish": "1 slice manzana (5gr), piel de lima y banderita"
       },
       "preparacion": [
@@ -1642,11 +1640,11 @@
       "nombre": "Ritzy Gallito",
       "ingredientes": {
         "Hielo": "250 gr",
-        "Jalea de frambuesa": "1 ml",
-        "Jugo de pomelo": "30 ml",
-        "Pulpa de anana": "60 ml",
-        "Ron 3 años": "45 ml",
-        "Ron especial": "45 ml",
+        "Jalea De Frambuesa": "1 ml",
+        "Jugo De Pomelo": "30 ml",
+        "Pulpa De Anana": "60 ml",
+        "Ron": "45 ml",
+        "Ron Dorado": "45 ml",
         "Garnish": "piel de pomelo y cereza en pick de bamboo"
       },
       "sugerencia": [
@@ -1669,12 +1667,12 @@
         "Hielo": "250 gr",
         "Azucar": "1 cucharada",
         "Bitter New Orlands": "3 golpes",
-        "Syrup Simple": "15 ml",
-        "Jugo de limon": "15 ml",
+        "Syrup Neutro": "15 ml",
+        "Jugo De Limon": "15 ml",
         "Frutilla": "30 ml",
         "Kiwi": "35 gr",
-        "Vodka": "60 ml",
-        "Carpano Bianco": "30 ml",
+        "Vodka Sernova": "60 ml",
+        "Bianco": "30 ml",
         "Pepino": "1 slice",
         "Garnish": "piel de limon y 1 flor comesible"
       },
@@ -1697,10 +1695,10 @@
       "ingredientes": {
         "Hielo": "250 gr",
         "Bitter Floral": "5 golpes",
-        "Jugo de limon": "15 ml",
-        "Pulpa de ciruela": "50 ml",
-        "Cassis Bols": "15 ml",
-        "Gin Brighton": "60 ml",
+        "Jugo De Limon": "15 ml",
+        "Pulpa De Ciruela": "50 ml",
+        "Licor De Cassis": "15 ml",
+        "Gin": "60 ml",
         "Garnish": "Penacho de menta y flor comestible"
       },
       "preparacion": [
@@ -1722,11 +1720,11 @@
       "nombre": "Oasis",
       "ingredientes": {
         "Limon": "15 ml",
-        "Jugo de Naranja": "10 ml",
+        "Jugo De Naranja Exprimido": "10 ml",
         "Maracuya": "30 ml",
         "Falernum": "30 ml",
-        "Malibu": "30 ml",
-        "Smirnoff de Sandia": "50 ml",
+        "Ron De Coco Malibu": "30 ml",
+        "Vodka Smirnoff De Sandia": "50 ml",
         "Garnish": "Cereza con Piel de Limon e Infusionador con Hielo Seco"
       },
       "preparacion": [
@@ -1753,7 +1751,7 @@
         "Syrup Neutro": "30 ml",
         "Anana": "90 ml",
         "Frangelico": "30 ml",
-        "Cachaça": "60 ml",
+        "Cachaza": "60 ml",
         "Garnish": "Menta y piel de Lima"
       },
       "preparacion": [
@@ -1777,10 +1775,10 @@
         "Hielo": "250 gr",
         "Bitter Oak": "4 golpes",
         "Lima": "1 Trocito",
-        "Jugo de Limon": "22 ml",
+        "Jugo De Limon": "22 ml",
         "Anana": "60 ml",
         "Syrup Blue": "30 ml",
-        "Vodka": "60 ml",
+        "Vodka Sernova": "60 ml",
         "Garnish": "Medio Labiado de Sal del Himalaya y Piel de Limon"
       },
       "preparacion": [
@@ -1804,10 +1802,10 @@
     {
       "nombre": "Black Widow",
       "ingredientes": {
-        "Reduccion de virgen negra": "45 ml",
+        "Reduccion De Virgen Negra": "45 ml",
         "Pineral": "15 ml",
         "Cognac": "60 ml",
-        "Smirnoff manzana": "120 ml",
+        "Vodka Smirnoff De Manzana": "120 ml",
         "Garnish": "manzana en cuadrado caramelizado"
       },
       "preparacion": [
@@ -1829,7 +1827,7 @@
       "ingredientes": {
         "Pulpa de Durazno": "30 ml",
         "Hesperedina": "15 ml",
-        "Licor de Cassis": "10 ml",
+        "Licor De Cassis": "10 ml",
         "Apricot Brandy": "15 ml",
         "Cognac": "45 ml",
         "Garnish": "Piel de 1 naranja en forma de flor y copa labiada con azucar macerada en naranja"
@@ -1850,7 +1848,7 @@
       "ingredientes": {
         "Bitter Old Baried": "4 golpes",
         "Licor Endelflower": "22 ml",
-        "Vechio Amaro": "30 ml",
+        "Licor Vechio Amaro": "30 ml",
         "Ron Dorado": "45 ml"
       },
       "preparacion": [
@@ -1874,12 +1872,12 @@
     {
       "nombre": "Aurora Boreal",
       "ingredientes": {
-        "Jugo de Limon": "30 ml",
+        "Jugo De Limon": "30 ml",
         "Anana": "30 ml",
-        "Syrup": "15 ml",
+        "Syrup Neutro": "15 ml",
         "Apricot Brandy": "22 ml",
-        "Malibu": "30 ml",
-        "Ron Blanco": "50 ml"
+        "Ron De Coco Malibu": "30 ml",
+        "Ron": "50 ml"
       },
       "preparacion": [
         "En una copa cocktail agregar hielo y refrescar.",
@@ -1901,7 +1899,7 @@
         "Hielo": "250 gr",
         "Azucar": "2 cucharadas",
         "Oreo": "2 unidades",
-        "Helado de crema americana": "1 bocha",
+        "Helado De Crema Americana": "1 bocha",
         "Leche": "120 ml",
         "Garnish": "1 oreo"
       },
@@ -1925,7 +1923,7 @@
         "Hielo": "250 gr",
         "Azucar": "2 cucharadas",
         "Frutos Rojos": "2 cucharadas",
-        "Helado de crema americana": "1 bocha",
+        "Helado De Crema Americana": "1 bocha",
         "Leche": "120 ml",
         "Garnish": "1 bocha de helado, penacho de Menta y Frutos rojos"
       },
@@ -1951,7 +1949,7 @@
         "Curcuma": "1 cucharada",
         "Banana": "media unidad",
         "Maracuya": "90 ml",
-        "Jugo de naranja exprimido": "100 ml",
+        "Jugo De Naranja Exprimido": "100 ml",
         "Garnish": "penacho de Menta y piel de naranja"
       },
       "preparacion": [
@@ -1977,7 +1975,7 @@
         "Manzana Verde": "media unidad",
         "Apio": "1 Rama",
         "Menta": "1 Rama",
-        "Jugo de naranja exprimido": "90 ml",
+        "Jugo De Naranja Exprimido": "90 ml",
         "Garnish": "penacho de Menta y manzana verde cortada"
       },
       "preparacion": [
@@ -2023,10 +2021,10 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Syrup Blue": "10 ml",
-        "Infusion de Matcha": "60 ml",
+        "Infusion De Matcha": "60 ml",
         "Crema Vegetal": "30 ml",
         "Maracuya": "30 ml",
-        "Leche de Coco": "60 ml",
+        "Leche De Coco": "60 ml",
         "Garnish": "Penacho de menta, piel de naranja y flor comestible"
       },
       "preparacion": [
@@ -2051,8 +2049,8 @@
       "ingredientes": {
         "Hielo": "200 gr",
         "Menta": "1 Rama",
-        "Jugo de Limon": "60 ml",
-        "Syrup de Jengibre": "60 ml",
+        "Jugo De Limon": "60 ml",
+        "Syrup De Jengibre": "60 ml",
         "Agua": "150 ml",
         "Garnish": "Penacho de menta y moneda de jengibre"
       },
@@ -2079,9 +2077,9 @@
         "Naranja": "3 Pedacitos",
         "Frutos Rojos": "1 cucharada",
         "Azucar": "2 cucharadas",
-        "Jugo de Arandanos": "30 ml",
-        "Infusion de Very Berries": "60 ml",
-        "Jugo de Naranja": "30 ml",
+        "Jugo De Arandanos": "30 ml",
+        "Infusion De Very Berries": "60 ml",
+        "Jugo De Naranja Exprimido": "30 ml",
         "Garnish": "1 Lima deshidratada, piel de naranja y frutos rojos"
       },
       "preparacion": [
@@ -2103,9 +2101,9 @@
       "nombre": "Maracuyada",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Syrup neutro": "45 ml",
-        "Jugo de limon": "15 ml",
-        "Jugo de Naranja": "30 ml",
+        "Syrup Neutro": "45 ml",
+        "Jugo De Limon": "15 ml",
+        "Jugo De Naranja Exprimido": "30 ml",
         "Maracuya": "60 ml",
         "Soda": "30 ml",
         "Garnish": "Piel de naranja y romero"
@@ -2128,8 +2126,8 @@
       "nombre": "Pomelada",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de Pomelo": "90 ml",
-        "Jugo de Limon": "15 ml",
+        "Jugo De Pomelo": "90 ml",
+        "Jugo De Limon": "15 ml",
         "Syrup Neutro": "30 ml",
         "Agua": "100 ml"
       },
@@ -2151,11 +2149,11 @@
       "nombre": "Pomelada De Frambuesa",
       "ingredientes": {
         "Hielo": "200 gr",
-        "Jugo de Frambuesa": "90 ml",
-        "Jugo de Pomelo": "60 ml",
+        "Jugo De Frambuesa": "90 ml",
+        "Jugo De Pomelo": "60 ml",
         "Infusion de Hibisco": "60 ml",
-        "Jugo de Limon": "5 ml",
-        "Very Berries": "15 ml",
+        "Jugo De Limon": "5 ml",
+        "Infusion De Very Berries": "15 ml",
         "Syrup Neutro": "15 ml",
         "Agua": "90 ml"
       },
@@ -2178,8 +2176,8 @@
       "ingredientes": {
         "Hielo": "400 gr",
         "Menta": "2 Rama",
-        "Jugo de Limon": "120 ml",
-        "Syrup de Jengibre": "120 ml",
+        "Jugo De Limon": "120 ml",
+        "Syrup De Jengibre": "120 ml",
         "Agua": "300 ml",
         "Garnish": "Penacho de menta y moneda de jengibre"
       },
@@ -2205,9 +2203,9 @@
         "Naranja": "6 Pedacitos",
         "Frutos Rojos": "2 cucharada",
         "Syrup Neutro": "120 ml",
-        "Jugo de Arandanos": "60 ml",
-        "Infusion de Very Berries": "120 ml",
-        "Jugo de Naranja": "60 ml",
+        "Jugo De Arandanos": "60 ml",
+        "Infusion De Very Berries": "120 ml",
+        "Jugo De Naranja Exprimido": "60 ml",
         "Garnish": "1 Lima deshidratada, piel de naranja y frutos rojos"
       },
       "sugerencia": [
@@ -2228,9 +2226,9 @@
       "nombre": "Jarra De Maracuyada",
       "ingredientes": {
         "Hielo": "400 gr",
-        "Syrup neutro": "120 ml",
-        "Jugo de limon": "30 ml",
-        "Jugo de Naranja": "60 ml",
+        "Syrup Neutro": "120 ml",
+        "Jugo De Limon": "30 ml",
+        "Jugo De Naranja Exprimido": "60 ml",
         "Maracuya": "120 ml",
         "Soda": "60 ml",
         "Garnish": "Piel de naranja y romero"
@@ -2253,8 +2251,8 @@
       "nombre": "Jarra De Pomelada",
       "ingredientes": {
         "Hielo": "400 gr",
-        "Jugo de Pomelo": "180 ml",
-        "Jugo de Limon": "30 ml",
+        "Jugo De Pomelo": "180 ml",
+        "Jugo De Limon": "30 ml",
         "Syrup Neutro": "100 ml",
         "Agua": "200 ml"
       },
