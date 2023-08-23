@@ -11,8 +11,8 @@
     <div class="rectangulo-de-clasificacion">
       <output class="text-output-dos" id="query-output"></output> 
     </div>  
-    <div class="back-button">
-      <a href="index.html" class="back-link button"></a>
+    <div class="back-button" onclick="handleSubmit(event)">
+      <a href="index2.html" class="back-link button"></a>
     </div>
     <div class="rectangulo-de-lista">
       <!-- Aquí mostrar la lista de ingredientes o tragos -->
@@ -21,6 +21,14 @@
   </div>
 
   <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+      const urlParams = new URLSearchParams(window.location.search);
+      const inputValor = urlParams.get('selection');
+      console.log('selection', inputValor)
+      window.location.href = `index2.html?selection=${encodeURIComponent(inputValor)}`;
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
     const selection = urlParams.get('selection');
     const select = urlParams.get('select');
