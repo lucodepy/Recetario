@@ -5,7 +5,28 @@
   <link rel="stylesheet" type="text/css" href="./static/styles2.css">
 </head>
 <body>
-  <!-- ... (tu contenido HTML existente) ... -->
+  <div class="container">
+    <div class="centered-wrapper"></div>
+    <div class="barra-superior"></div>
+    <div class="rectangle-name">
+      <output class="text-output-dos" id="query-output"></output> 
+    </div> 
+    <div class="rectangle-class">
+      <output class="text-output-dos" id="classification-output"></output> 
+    </div> 
+    <div class="back-button" onclick="handleSubmit(event)">
+      <a href="index2.html" class="back-link button"></a>
+    </div>   
+    <div class="rectangle">
+      <output class="text-output" id="ingredients-output"></output>
+    </div>
+    <div class="rectangle-other">
+      <output class="text-output" id="preparation-output"></output>
+    </div>
+    <div class="rectangle-img">
+      <img src="" alt="Imagen del trago" class="foto" id="drink-image">
+    </div>    
+  </div>
 
   <script>
     function handleSubmit(event) {
