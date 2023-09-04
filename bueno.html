@@ -46,131 +46,70 @@
     }
   
     function searchRecipe(query, selection) {
-  const cleanedQuery = query.replace(/\s+/g, ' ').trim();
-  const trago = titleCase(cleanedQuery);
-  let ingredientes = '';
-  let preparacion = '';
-  let clasificacion = '';
+      const cleanedQuery = query.replace(/\s+/g, ' ').trim();
+      const trago = titleCase(cleanedQuery);
+      let ingredientes = '';
+      let preparacion = '';
+      let clasificacion = '';
 
-  fetch('./recetas.json')
-    .then(response => response.json())
-    .then(data => {
-      const recipes = data.recetas;
-      let selectedRecipe = null;
+      fetch('./recetas.json')
+        .then(response => response.json())
+        .then(data => {
+          const recipes = data.recetas;
+          let selectedRecipe = null;
 
-      for (let i = 0; i < recipes.length; i++) {
-        const recipe = recipes[i];
-        if (recipe.nombre === trago) {
-          selectedRecipe = recipe;
-          ingredientes = recipe.ingredientes;
-          preparacion = recipe.preparacion.join('<br>');
-          clasificacion = recipe.clasificacion.join('<br>');
-          break;
-        }
-      }
-
-      if (selectedRecipe) {
-        const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-        document.getElementById('query-output').textContent = trago;
-        document.getElementById('classification-output').textContent = clasificacion;
-
-        if (selection === 'bartender') {
-          // Mostrar ingredientes como clave: valor
-          const ingredientesArray = [];
-          for (const clave in ingredientes) {
-            const valor = ingredientes[clave];
-            ingredientesArray.push(`${clave}: ${valor}`);
+          for (let i = 0; i < recipes.length; i++) {
+            const recipe = recipes[i];
+            if (recipe.nombre === trago) {
+              selectedRecipe = recipe;
+              ingredientes = recipe.ingredientes;
+              preparacion = recipe.preparacion.join('<br>');
+              clasificacion = recipe.clasificacion.join('<br>');
+              break;
+            }
           }
-          ingredientes = ingredientesArray.join('<br>');
 
-          // Mostrar la sección de preparación en lugar de sugerencia
-          document.getElementById('ingredients-output').innerHTML = ingredientes;
-          document.getElementById('preparation-output').innerHTML = preparacion;
-        } else {
-          // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
-          const ingredientesArray = [];
-          for (const clave in ingredientes) {
-            const valor = ingredientes[clave];
-            ingredientesArray.push(`${clave}: ${valor}`);
+          if (selectedRecipe) {
+            const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
+            document.getElementById('query-output').textContent = trago;
+            document.getElementById('classification-output').textContent = clasificacion;
+
+            if (selection === 'bartender') {
+              // Mostrar ingredientes como clave: valor
+              const ingredientesArray = [];
+              for (const clave in ingredientes) {
+                const valor = ingredientes[clave];
+                ingredientesArray.push(`${clave}: ${valor}`);
+              }
+              ingredientes = ingredientesArray.join('<br>');
+
+              // Mostrar la sección de preparación en lugar de sugerencia
+              document.getElementById('ingredients-output').innerHTML = ingredientes;
+              document.getElementById('preparation-output').innerHTML = preparacion;
+            } else {
+              // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
+              const ingredientesArray = [];
+              for (const clave in ingredientes) {
+                const valor = ingredientes[clave];
+                ingredientesArray.push(`${clave}: ${valor}`);
+              }
+              ingredientes = ingredientesArray.join('<br>');
+
+              document.getElementById('ingredients-output').innerHTML = ingredientes;
+              document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
+            }
+
+            document.getElementById('drink-image').src = image_path;
+          } else {
+            // Redirigir a la página de error y pasar el query como parámetro
+            window.location.href = `error.html?query=${encodeURIComponent(query)}`;
           }
-          ingredientes = ingredientesArray.join('<br>');
-
-          document.getElementById('ingredients-output').innerHTML = ingredientes;
-          document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
-        }
-
-        document.getElementById('drink-image').src = image_path;
-      } else {
-        // Redirigir a la página de error y pasar el query como parámetro
-        window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-      }
-    })
-    .catch(error => {
-      // Redirigir a la página de error y pasar el query como parámetro
-      window.location.href = `error.html?query=${encodeURIComponent(query)}`;
-    });
-}
-function searchRecipe(query, selection) {
-  const cleanedQuery = query.replace(/\s+/g, ' ').trim();
-  const trago = titleCase(cleanedQuery);
-  let ingredientes = '';
-  let preparacion = '';
-  let clasificacion = '';
-
-  fetch('./recetas.json')
-    .then(response => response.json())
-    .then(data => {
-      const recipes = data.recetas;
-      let selectedRecipe = null;
-
-      for (let i = 0; i < recipes.length; i++) {
-        const recipe = recipes[i];
-        if (recipe.nombre === trago) {
-          selectedRecipe = recipe;
-          ingredientes = recipe.ingredientes;
-          preparacion = recipe.preparacion.join('<br>');
-          clasificacion = recipe.clasificacion.join('<br>');
-          break;
-        }
-      }
-
-      if (selectedRecipe) {
-        const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-        document.getElementById('query-output').textContent = trago;
-        document.getElementById('classification-output').textContent = clasificacion;
-
-        if (selection === 'bartender') {
-          // Mostrar ingredientes como clave: valor
-          const ingredientesArray = [];
-          for (const clave in ingredientes) {
-            const valor = ingredientes[clave];
-            ingredientesArray.push(`${clave}: ${valor}`);
-          }
-          ingredientes = ingredientesArray.join('<br>');
-
-          // Mostrar la sección de preparación en lugar de sugerencia
-          document.getElementById('ingredients-output').innerHTML = ingredientes;
-          document.getElementById('preparation-output').innerHTML = preparacion;
-        } else {
-          // Mostrar solo las claves de los ingredientes para camareros
-          const ingredientesArray = Object.keys(ingredientes);
-          ingredientes = ingredientesArray.join('<br>');
-
-          document.getElementById('ingredients-output').innerHTML = ingredientes;
-          document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
-        }
-
-        document.getElementById('drink-image').src = image_path;
-      } else {
-        // Redirigir a la página de error y pasar el query como parámetro
-        window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
-      }
-    })
-    .catch(error => {
-      // Redirigir a la página de error y pasar el query como parámetro
-      window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
-    });
-}
+        })
+        .catch(error => {
+          // Redirigir a la página de error y pasar el query como parámetro
+          window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+        });
+    }
 
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('query');
@@ -190,7 +129,5 @@ function searchRecipe(query, selection) {
   
   </script>
   
-  
 </body>
 </html>
-

@@ -31,113 +31,115 @@
 
     const urlParams = new URLSearchParams(window.location.search);
     const selection = urlParams.get('selection');
-    const select = urlParams.get('select');
-    const ingredient = urlParams.get('ingredient');
+    const query = urlParams.get('query');
 
-    if (ingredient) {
-      filterRecipesByIngredient(ingredient);
-      document.getElementById('query-output').textContent = `Ingrediente: ${decodeURIComponent(ingredient)}`;
-    } else if (select) {
-      filterRecipesByClassification(select);
-      document.getElementById('query-output').textContent = select;
+    if (query) {
+      console.log('Ejecutando searchRecipe con Query:', query);
+      if (selection) {
+        console.log('Con Selection:', selection);
+      } else {
+        console.log('Selection no encontrado.');
+      }
+      searchRecipe(query, selection);
     } else {
-      const ingredientQuery = urlParams.get('ingredient');
-      filterIngredientsByName(decodeURIComponent(ingredientQuery));
-    }
-
-    const selectElement = document.getElementById('select-custom');
-    selectElement.addEventListener('change', () => {
-      const selectedOption = selectElement.value;
-      document.getElementById('query-output').textContent = selectedOption;
-    });
-
-    function filterIngredientsByName(ingredientName) {
-      fetch('./ingredientes.json')
-        .then(response => response.json())
-        .then(data => {
-          const ingredients = data.ingredientes;
-          const filteredIngredients = ingredients.filter(ing => ing.nombre.toLowerCase().includes(ingredientName.toLowerCase()));
-
-          const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = '';
-
-          if (filteredIngredients.length === 0) {
-            redirectToErrorPage(selection);
-          } else {
-            filteredIngredients.forEach(ing => {
-              const ingredientItem = document.createElement('li');
-              ingredientItem.textContent = ing.nombre;
-              ingredientItem.classList.add('ingredient-item');
-              tragoList.appendChild(ingredientItem);
-
-              ingredientItem.addEventListener('click', () => {
-                filterRecipesByIngredient(ing.nombre);
-                document.getElementById('query-output').textContent = `Tragos con: ${ing.nombre}`;
-              });
-            });
-          }
-        });
-    }
-
-    function filterRecipesByIngredient(ingredient) {
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          const recipes = data.recetas;
-          const filteredRecipes = recipes.filter(recipe => {
-            const ingredientes = Object.keys(recipe.ingredientes);
-            return ingredientes.some(ing => ing.toLowerCase().includes(ingredient.toLowerCase()));
-          });
-
-          const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = '';
-
-          if (filteredRecipes.length === 0) {
-            redirectToErrorPage(selection);
-          } else {
-            filteredRecipes.forEach(trago => {
-              const tragoItem = document.createElement('li');
-              tragoItem.textContent = trago.nombre;
-              tragoItem.classList.add('trago-item');
-              tragoList.appendChild(tragoItem);
-
-              tragoItem.addEventListener('click', () => {
-                window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
-              });
-            });
-          }
-        });
-    }
-
-    function filterRecipesByClassification(classification) {
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          const recipes = data.recetas;
-          const filteredRecipes = recipes.filter(recipe => recipe.clasificacion.includes(classification));
-  
-          const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = '';
-  
-          if (filteredRecipes.length === 0) {
-            redirectToErrorPage(selection);
-          } else {
-            filteredRecipes.forEach(trago => {
-              const tragoItem = document.createElement('li');
-              tragoItem.textContent = trago.nombre;
-              tragoItem.classList.add('trago-item');
-              tragoList.appendChild(tragoItem);
-  
-              tragoItem.addEventListener('click', () => {
-                window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
-              });
-            });
-          }
-        });
+      console.log('Query no encontrado. No se ejecutará searchRecipe.');
+      redirectToErrorPage(selection); // Redirigir a la página de error si no hay una consulta válida.
     }
 
     function redirectToErrorPage(selection) {
       window.location.href = `error.html?selection=${encodeURIComponent(selection)}`;
+    }
+
+    function searchRecipe(query, selection) {
+      const cleanedQuery = query.replace(/\s+/g, ' ').trim();
+      const trago = titleCase(cleanedQuery);
+      let ingredientes = '';
+      let preparacion = '';
+      let clasificacion = '';
+      const relatedTragos = []; // Array para almacenar tragos relacionados
+
+      fetch('./recetas.json')
+        .then(response => response.json())
+        .then(data => {
+          const recipes = data.recetas;
+          let selectedRecipe = null;
+
+          for (let i = 0; i < recipes.length; i++) {
+            const recipe = recipes[i];
+            if (recipe.nombre === trago) {
+              selectedRecipe = recipe;
+              ingredientes = recipe.ingredientes;
+              preparacion = recipe.preparacion.join('<br>');
+              clasificacion = recipe.clasificacion.join('<br>');
+              break;
+            } else if (recipe.nombre.toLowerCase().includes(cleanedQuery.toLowerCase())) {
+              relatedTragos.push(recipe.nombre);
+            }
+          }
+
+          if (selectedRecipe) {
+            // Mostrar detalles del trago encontrado
+            const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
+            document.getElementById('query-output').textContent = trago;
+            document.getElementById('classification-output').textContent = clasificacion;
+
+            if (selection === 'bartender') {
+              // Mostrar ingredientes como clave: valor
+              const ingredientesArray = [];
+              for (const clave in ingredientes) {
+                const valor = ingredientes[clave];
+                ingredientesArray.push(`${clave}: ${valor}`);
+              }
+              ingredientes = ingredientesArray.join('<br>');
+
+              // Mostrar la sección de preparación en lugar de sugerencia
+              document.getElementById('ingredients-output').innerHTML = ingredientes;
+              document.getElementById('preparation-output').innerHTML = preparacion;
+            } else {
+              // Mostrar solo las claves de los ingredientes para camareros
+              const ingredientesArray = Object.keys(ingredientes);
+              ingredientes = ingredientesArray.join('<br>');
+
+              document.getElementById('ingredients-output').innerHTML = ingredientes;
+              document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
+            }
+
+            document.getElementById('drink-image').src = image_path;
+          } else if (relatedTragos.length > 0) {
+            // Mostrar una lista de tragos relacionados
+            const relatedList = document.getElementById('trago-list');
+            relatedList.innerHTML = '';
+
+            relatedTragos.forEach(trago => {
+              const tragoItem = document.createElement('li');
+              tragoItem.textContent = trago;
+              tragoItem.classList.add('trago-item');
+              relatedList.appendChild(tragoItem);
+
+              tragoItem.addEventListener('click', () => {
+                window.location.href = `detalle.html?query=${encodeURIComponent(trago)}&selection=${encodeURIComponent(selection)}`;
+              });
+            });
+
+            // Mostrar un mensaje que indique que no se encontró el trago exacto
+            document.getElementById('query-output').textContent = `No se encontró el trago exacto. Tragos relacionados:`;
+          } else {
+            // Redirigir a la página de error si no hay una coincidencia
+            redirectToErrorPage(selection);
+          }
+        })
+        .catch(error => {
+          // Redirigir a la página de error si ocurre un error
+          redirectToErrorPage(selection);
+        });
+    }
+
+    function titleCase(string) {
+      return string
+        .toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
     }
   </script>
 </body>
