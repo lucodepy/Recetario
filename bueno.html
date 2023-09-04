@@ -70,39 +70,10 @@
           }
 
           if (selectedRecipe) {
-            const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-            document.getElementById('query-output').textContent = trago;
-            document.getElementById('classification-output').textContent = clasificacion;
-
-            if (selection === 'bartender') {
-              // Mostrar ingredientes como clave: valor
-              const ingredientesArray = [];
-              for (const clave in ingredientes) {
-                const valor = ingredientes[clave];
-                ingredientesArray.push(`${clave}: ${valor}`);
-              }
-              ingredientes = ingredientesArray.join('<br>');
-
-              // Mostrar la sección de preparación en lugar de sugerencia
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = preparacion;
-            } else {
-              // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
-              const ingredientesArray = [];
-              for (const clave in ingredientes) {
-                const valor = ingredientes[clave];
-                ingredientesArray.push(`${clave}: ${valor}`);
-              }
-              ingredientes = ingredientesArray.join('<br>');
-
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
-            }
-
-            document.getElementById('drink-image').src = image_path;
+            // Resto del código para mostrar la receta encontrada
           } else {
-            // Redirigir a la página de error y pasar el query como parámetro
-            window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+            // Redirigir a la página de detalle con la cadena de búsqueda
+            window.location.href = `detalle.html?query=${encodeURIComponent(query)}&selection=${encodeURIComponent(selection)}`;
           }
         })
         .catch(error => {
