@@ -93,8 +93,7 @@
               // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
               const ingredientesArray = [];
               for (const clave in ingredientes) {
-                const valor = ingredientes[clave];
-                ingredientesArray.push(`${clave}: ${valor}`);
+                ingredientesArray.push(`${clave}`);
               }
               ingredientes = ingredientesArray.join('<br>');
 
