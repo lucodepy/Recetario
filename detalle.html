@@ -153,8 +153,7 @@
           const wordRegex = new RegExp(`\\b${query.toLowerCase()}\\b`, 'i'); // Expresión regular para buscar palabras completas
 
           const filteredRecipes = recipes.filter(recipe => {
-            // Filtrar los tragos que incluyan el query en su nombre
-            return wordRegex.test(recipe.nombre.toLowerCase());
+            return recipe.nombre.toLowerCase().includes(query.toLowerCase());
           });
 
           const tragoList = document.getElementById('trago-list');
