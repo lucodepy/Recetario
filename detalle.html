@@ -83,11 +83,9 @@
     .then(response => response.json())
     .then(data => {
       const recipes = data.recetas;
-      const wordRegex = new RegExp(`\\b${ingredient.toLowerCase()}\\b`, 'i'); // Expresión regular para buscar palabras completas
-
       const filteredRecipes = recipes.filter(recipe => {
         const ingredientes = Object.keys(recipe.ingredientes);
-        return ingredientes.some(ing => wordRegex.test(ing.toLowerCase()));
+        return ingredientes.some(ing => ing.toLowerCase().includes(ingredient.toLowerCase()));
       });
 
       const tragoList = document.getElementById('trago-list');
