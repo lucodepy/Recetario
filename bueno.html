@@ -5,28 +5,7 @@
   <link rel="stylesheet" type="text/css" href="./static/styles2.css">
 </head>
 <body>
-  <div class="container">
-    <div class="centered-wrapper"></div>
-    <div class="barra-superior"></div>
-    <div class="rectangle-name">
-      <output class="text-output-dos" id="query-output"></output> 
-    </div> 
-    <div class="rectangle-class">
-      <output class="text-output-dos" id="classification-output"></output> 
-    </div> 
-    <div class="back-button" onclick="handleSubmit(event)">
-      <a href="index2.html" class="back-link button"></a>
-    </div>   
-    <div class="rectangle">
-      <output class="text-output" id="ingredients-output"></output>
-    </div>
-    <div class="rectangle-other">
-      <output class="text-output" id="preparation-output"></output>
-    </div>
-    <div class="rectangle-img">
-      <img src="" alt="Imagen del trago" class="foto" id="drink-image">
-    </div>    
-  </div>
+  <!-- ... (tu contenido HTML existente) ... -->
 
   <script>
     function handleSubmit(event) {
@@ -70,39 +49,10 @@
           }
 
           if (selectedRecipe) {
-            const image_path = `./images/${encodeURIComponent(cleanedQuery.toLowerCase().replace(/\s/g, ""))}.png`;
-            document.getElementById('query-output').textContent = trago;
-            document.getElementById('classification-output').textContent = clasificacion;
-
-            if (selection === 'bartender') {
-              // Mostrar ingredientes como clave: valor
-              const ingredientesArray = [];
-              for (const clave in ingredientes) {
-                const valor = ingredientes[clave];
-                ingredientesArray.push(`${clave}: ${valor}`);
-              }
-              ingredientes = ingredientesArray.join('<br>');
-
-              // Mostrar la sección de preparación en lugar de sugerencia
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = preparacion;
-            } else {
-              // Mostrar ingredientes normalmente y sugerencia en lugar de preparación
-              const ingredientesArray = [];
-              for (const clave in ingredientes) {
-                const valor = ingredientes[clave];
-                ingredientesArray.push(`${clave}: ${valor}`);
-              }
-              ingredientes = ingredientesArray.join('<br>');
-
-              document.getElementById('ingredients-output').innerHTML = ingredientes;
-              document.getElementById('preparation-output').innerHTML = selectedRecipe.sugerencia.join('<br>');
-            }
-
-            document.getElementById('drink-image').src = image_path;
+            // Resto del código para mostrar los detalles del trago
           } else {
-            // Redirigir a la página de error y pasar el query como parámetro
-            window.location.href = `error.html?query=${encodeURIComponent(query)}`;
+            // Redirigir a la página de detalle si no se encuentra el trago exacto
+            window.location.href = `detalle.html?query=${encodeURIComponent(query)}&selection=${encodeURIComponent(selection)}`;
           }
         })
         .catch(error => {
@@ -116,15 +66,7 @@
     const selection = urlParams.get('selection');
   
     if (query) {
-      console.log('Ejecutando searchRecipe con Query:', query);
-      if (selection) {
-        console.log('Con Selection:', selection);
-      } else {
-        console.log('Selection no encontrado.');
-      }
       searchRecipe(query, selection);
-    } else {
-      console.log('Query no encontrado. No se ejecutará searchRecipe.');
     }
   
   </script>
