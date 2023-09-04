@@ -25,7 +25,6 @@
       event.preventDefault();
       const urlParams = new URLSearchParams(window.location.search);
       const inputValor = urlParams.get('selection');
-      console.log('selection', inputValor)
       window.location.href = `index2.html?selection=${encodeURIComponent(inputValor)}`;
     }
 
@@ -80,34 +79,36 @@
     }
 
     function filterRecipesByIngredient(ingredient) {
-      fetch('./recetas.json')
-        .then(response => response.json())
-        .then(data => {
-          const recipes = data.recetas;
-          const filteredRecipes = recipes.filter(recipe => {
-            const ingredientes = Object.keys(recipe.ingredientes);
-            return ingredientes.some(ing => ing.toLowerCase().includes(ingredient.toLowerCase()));
+  fetch('./recetas.json')
+    .then(response => response.json())
+    .then(data => {
+      const recipes = data.recetas;
+      const wordRegex = new RegExp(`\\b${ingredient.toLowerCase()}\\b`, 'i'); // Expresión regular para buscar palabras completas
+
+      const filteredRecipes = recipes.filter(recipe => {
+        const ingredientes = Object.keys(recipe.ingredientes);
+        return ingredientes.some(ing => wordRegex.test(ing.toLowerCase()));
+      });
+
+      const tragoList = document.getElementById('trago-list');
+      tragoList.innerHTML = '';
+
+      if (filteredRecipes.length === 0) {
+        redirectToErrorPage(selection);
+      } else {
+        filteredRecipes.forEach(trago => {
+          const tragoItem = document.createElement('li');
+          tragoItem.textContent = trago.nombre;
+          tragoItem.classList.add('trago-item');
+          tragoList.appendChild(tragoItem);
+
+          tragoItem.addEventListener('click', () => {
+            window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
           });
-
-          const tragoList = document.getElementById('trago-list');
-          tragoList.innerHTML = '';
-
-          if (filteredRecipes.length === 0) {
-            redirectToErrorPage(selection);
-          } else {
-            filteredRecipes.forEach(trago => {
-              const tragoItem = document.createElement('li');
-              tragoItem.textContent = trago.nombre;
-              tragoItem.classList.add('trago-item');
-              tragoList.appendChild(tragoItem);
-
-              tragoItem.addEventListener('click', () => {
-                window.location.href = `bueno.html?query=${encodeURIComponent(trago.nombre)}&selection=${encodeURIComponent(selection)}`;
-              });
-            });
-          }
         });
-    }
+      }
+    });
+}
 
     function filterRecipesByClassification(classification) {
       fetch('./recetas.json')
