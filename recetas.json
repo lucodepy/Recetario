@@ -117,7 +117,7 @@
         "Refrescante y 'dulzón'."
       ],
       "clasificacion": [
-        "Directo"
+        "Vermu"
       ]
     },
     {
@@ -140,7 +140,7 @@
         "Leve amargor y dulzor."
       ],
       "clasificacion": [
-        "Directo"
+        "Vermu"
       ]
     },
     {
@@ -164,7 +164,7 @@
         "Amargo."
       ],
       "clasificacion": [
-        "Directo"
+        "Vermu"
       ]
     },
     {
@@ -190,7 +190,7 @@
         "Termina de exlotar los sabores con el queso y la pimienta."
       ],
       "clasificacion": [
-        "Directo"
+        "Vermu"
       ]
     },
     {
@@ -2290,6 +2290,128 @@
       ],
       "clasificacion": [
         "Frutal"
+      ]
+    },
+    {
+      "nombre": "Amado Amour",
+      "ingredientes": {
+        "Jugo de Lima": "30 ml",
+        "Bitter Floral": "2 golpes",
+        "Pimms": "15 ml",
+        "Oporto De Eucalipto": "60 ml",
+        "Campari": "15 ml",
+        "Syrup Neutro": "45 ml",
+        "Garnish": "Penacho de eucalipto, piel de limon y pick con frutos rojos"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Vermu"
+      ]
+    },
+    {
+      "nombre": "Koi",
+      "ingredientes": {
+        "Hielo": "400 gr",
+        "Jugo de Limon": "5 ml",
+        "Jugo De Pomelo": "60 ml",
+        "Pulpa de Anana": "60 ml",
+        "Triplesec": "15 ml",
+        "Aperol": "22,5 ml",
+        "Vodka de Sandia": "45 ml",
+        "Garnish": "sombrillita tiki, 2 gomitas pececitos y piel de limon"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Tiki"
+      ]
+    },
+    {
+      "nombre": "Pomerossa",
+      "ingredientes": {
+        "Hielo": "200 gr",
+        "Licor de Marrasquino": "22,5 ml",
+        "Cordial de pomelo": "60 ml",
+        "Jugo De Pomelo": "120 ml",
+        "Tonica": "75 ml",
+        "Garnish": "Slice de pomelo"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Vermu"
+      ]
+    },
+    {
+      "nombre": "Salomon",
+      "ingredientes": {
+        "Hielo": "250 gr",
+        "Cynar": "10 ml",
+        "Aperol": "60 ml",
+        "Jugo de Pomelo": "30 ml",
+        "Cordial de Anana": "30 ml",
+        "Soda": "30 ml",
+        "Garnish": "Piel de naranja y slice de naranja"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Vermu"
+      ]
+    },
+    {
+      "nombre": "Naranja",
+      "ingredientes": {
+        "Zanahoria": "Media rallada",
+        "Jugo De Pomelo": "120 ml",
+        "Banana": "Media",
+        "Azucar": "2 cucharadas"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Smoothie"
+      ]
+    },
+    {
+      "nombre": "Weekend",
+      "ingredientes": {
+        "Hielo": "200 gr",
+        "Licor de kiwi": "60 ml",
+        "Bianco": "60 ml",
+        "Tonica": "80 ml",
+        "Infusion de Hibiscus": "22,5 ml",
+        "Garnish": "Piel de limon y slice de kiwi"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Vermu"
       ]
     }
   ]
