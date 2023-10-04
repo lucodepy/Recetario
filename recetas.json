@@ -2269,6 +2269,28 @@
       "clasificacion": [
         "Jarra"
       ]
+    },
+    {
+      "nombre": "Pink Floyd",
+      "ingredientes": {
+        "Hielo": "400 gr",
+        "Gin": "60 ml",
+        "Frutilla": "60 ml",
+        "Jugo De Limon": "30 ml",
+        "Syrup Neutro": "30 ml",
+        "Golden Age Marraschino": "15ml",
+        "Bitter Floral": "2 golpes",
+        "Garnish": "Frutilla y penacho de menta"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Frutal"
+      ]
     }
   ]
 }
