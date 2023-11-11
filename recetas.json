@@ -2413,6 +2413,47 @@
       "clasificacion": [
         "Vermu"
       ]
+    },
+    {
+      "nombre": "Spicy Summer",
+      "ingredientes": {
+        "Hielo": "200 gr",
+        "Vodka": "60 ml",
+        "Apricot Brandy": "22 ml",
+        "Maracuyá": "45 ml",
+        "Limon": "15 ml",
+        "Syrup Neutro": "30 ml",
+        "Tabasco": "1 golpe",
+        "Very Berries": "15 ml",
+        "Garnish": "Sombrilla tiki, menta y piel de limón"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Frutal"
+      ]
+    },
+    {
+      "nombre": "Daikiri Clasico",
+      "ingredientes": {
+        "Ron": "60 ml",
+        "Jugo de lima": "30 ml",
+        "Syrup Neutro": "30 ml",
+        "Garnish": "Piel de limón"
+      },
+      "preparacion": [
+        ""
+      ],
+      "sugerencia": [
+        ""
+      ],
+      "clasificacion": [
+        "Clasico"
+      ]
     }
   ]
 }
