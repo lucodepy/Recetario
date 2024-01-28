@@ -124,6 +124,16 @@
       "usuario": "nicolasmagnelli",
       "contrasena": "contra",
       "permiso": "camarero"
+    },
+    {
+      "usuario": "leonelgodoy",
+      "contrasena": "2002",
+      "permiso": "bartender"
+    },
+    {
+      "usuario": "gabrielurrejola",
+      "contrasena": "gabito",
+      "permiso": "camarero"
     }
   ]
 }
